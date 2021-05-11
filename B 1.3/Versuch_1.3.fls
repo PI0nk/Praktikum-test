@@ -1,7 +1,7 @@
-PWD c:\Users\dtimo\Desktop\Praktikum\B 1.3
+PWD c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3
 INPUT C:\Users\dtimo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.tex
-OUTPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.log
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.tex
+OUTPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.log
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
@@ -375,10 +375,10 @@ INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.aux
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.aux
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.aux
-OUTPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.aux
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.aux
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.aux
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.aux
+OUTPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.aux
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\ot2cmr.fd
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\ot2cmr.fd
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\ot2cmr.fd
@@ -517,7 +517,7 @@ INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cyrillic\wncyr10.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cyrillic\wncyr10.tfm
-OUTPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.pdf
+OUTPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.pdf
 INPUT C:\Users\dtimo\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
@@ -526,33 +526,33 @@ INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1095.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.toc
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.toc
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.toc
-OUTPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.toc
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.toc
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.toc
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.toc
+OUTPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.toc
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuchsaufbau.PNG
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorr.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorr.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\QoverRUncorrCunt.pdf
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
@@ -560,7 +560,7 @@ INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cyrillic\wncyr10.tfm
 INPUT C:\Users\dtimo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cyrillic\wncyr10.tfm
-INPUT c:\Users\dtimo\Desktop\Praktikum\B 1.3\Versuch_1.3.aux
+INPUT c:\Users\dtimo\Desktop\Praktikum\praktikum\B 1.3\Versuch_1.3.aux
 INPUT C:\Users\dtimo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\dtimo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\dtimo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
