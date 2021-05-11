@@ -1,0 +1,257 @@
+\documentclass{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+ 
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=25mm,
+ top=25mm,
+}
+
+
+\begin{document}
+
+    \title{Praktikum B - Versuch B3.4 Positronen-Emissions-Tomografie}
+    \date{\today}
+    \author{Jesco Talies, Timon Danowski, Erik Gasmus}
+    \maketitle
+    \newpage
+
+    \tableofcontents
+    \newpage
+    
+    \section{Einleitung}
+        \subsection{Versuchsaufbau}
+
+        \subsection{Ziel}
+        Die Positronen-Emissions-Tomografie macht sich die Eigenschaft der $e^+e^-$-Vernichtung zu nutze. Die entstehenden Photonen werden dabei mit zwei Detektoren Koinzidenz nachgewiesen werden.
+        Der Ziel des Versuches ist der Nachweis von Radioaktiven Quellen in einem Verschlossenen Behälter und die Untersuchung der relativen Intensitäten der Quellen und die Winkelabhängigkeit.
+
+    \section{Versuchsvorbereitung}
+        Für das Verständnis:
+        \begin{enumerate}
+            \item Warum PET?
+            \begin{itemize}
+                \item Um Veränderungen in Gewebe schon während der Veränderung zu erkennen werden abbaubare radioaktive Tracer injiziert deren Aktivität durch eine Koinzidenzmessung bestimmt wird.
+                Bei einer Koinzidenzmessung zerstrahlt ein Positon mit einem Elektron zu zwei gamma quanten mit gleicher Energie E=511 keV die Kollinear auseinander fliegen. Wir in zwei Detektoren 
+                gleichzeitig ein Ereignis registriert nennt man das Koinzidenz und diese Koinzidenz ist sehr wahrscheinlich auf die Zerstrahlung eines Gamma-Quants zurückzuführen.
+                Aus eine großen Anzahl dieser Aktivität lässt sich die Aktivität in dieser ebene rekonstruieren.
+                Die Tracer müssen eine geeignete Halbwertszeit haben und werden daher i.d.R. in einem Synchrotron in der nähe des PET hergestellt.
+                Es kommen nur Kerne mit \beta +- Zerfall in Frage.
+                Es kommt zu Falschmessungen durch Positronen die nicht am or ihrer Emission zerstrahlen sondern ihre 2mm Reichweite im Gewebe nutzen
+            \end{itemize}
+            
+            \item Ziel des Versuchs
+            \begin{itemize}
+                \item Ziel ist es die physikalischen und elektronischen Grundlagen der PET kennenzulernen.
+            \end{itemize}
+
+            \item $\beta$-zerfall
+            \begin{itemize}
+                \item Der Beta+ Zerfall ist ein Radioaktiver Zerfallsprozess bei dem ein Proton in ein Neutron umgewandelt wird, dabei wird ein Positron und ein Neutrino erzeugt.
+                die Massenzahl A bleibt konstant
+                Der äquivalente Prozess zum \beta +- Zerfall ist der Elektroneinfang Prozess , dort entstehen jedoch keine Positronen
+            \end{itemize}
+
+            \item Paarvernichtung
+            \begin{itemize}
+                \item eine entstandenes Positron wird in der Materie zunächst abgebremst und kann danach mit einem Elektron unter Aussendung zweier gamma Quanten zerstrahlen.
+                Wenn sich das Elektron-Positron paar in ruhe befindet werden aufgrund der Impulserhaltung die beiden abgestrahlten Photonen kollinear d.h. im 180° Winkel abgestrahlt.
+                Der Wirkungsquerschnitt ist stark Energieabhängig
+            \end{itemize}
+
+            \item Szintillatoren und Photonmultiplier
+            \begin{itemize}
+                \item Ein Anorganischer Szintillationszähler besteht aus einem Szintillationskristall und einem Photomultiplier. Im Kristall werden über Anregung und Photonemission
+                Ereignisse detektiert. Austretende Photonen werden dann durch den Photoeffekt in Freie elektronen umgesetzt und im Photomultiplier beschleunigt und vervielfältigt.
+                Die Stärke des Signal ist direkt proportional zur Energie des Ereignisses
+            \end{itemize}
+        \end{enumerate}
+
+
+
+        Folgende Fragen sind notwendig für das Verständnis des Versuchs und dienen als Vorbereitung für diesen.
+        \begin{enumerate}
+            
+            
+            \item Warum PET?
+            \begin{itemize}
+                \item Was ist grundlegend nötig um PET zu betreiben?
+                    Eine Quelle für geeignete Isotope (zb. einen Synchrotron) als Tracer. Und einen Detektor zur Messung der Koinzidenzen.
+                \item Welche Eigenschaften sollte ein Isotop haben um in frage zu kommen?
+                    Eine relativ kurze Halbwertszeit im Stunden Bereich und einen $\beta^+$ zerfall
+                \item Was genau Versteht man unter falschen Koinzidenzen?
+                    Es entstehen und verschwinden stets Koinzidenzen auf natürliche Art und Weise, so gibt es Umweltstrahlung, Streuung der künstlichen inzedenzen oder Absorption.
+            \end{itemize}
+
+            \item Ziel des Versuchs
+            \begin{itemize}
+                \item Wie muss die Truhe gescannt werden um ein eindeutiges Ergebnis bzgl. der Lage und der Aktivität der quellen zu erhalten?
+                Abschnitt 5.6
+            \end{itemize}
+
+            \item $\beta$-zerfall
+            \begin{itemize}
+                \item $\beta^+$-Zerfall
+                    Beim $\beta+$ zerfällt ein Proton in ein Neutron unter Entstehung eines Positrons und eines Neutrinos
+                    $$(Z,N) \rightarrow (Z-1,N+1) + e^+ + \nu_e$$
+                \item $\beta^-$-Zerfall
+                    Beim $\beta-$ zerfall zerfällt ein Neutron unter Entstehung eines Elektrons und eines Antineutrinos in ein Proton
+                    $$(Z,N) \rightarrow (Z+1,N-1) + e^- + \bar{\nu_e}$$
+                \item Elektroneneinfang
+                    Beim Elektroneneinfang nimmt ein Kern ein freies Elektron auf und wandelt unter Entstehung eines Neutrinos ein Proton in ein Neutron um
+                    $$(Z,N) + e^- \rightarrow (Z-1,N+1) + \nu_e$$
+                \item Wo auf der Nuklidkarte findet man $\beta^+$ bzw. $\beta^-$ Strahler?
+                    $\beta^+$ Findet man bei Kernen mit einer Höheren Protonenzahl Z als ihr Stabiler Kern und \newline
+                    $\beta^-$ bei Kernen mit einer niedrigeren Protonenzahl
+                    \begin{figure}[h]
+                        \centering
+                        \includegraphics[scale=0.3]{Images/1280px-Nuklidkarte_Segre.svg.png}
+                        \caption{Nuklidkarte}
+                        \label{fig:Nuklidkarte}
+                    \end{figure}
+                \item Zerfall von $^{22}Na)$
+                    $^{22}Na$ Zerfällt über $\beta^+$ zerfall in das Stabile Element $^{22}Ne$ bei einer Energieemission von 2.842MeV.
+                    Es ist ein Standard Tracer der in der Medizin genutzt wird. Es besitzt eine Halbwertszeit von 2 Jahren und 220 Tagen.
+            \end{itemize}
+
+            \item Paarvernichtung
+            \begin{itemize}
+                \item Unter welchen Voraussetzungen kommt es zur Annihilation?
+                    Es wird ein Positron mit geringer Kinetischer Energie in Materie benötigt welches dann mit einem Elektron ein Positronium Atom bilden kann
+                    und im Fall das der Spin des Positrons dem des Elektrons entgegengesetzt ist zerstrahlen beide.
+                \item Welchen Einfluss hat die kinetische Energie des Positrons auf die Annihilation?
+                    Je mehr Kinetische Energie das Positron einbringt, desto stärker weichen die Austrittswinkel von 180° ab. Diese Abweichung lässt sich beschreiben über
+                    $$ tan(\theta) = \frac{p_T}{m_ec}$$
+                    Wobei $\theta$ die Abweichung von 180° und $p_T$ die transversalkomponente des Positronium Impulses gegenüber der Emissionsrichtung angibt
+                \item Welchen Einfluss haben die Restenergien bzw. -Impulse auf die enstehenden $\gamma$-Quanten?
+                    Die Restenergien und Impulse werden auf die entstehenden gamma Quanten aufgeteilt und ihnen übertragen
+            \end{itemize}
+
+            \item Szintillatoren und Photomultiplier
+            \begin{itemize}
+                \item Was sind die Vor- und Nachteile von anorganischen Szintillationsdetektoren?
+                    Vorteile:
+                    \begin{itemize}
+                        \item Schnelle Ansprechzeit (einige ns)
+                        \item Sensitiv auf deponierte Energie
+                        \item (Herstellung und Betrieb unkompliziert) 
+                    \end{itemize}
+                    Nachteile:
+                    \begin{itemize}
+                        \item Empfindlich gegenüber Magnetfeldern
+                        \item 
+                    \end{itemize}
+                \item Wann spricht man von Fluoreszenz und wann von Phosphoreszenz?
+                    Floureszenz ist die Emission eines Photons mit größerer oder gleicher Wellenlänge innerhalb von wenigen Nanosekunden \newline
+                    Phosphoreszenz hingegen kommen die entstehenden $e^-$ zuerst in einen metastabilen zustand und werden erst nach einigen Minuten detektiert
+                \item Warum ist es nötig den Photonmultiplier abzuschirmen?
+
+            \end{itemize}
+        \end{enumerate}
+    \section{Versuchsdurchführung}
+        Messaufträge:
+        \begin{enumerate}
+            \item Vorverstärkersignal am Oszilloskop. Detektoren and Hochspannung anschließen, quelle in der Mitte der Detektorfläche platzieren. Signal skizzieren.  
+            \item TFAs einbauen und das Gaussignal am Oszilloskop betrachten
+            \item CDDs einbauen und die Nulldurchgänge am Oszilloskop untersuchen, verschiedene einstellungen des CFD testen, Einfluss auf die Zählrate beobachten
+            \item Ortsauflösung bestimmen, Lage der quelle bezüglich der Line of Response ändern, dazu Quelle auf wagen legen, wagen mit fester Schrittweite verschieben
+            im vom Detektor abgedeckten Bereich, Anzahl der Koinzidenzen in 60s Messbereich messen, insgesamt 20 Messwerte
+            \item Messen der Zählraten auf X Achse -> Y Achse und dann diagonal 
+            \item Winkelabhängigkeit: CFD so einstellen das nur die 511 keV Linien betrachtet werden, Winkelbereich -5° - 5° in 0.5° schritten messen.
+            Danach 511keV auf dem 1ten Detektor messen und 1275 keV Linie auf dem 2ten Detektor messen. Aufgrund der Mittleren Lebensdauer von 22Ne von 4 pikoSekunden und der
+            hohen Wahrscheinlichkeit eines angeregten Kerns ist wahrscheinlich keine signifikante reduktion der Zählrate zu erwarten
+        \end{enumerate}
+    \section{Messwerte}
+
+    \section{Auswertung}
+        \begin{itemize}
+            \item Höheres Signal 1275er Linie, niedrigeres 511keV
+            \item Signalhöhe -> Signalstärke/Energie, Signalbreite -> TFA bedingt / FWHM
+            \item TFA -> Gausskurve -> CFD Nulldurchgänge -> Coincidence Counter Logic1/0
+            \item 
+        \end{itemize}
+
+        \subsection{Signale Am Oszilloskop}
+            Im ersten Abschnitt der Auswertung befassen wir uns mit der Signalverarbeitung und den verschiedenen
+            Schritten, in dem wir die verschiedenen Ausgangssignale der elektronischen Signalverarbeiter am Oszilloskop betrachten.
+
+
+            \subsubsection{Szintillator und Vorverstärker}
+                Folgende Graphik zeigt das Signal direkt nach der Szintillatorschaltung, bestehend aus
+                dem Szintillator selbst, dem Photomultiplier und dem Vorverstärker. 
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics{Images/SzintillatorSignal.JPG}
+                    \caption{Szintillator Signal}
+                \end{figure}
+                Obwohl man nach physikalisch ein Negativen Spannungsimpuls erwarten würde ist dieses Signal jedoch Positiv, dies ist für die
+                Messung jedoch vollkommen unerheblich und ist lediglich durch die Wahl der Vorverstärkers bestimmt. 
+                Die Höhe des Peaks (hier ca. $390mV$) ist dabei direkt proportional zur Energie des gemessenen
+                Ereignisses. Die Breite des Peaks (hier ca $200\mu s$) entsteht hierbei hauptsächlich durch das entladen von Kapazitäten
+                welche im Vorverstärker verbaut sind.
+                
+            \subsubsection{Timing Filter Amplifier}
+                Das folgende Signal ist der Ausgang des TFA bei Eingang des obigen Signals der Szintillatorschaltung.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics{Images/TFASignal.JPG}
+                    \caption{TFA Singal}
+                \end{figure}
+                Auch hier fällt direkt auf, das die Polarität des Spannungsimpulses gewechselt hat, auch dies ist für die Auswertung irrelevant und
+                nur durch die Wahl des TFA bestimmt. \newline
+                Das Signal wird durch den TFA in seinem Informationsgehalt kaum beeinflusst, er dient lediglich der Aufbereitung für
+                die Verarbeitung durch den CFD. Die Höhe des Peaks (hier ca. $4,85V$) und Breite des Signals (hier ca. $1s$) tragen dabei die selben
+                Informationen.
+
+            \subsubsection{Constant Fraction Discriminator}
+                Nun kommen wir zum ersten auswertenden Element, die folgende Signale sind sowohl der Analoge- als auch der Digitale des CFD.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics{Images/CFDSignal.JPG}
+                    \caption{CFD Signal, Analog(Gelb) Digital(Blau)}
+                \end{figure}
+                Das analoge Signal trägt nun nicht länger unsere Informationen, es dient an dieser stelle lediglich der Veranschaulichung des
+                Prinzips des CFD, da man deutlich erkennt, das dieser bei Nulldurchgang des Verarbeiteten Signals ein Logisches Signal
+                von ~0.8V bzw. Logisch 1 emittiert, welches für ~1s bestehen bleibt. Die Signalhöhe ist dabei eigentlich egal, da uns hierbei nur
+                dessen Logisches Äquivalent interessiert, die Signalzeit hingegen ist äußerst interessant, da diese unseren Toleranzbereich definiert
+                indem 2 Logische Signale noch als Koinzidenz anzusehen sind. Welche Signale überhaupt einen Logischen Output erzeugen lässt sich über 
+                die Obere- und Untere Schwelle einstellen, durch die Signale mit Höhen unter oder Über den Grenzwerten verworfen werden. Diese Einstellungen
+                sind notwendig um sowohl schwaches Hintergrundrauschen unterhalb der unteren schwelle zu verwerfen, als auch die 1275keV Linie zu verwerfen,
+                da für die Gewünschten Zählraten nur Teilchen mit Energien um 511keV gemessen werden sollen.
+            
+                \subsubsection{Zusammenfassung}
+                Um den oben Dargestellten Prozess noch einmal kompakt zusammenzufassen:
+                \begin{itemize}
+                    \item Der Szintillator liefert einen Peak proportional zur Teilchenenergie des Detektierten Teilchens
+                    \item Im TFA wird das Signal weiter aufbereitet und Verstärkt
+                    \item Der CFD Bestimmt ob es sich um einen zulässigen Peak handelt und emittiert ein entsprechendes Logisches Signal
+                \end{itemize}
+        
+        \subsection{Bestimmung der Ortsauflösung}
+            Um nun die Ortsauflösung unseres Aufbaus zu bestimmen wurde die Anzahl der detektierten Ereignisse in 60 Sekunden
+            für verschiedene Verschiebungen der Quelle relativ zum Aufbau aufgetragen. Die daraus resultierende Verteilung wird gut genähert durch eine
+            Gaußkurve wie im folgenden Bild dargestellt wird:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.9\textwidth]{Ortsauflösung.png}
+                \label{Plot der Ortsauflösungsmessung}
+            \end{figure}
+             
+
+        \subsection{Auswertung des PET-Scans}
+        
+        \subsection{Analyse der Winkelabhängigkeit}
+
+
+    \section{Diskussion}
+
+\end{document}

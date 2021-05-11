@@ -1,0 +1,25 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Ziel}{3}{}%
+\contentsline {section}{\numberline {2}Versuchsvorbereitung}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Zufallsvariable}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Wahrscheinlichkeitsverteilung}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Binomialverteilung}{3}{}%
+\contentsline {subsection}{\numberline {2.4}Poisson Verteilung}{4}{}%
+\contentsline {subsection}{\numberline {2.5}Gaußverteilung}{4}{}%
+\contentsline {subsection}{\numberline {2.6}Varianz}{4}{}%
+\contentsline {subsection}{\numberline {2.7}Zerfallswahrscheinlichkeit}{5}{}%
+\contentsline {subsection}{\numberline {2.8}Intervallverteilung}{5}{}%
+\contentsline {subsection}{\numberline {2.9}Zählrohr}{6}{}%
+\contentsline {subsection}{\numberline {2.10}Totzeit}{6}{}%
+\contentsline {subsection}{\numberline {2.11}Zwei-Präperat-Methode}{6}{}%
+\contentsline {subsection}{\numberline {2.12}Der $\chi ^2$-Anpassungstest}{7}{}%
+\contentsline {section}{\numberline {3}Versuchsdurchführung}{8}{}%
+\contentsline {section}{\numberline {4}Auswertung}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Poissonverteilung}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Gaussverteilung}{9}{}%
+\contentsline {subsection}{\numberline {4.3}Intervallverteilung}{9}{}%
+\contentsline {subsection}{\numberline {4.4}$\chi ^2$-Test}{10}{}%
+\contentsline {subsection}{\numberline {4.5}Totzeit}{11}{}%
+\contentsline {section}{\numberline {5}Diskussion}{11}{}%

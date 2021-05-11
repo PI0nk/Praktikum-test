@@ -1,0 +1,18 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Versuchsvorbereitung}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Die Elementarladung}{1}{}%
+\contentsline {subsection}{\numberline {1.3}Kräfte im Versuch}{1}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Coulomb Kraft}{1}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Gravitationskraft}{1}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Auftriebskraft}{1}{}%
+\contentsline {subsubsection}{\numberline {1.3.4}Reibungskraft}{2}{}%
+\contentsline {subsubsection}{\numberline {1.3.5}Cunningham-Korrektur}{2}{}%
+\contentsline {subsection}{\numberline {1.4}Herleitung der Formeln}{2}{}%
+\contentsline {section}{\numberline {2}Durchführung}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Aufbau}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Versuchsdurchführung}{3}{}%
+\contentsline {section}{\numberline {3}Auswertung}{4}{}%
+\contentsline {section}{\numberline {4}Diskussion}{7}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,17 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Ziel}{3}{}%
+\contentsline {section}{\numberline {2}Versuchsvorbereitung}{3}{}%
+\contentsline {section}{\numberline {3}Versuchsdurchführung}{5}{}%
+\contentsline {section}{\numberline {4}Messwerte}{5}{}%
+\contentsline {section}{\numberline {5}Auswertung}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Signale Am Oszilloskop}{5}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Szintillator und Vorverstärker}{5}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Timing Filter Amplifier}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Constant Fraction Discriminator}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Zusammenfassung}{6}{}%
+\contentsline {subsection}{\numberline {5.2}Bestimmung der Ortsauflösung}{6}{}%
+\contentsline {subsection}{\numberline {5.3}Auswertung des PET-Scans}{7}{}%
+\contentsline {subsection}{\numberline {5.4}Analyse der Winkelabhängigkeit}{7}{}%
+\contentsline {section}{\numberline {6}Diskussion}{7}{}%

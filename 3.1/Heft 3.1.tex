@@ -1,0 +1,409 @@
+\documentclass{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{subfigure}
+ 
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=25mm,
+ top=25mm,
+}
+
+\begin{document}
+
+    \title{Praktikum B - Versuch B3.1 Statistik der Kernzerfälle}
+    \date{\today}
+    \author{Jesco Talies, Timon Danowski, Erik Gasmus}
+    \maketitle
+    \newpage
+
+    \tableofcontents
+    \newpage
+    
+    \section{Einleitung}
+        \subsection{Versuchsaufbau}
+            In diesem Versuch wollen wir anhand von Kernzerfällen den Einfluss von Messapparaturen auf
+            die Messung demonstrieren, dabei betrachten wir eine Ansammlung instabiler Kerne sowie einen Detektor
+            zum Nachweis der Zerfälle. Trotz der Unabhängigkeit dieser Zerfälle lässt sich ab einer ausreichend
+            großen Zahl an Zerfällen ein Statistischer Zusammenhang erkennen.
+        \subsection{Ziel}
+            Ziel dieses Versuchs wird sein die oben erwähnten Verteilungen näher kennen zu lernen und dabei
+            auch auf den Einfluss der Messapparatur auf die Verteilung zu berücksichtigen. Dafür soll in der 
+            Auswertung auf
+            \begin{itemize}
+                \item die Anzahl der Zerfälle pro Zeitintervall
+                \item die Zeitdifferenz zwischen Zerfällen
+            \end{itemize}
+            geachtet werden und durch einen $\chi^2$-Test untersucht werden.
+    
+    \section{Versuchsvorbereitung}
+            \subsection{Zufallsvariable}
+                Im Zentrum dieses Versuchs steht das Betrachten von sogenannten Zufallsvariablen. Da verschiedene Zufallsexperimente
+                sehr verschiedene Ereignisse besitzen, ist es dennoch wichtig eine gemeinsame Darstellung zu finden um mit den
+                Ergebnissen von Zufallsexperimenten rechnen zu können. Für eine solche Darstellung müssen die Ergebnisse in reelle
+                Zahlen transformiert werden, dafür gibt man in allen Fällen eine eindeutige Abbildung
+                $$ X: \omega \rightarrow x( \omega ) ; x( \omega ) \in \mathbb{R} $$
+                die jedem Ereignis $\omega$ eines Zufallsexperiments eine eindeutige Zahl zuordnet.
+                Diese Funktion X bezeichnet man als Zufallsvariable.
+            \subsection{Wahrscheinlichkeitsverteilung}
+                Die Wahrscheinlichkeitsverteilung bzw. Wahrscheinlichkeitsfunktion einer Zufallsvariablen X ist diejenige Funktion F(x)
+                die angibt mit welcher Wahrscheinlichkeit eine entsprechende Zufallsvariable einen Wert kleiner 
+                gleich x annimmt. Dabei gilt für diskrete Zufallsvariablen und deren Wahrscheinlichkeitsverteilung
+                $$ F(x) = \sum_{x_i < x}f(x_i)$$
+                und im Übergang zu kontinuierlichen Zufallsvariablen wird die Wahrscheinlichkeitsdichte beschrieben
+                über 
+                $$ F(x) = \int_{-\infty}^xf(y)dy$$
+            \subsection{Binomialverteilung}
+                Die sogenannte Binomialverteilung ist die wohl wichtigste diskrete Verteilung. Sie ist jedoch nur
+                anwendbar auf Zufallsexperimente deren Ereignisse genau zwei mögliche, sich gegenseitig ausschließende
+                Ergebnisse liefern können. Für die Wahrscheinlichkeit des Eintretens der Ereignisse gilt
+                $$P(A) = p ; P(B) = 1 - p $$
+                Führt man das Experiment N-mal durch, wobei die Ergebnisse aller N Durchläufe unabhängig voneinander sind,
+                kann man über die Anzahl n, welche beschreibt wie oft Ergebnis A eingetreten ist, die Wahrscheinlichkeit 
+                folgendermaßen herleiten:
+                Nimmt man an das Ereignis A zunächst n mal auftritt und dann (N-n)-mal nicht, dann ist die Wahrscheinlichkeit
+                für genau diese Reihenfolge:
+                $$ p \underbrace{\cdot p ... \cdot p}_n \underbrace{\cdot (1-p) \cdot (1-p) ... \cdot (1-p)}_{N-n} = p^n \cdot (1-p)^{N-n} $$
+                Da für unser Experiment jedoch die Reihenfolge der Ereignisse egal ist, kann über die Kombinatorik die Anzahl
+                möglicher Anordnungen einer solchen Verteilung bestimmt werden. Daraus Folgt:
+                $$ P(N,n,p) = {N\choose n}p^n(1-p)^{N-n} $$
+                Die Binomialverteilung besitzt den Erwartungswert $m=Np$ und die Varianz $\sigma^2=Np(1-p)$.
+            \subsection{Poisson-Verteilung}
+                Auch die Poisson-Verteilung ist eine diskrete Verteilung, man erhält sie, wenn man die Binomialverteilung
+                im Grenzwert $N \rightarrow \infty und p \rightarrow 0$ unter der Nebenbedingung, dass das Produkt $Np =
+                \lambda$ konstant ist, betrachtet. Dort erhält man die Wahrscheinlichkeitsfunktion über:
+                $$ \lim_{N\rightarrow\infty} P(n) = \lim_{N\rightarrow\infty}{N\choose n}p^n(1-p)^{N-n}=\frac{\lambda^n\cdot e^{-\lambda}}{n!} = P(n,\lambda)$$
+                Die Poisson-Verteilung hat den Mittelwert $m = \lambda$  und die Varianz $\sigma^2 = \lambda$.
+            \subsection{Gaußverteilung}
+                Die Gaußverteilung hingegen ist eine kontinuierliche Verteilung, ihre Wahrscheinlichkeitsdichte ist
+                gegeben durch
+                $$ P(x,\mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}}\cdot e^{-\frac{1}{2}(\frac{(x-\mu)^2}{\sigma})}$$
+                Dabei ist $\mu$ der Mittelwert und $\sigma^2$ die Varianz.
+                \newline
+                Für die Gaußverteilung bestehen zwei interessante Zusammenhänge.
+                Zunächst erhält man die Gaussverteilung durch eine Grenzwertbetrachtung der Poissonverteilung für $\lambda\rightarrow\infty$
+                $$\lim_{\lambda\rightarrow\infty} \frac{\lambda^n e^{-\lambda}}{n!} = \frac{1}{\sqrt{2\pi\lambda}}e^{-\frac{(x-\lambda)^2}{2\lambda}} = P(x,\lambda)$$
+                \newline
+                Zusätzlich folgt zudem nach dem Satz von Moivre-Laplace, dass falls die Poisson-Verteilung gegen die Gaußverteilung
+                konvergiert, so konvergiert auch die Binomialverteilung gegen die Gaußverteilung für $N \rightarrow \infty$ und $0 < p < 1$
+                $$\lim_{\lambda\rightarrow\infty} {N\choose n}p^n(1-p)^{N-n} = \frac{1}{\sqrt{2\pi Np(1-p)}} e^{-\frac{(x-Np)^2}{2Np(1-p)}} = P(x)$$
+                Für diese Näherung existiert eine Faustregel, nach der die Näherung brauchbar ist falls gilt $Np(1-p)\geq 9$.
+                Je asymmetrischer die Binomialverteilung ist, desto größer muss N sein, bevor die Gaußverteilung eine gute Näherung liefert.
+            \subsection{Varianz}
+                Für jede der oben angegebenen Verteilungen lässt sich eine Varianz $\sigma^2$ angeben, diese Varianz ist ein Maß für die Streuung
+                einer Zufallsvariablen X um ihren Erwartungs- bzw. Mittelwert $\mu$. Diese lässt sich auf zwei Wege bestimmen, entweder falls der
+                tatsächliche Mittelwert bekannt ist über
+                $$Var(X) = \int_\omega (X-\mu)^2 dP$$
+                als Integral über den Wahrscheinlichkeitsraum $\Omega$, oder falls nur der experimentell bestimmte Mittelwert bekannt ist
+                $$Var(X) = \sum_{i\geq 1}(x_i - \mu)^2\cdot p_i$$
+                wobei $p_i$ der Wahrscheinlichkeit entspricht mit der X den Wert $x_i$ annimmt.
+            \subsection{Zerfallswahrscheinlichkeit}
+                Den Zusammenhang zwischen einem Zufallsexperiment und unserem Versuch bildet die Zerfallswahrscheinlichkeit.
+                Die Wahrscheinlichkeit $\omega$, dass ein Atomkern unseres instabilen Kerns mit einer Halbwertszeit $ T_{1/2} $ (Hier $^{137}Cs$ mit $ T_{1/2}=30 Jahre $ )
+                innerhalb einer bestimmten Zeitspanne $\Delta t \ll T_{1/2}$ zerfällt, beträgt
+                $$w = \alpha \Delta t$$
+                $\alpha$ ist dabei für das Isotop charakteristische Konstante und wird die Zerfallswahrscheinlichkeit genannt.
+                Diese Gleichung ist jedoch nur gültig für infinitesimale $\Delta t$, da sonst Wahrscheinlichkeiten > 1 erreicht werden könnten.
+                Für beliebige endliche t gilt für die Zerfallswahrscheinlichkeit
+                $$\omega(t)=1-e^{-\alpha t}$$
+                Mit bekannter Halbwertszeit berechnet sich $\alpha$ folgendermaßen
+                $$ \omega(T_{1/2}) = \frac{1}{2} \Leftrightarrow e^{-\alpha T_{1/2}} = \frac{1}{2} \Leftrightarrow \alpha = \frac{ln(1/2)}{T_{1/2}}$$
+                In unserem Fall mit dem Isotop $^137Cs$ ist $\alpha = 7,3 \cdot 10^{-6} s^{-1}$.
+                Hier ist bereits der erste Zusammenhang zu unseren Wahrscheinlichkeitsverteilungen zu erkennen Es handelt sich um ein
+                Zufallsexperiment bei dem die zwei sich ausschließenden Ereignisse das Zerfallen bzw. das nicht Zerfallen eines Kerns sind.
+                Diese Zerfälle sind von einander Unabhängigkeit wodurch unser Experiment als Binominalverteilt angenommen werden kann.
+                Für viele Kerne ist es nun sinnvoll einen Ausdruck zu finden für die Wahrscheinlichkeit $\omega(N,n,t)$, dass von N
+                Kernen, während der Zeit t, n zerfallen. Die Anzahl der Möglichen  Zerfälle ist über den Binomialkoeffizienten gegeben.
+                $$ \omega(N,n,t) = {N\choose n}\cdot(1-e^{-\alpha t})^n e^{-\alpha(N-n)t}$$
+                Mit der Abkürzung $p = 1 - e^{-\alpha t}$
+                erhalten wir
+                $$P(N,n,p) = {N\choose n}\cdot p^n (1-p)^{N-n}$$
+                eine Wahrscheinlichkeitsfunktion einer Binomialverteilung.
+                Da es sich bei unserem Experiment um eine sehr große Anzahl von Kernen (Größenordnung von $10^{20}$) 
+                und Wahrscheinlichkeiten eines Zerfalls von $\alpha \ll 1$ (hier $7,3 \cdot 10^{-6} s^{-1}$) handelt, können wir für
+                große Proben unsere Binomialverteilung als Poisson-Verteilung nähern mit
+                $$P(n) = \frac{\lambda^n}{n!} e^{-\lambda}$$
+                wobei n der registrierten Zählrate entspricht und $\lambda$ dem Erwartungswert der Zerfälle im Zeitraum t.
+                Für große $\lambda$ d.h. $\arrowvert n - \lambda \arrowvert \ll \lambda$ (große Messezeiten) geht die Poisson-Verteilung
+                sogar in eine spezielle Gaußsche Normalverteilung über
+                $$\Phi(n) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(n-\lambda)^2}{2\sigma^2}}$$
+            \subsection{Intervallverteilung}
+                Eine weitere Verteilung ist die Intervallverteilung. Bei dieser Verteilung wird im Gegensatz zu den bisherigen Verteilungen, welche die
+                Wahrscheinlichkeit für das Zerfallen von Kernen in einer festen Zeitspanne t beschrieben haben, die Zeitdifferenz zwischen
+                zwei Zerfällen betrachtet. Betrachtet wird also mit welcher Wahrscheinlichkeit die Zeitdifferenz zwischen zwei Zerfällen
+                den Wert $\Delta t$ annimmt. Die Wahrscheinlichkeit die durch diese Betrachtung beschrieben wird setzt sich aus zwei Einzelwahrscheinlichkeiten
+                zusammen.
+                \begin{itemize}
+                    \item $W_1$: In der Zeit $\Delta t$ darf kein Zerfall stattfinden, die Wahrscheinlichkeit entspricht nach der Poisson-Verteilung
+                    mit $n = 0 : W_1 = e^{-\lambda}$.
+                    \item $W_2$: Nach der Zeit $\Delta t$ muss innerhalb von dt ein Zerfall Stattfinden. Die Wahrscheinlichkeit ist $W_2 = a\cdot dt$.
+                \end{itemize}
+                Daraus folgt:
+                $$ W = W_1 \cdot W_2 = e^{-\lambda} a dt$$
+                Um auf die Dichtefunktion zu kommen muss nun lediglich abgeleitet werden:
+                $$P = e^{-at}a$$
+                Die Dichtefunktion dafür, dass zwischen den beiden betrachteten Ereignissen noch n weitere liegen folgt analog und ergibt sich zu:
+                $$P_n = a \frac{(at)^n}{n!}e^{-at}$$
+                Diese Verteilung nennt man Intervallverteilung.
+            \subsection{Zählrohr}
+                Zum Nachweis bzw. zur Messung der in den vorherigen Abschnitten angesprochenen Zerfälle wird ein Geiger-Müller Zählrohr
+                verwendet. Es besteht aus einem Gas gefüllten Zylinderkondensator mit einem dünnen Anodendraht. Tritt nun ionisierende
+                Strahlung in das Rohr ein, die bei einem Radioaktiven Zerfall entsteht (Hier $\beta^-$ $Z(A,Z) \rightarrow Z(A,Z+1) + e^- + \nu^-)$)
+                löst diese Elektronen aus den Hüllen des Gases. Die nun freien Elektronen bewegen sich durch das Elektrische Feld zur Anode
+                und lösen auf ihrem Weg weitere Elektronen raus. Zusätzlich regen sich die Ionisierten Gasteilchen unter Emission von Photonen ab
+                die wiederum Elektronen raus lösen, sodass eine großräumige Entladung im Zählrohr stattfindet, unabhängig von der ursprünglichen Ionisation.
+                Die durch die oben beschriebenen Effekte entstehende Elektronenlawine liefert dabei unser Messbares Signal.\newline
+                Die Entladung über diese Kettenreaktion endet erst, wenn die Radial nach außen wandernde Wolke ionisierter Gasteilchen die 
+                Feldstärke genügend Verringert hat. Diese relativ lange Zeit bezeichnet man als Totzeit, da währenddessen keine zusätzlichen
+                Zerfälle detektiert werden können.
+                Um Mehrfachentladungen durch weitere Ionisierungseffekte von Gasatomen an der Kathoden Oberfläche zu vermeiden, wird das Zählrohr
+                mit einem hochohmigen Widerstand im Bereich $10^8 \Omega$ zwischen Hochspannungsversorgung und Anode ausgestattet. Der Widerstand
+                führt dazu, dass die Hochspannung nach einer gewissen Zeit zu gering ist, um weitere Entladungen auszulösen.
+            \subsection{Totzeit}
+                Die in vorherigen Absatz bereits erwähnte Totzeit bezeichnet die Zeit nach einem Nachweis in dem kein weiteres Teilchen nachgewiesen
+                werden kann. Diese Totzeit wirkt sich dadurch auf die Zählrate unserer Messung aus, die gemessene Zählrate a' ist kleiner als
+                die Tatsächliche Zählrate a. Mit der Totzeit $\tau$ ergibt sich:
+                $$ a' (1+ a\tau) = a \Leftrightarrow a = \frac{1}{1-a'\tau}$$
+                Um den wahren Mittelwert vom Gemessenen zu erhalten gilt:
+                $$ m = aT = a\frac{m'}{a'} = \frac{m'}{1-a'\tau}$$
+            \subsection{Zwei-Präparat-Methode}
+                Um die Totzeit zu messen lässt sich die Zwei-Präparat-Methode verwenden, dabei wird bei einer Festen Zählrohrspannung
+                die Zählrate von Zwei Präparaten erst jeweils separat und dann gleichzeitig gemessen. Zudem wird die Untergrundzählrate
+                bestimmt. Die gemessenen Zählraten $z_1',z_2',z_{12}'$ und die Untergrundzählrate bestimmen unsere wahren Zählraten $z_1,z_2,z_{12}$,
+                die durch die Präparate zustande kommenden Zählraten seien $p_1,p_2,p_{12}$
+                $$ z_1 = p_1 + u  ;  z_2 = p_2 + u  ;  z_{12} = p_{12} + u $$
+                Mit der Totzeit $\tau$ gilt:
+                $$ z_i = \frac{z_i'}{1-z_i'\tau}$$
+                Die Idee dabei ist es die Additivität der Präparats Zählraten auszunutzen
+                $$ p_{12} = p_1 + p_2$$
+                Das daraus resultierende Gleichungssystem lässt sich durch einsetzten der vorherigen Gleichung in die jeweiligen Gleichungen für $z_i$
+                lösen:
+                $$z_{12} - u = z_1 - u + z_2 - u \Leftrightarrow z_{12} + u = z_1 + z_2$$
+                $$\frac{z_{12}'}{1-z_{12}'\tau} + \frac{u'}{1-u'\tau} = \frac{z'}{1-z_1'\tau} + \frac{z_2'}{1-z_2'\tau}$$
+                Löst man diese Gleichung nach $\tau$ auf ergibt sich:
+                $$(\underbrace{u'z_{12}'z_2'-z_1'z_12'z_2'+u'z_12'z_1'-u'z_1'z_2'}_=A)\tau^2 + (\underbrace{-2z_{12}'u'+2z_1'z_2'}_=B)\tau + \underbrace{z_{12}'-z_1'+u'-z_2'}_=C = 0$$
+                $$ \tau = \frac{-B \pm \sqrt{B^2 - 4AC}}{2A}$$
+            \subsection{Der $\chi^2$-Anpassungstest}
+                
+    
+    Folgende Fragen sind notwendig für das Verständnis des Versuchs und dienen als Vorbereitung für diesen.
+
+        \begin{enumerate}
+            \item Wie misst man die Totzeit mit der Zwei-Präparate-Methode?
+                \begin{itemize}
+                    \item Bei \emph{der Zwei-Präparate-Methode} wird zunächst die Zählrate des ersten Präparats bei fester Zählrohrspannung gemessen, dann die des zweiten Präparates
+                    und zuletzt die der beiden zusammen. Zudem wird die Untergrundzählrate bestimmt, d.h. das Hintergrundrauschen, welches durch die Umgebung entsteht.
+                    - TODO - Formeln?
+                \end{itemize} 
+            \item Wie wirkt sich die Totzeit auf eine gemessene Verteilung aus?
+                \begin{itemize}
+                    \item Die Totzeit führt zu einer schmaleren gemessenen Verteilung bzw. zu einer Verkleinerung von $\chi^2$. \newline
+                    Die gemessene Zählrate $a'$ ist durch die aufgrund der Totzeit fehlenden Messwerte kleiner als die Tatsächliche Zählrate a.
+                    Für jedes Teilchen muss man daher $a\cdot\tau$ addieren
+                    $$a=a'(1+a\tau)$$
+                    für den gemessenen $m'$ und tatsächlichen Mittelwert $m$ gilt dann
+                    $$m = aT = a\frac{m'}{a'}=\frac{m'}{1-a'\tau}$$
+                    Da die Messwerte aus einer Poisson-Verteilung stammen gilt außerdem $\sigma^2=m$
+                    Insgesamt folgt also
+                    $$\sigma'^2 = m' \cdot (1-\tau a') bzw \sigma^2=\sigma'^2 \cdot (\frac{a}{a'})^2$$
+                    Da gilt $\frac{a}{a'} > 1$. Ist also wie bereits erwähnt die gemessene Verteilung schmaler als die wahre.
+                \end{itemize} 
+            \item Was ist eine $\chi^2$-Verteilung und wie funktioniert ein $\chi^2$-Test?
+                \begin{itemize}
+                    \item \emph{Die $\chi^2$-Verteilung} ist eine stetige Wahrscheinlichkeitsverteilung über die menge der positiven reellen Zahlen über einen einzigen Parameter,
+                    die Anzahl der Freiheitsgrade n. Sie kann aus der Normalverteilung abgeleitet werden indem man n Zufallsvariablen $Z_i$ betrachtet die unabhängig und standardnormalverteilt sind.
+                    Das Quadrat einer standardnormalverteilten Zufallsvariable $Z - N(0,1)$ folgt einer $\chi^2$-Verteilung mit Freiheitsgrad
+                    $$Z^2~\chi^2(1)$$
+                    Für jede standardnormalverteilte Zufallsgröße gilt, dass sie den Erwartungswert 0 hat und das Quadrat der selbigen den Erwartungswert 1. Bei f 
+                    dieser Größen addieren sich die Erwartungswerte zu f. Betrachtet man nun die Wahrscheinlichkeitsdichte Funktion der $\chi^2$-Verteilung kann man sich nun einen
+                    Ablehnungsbereich festlegen. Für eine Irrtumswahrscheinlichkeit von $5\%$ bestimmte man folgendes Integral bzw. $\chi_{min}^2$ und $\chi_{max}^2$
+                    $$\int_{x=0}^{\chi_{min}^2}f(x,f)dx = 0.025$$
+                    $$\int_{x=0}^{\chi_{max}^2}f(x,f)dx = 0.975$$
+                    \item \emph{Mit dem $\chi^2$-Test} soll geprüft werden ob zwei Verteilungen \newline
+                    übereinstimmen bzw. ob die Verteilung einer Zufallsvariable einer hypothetischen Verteilung entspricht.   
+                \end{itemize} 
+            \item Warum können wir mit dem $\chi^2$-Test Hypothesen ablehnen oder nicht ablehnen, aber niemals annehmen?
+                \begin{itemize}
+                    \item Da es sich bei der $\chi^2$-Verteilung um das Quadrat der ursprünglichen Verteilung handelt kann man zwar Aussagen über die Abweichung treffen,
+                    jedoch keine aussagen über die Annahme der ursprünglichen Hypothese treffen, da diese auf der nicht quadrierten Verteilung beruht.
+                    Daher kann man lediglich Ablehnen bei zu großer bzw. zu kleiner Abweichung, jedoch nie annehmen.
+                \end{itemize} 
+            \item Das $\chi^2$ ist ein Maß für die Abweichung der Daten von der Hypothese. Warum ist es trotzdem wichtig, auch bei einem kleinen $\chi^2$ die 
+            Hypothese abzulehnen? Bedeutet ein kleines $\chi^2$ nicht, dass die Daten sehr gut zur Hypothese passen?
+                \begin{itemize}
+                    \item Ist die Differenz $\chi_{max}^2 - \chi_{min}^2$ zu klein besteht das Risiko eines Messfehlers, da man bei gemessenen Zufallsgrößen stets
+                    von einem Mindestmaß an Streuung ausgeht bzw. ausgehen muss. Findet sich eine zu kleine Streuung sollte die Messung ebenfalls in Frage gestellt werden
+                    und ggf. sogar der Messvorgang überprüft oder verändert werden.
+                \end{itemize} 
+            
+        \end{enumerate}
+    \section{Versuchsdurchführung}
+        Um die Verteilungen zu ermitteln, werden zunächst die Zeitpunkte relativ zum Messstart, an denen ein Zerfall detektiert wurde
+        von einem Computer in ein Textdokument geschrieben, welche in der Auswertung weiter aufbereitet werden.
+        Für die Auswertung liegen Daten aus den Folgenden Messungen vor:
+        \begin{itemize}
+            \item 45 Minuten (2700s) mit Quelle Nr. 7 bei 500V
+            \item 45 Minuten mit Quelle Nr. 7 bei 600V
+            \item 45 Minuten mit Quelle Nr. 6 und Nr. 7 bei 500V
+        \end{itemize}
+        Zur Bestimmung der Totzeit über die Zwei-Präparate-Methode liegen die Zählraten für die Messungen
+        \begin{itemize}
+            \item 5 Minuten mit Quelle Nr. 6 bei 500, 600 und 700V
+            \item 5 Minuten mit Quelle Nr. 7 bei 500, 600 und 700V
+            \item 5 Minuten mit Quelle Nr. 6 und Nr. 7 bei 500, 600 und 700V
+            \item 5 Minuten nur Untergrund bei 500, 600 und 700V
+        \end{itemize}
+    \section{Auswertung}
+        \subsection{Poisson-Verteilung}
+            Im ersten Teil der Auswertung befassen wir uns mit der Extraktion von Poisson-Verteilungen aus den Aufgenommenen
+            Daten. Um eine Wahrscheinlichkeitsverteilung aus den Messwerten zu extrahieren mussten zunächst die 
+            Daten ausgewertet werden in Hinsicht auf die Anzahl der Zerfälle pro Zeitintervall. Dabei ist es wichtig 
+            die richtige Länge des Zeitintervalls zu wählen, da bei zu kleinen Zeitintervallen keine statistisch verwertbare
+            Menge an Ereignissen vor liegt , jedoch gilt der Übergang von der Binomial- zur Poisson-Verteilung nur im Grenzfall
+            $$P \rightarrow 0, N \rightarrow \infty$$
+            Für unsere Plots haben wir eine Zeitauflösung von 200 Millisekunden gewählt. \newline
+            Aus den resultierenden Histogrammen lies sich nun über Fitten der Wahrscheinlichkeitsfunktion
+            der Poisson-Verteilung
+            $$P(n,\lambda) = N \cdot \frac{\lambda^n}{n!} \cdot e^{-\lambda}$$
+            N bestimmt sich dabei als Summe aller Balkenhöhen, hier $N = 13499$.\newline 
+            der Fit-Parameter $\lambda$ und somit direkt auch der Erwartungswert und die Varianzen bestimmt.
+            Aus den Folgenden Plots erhielten wir folgende Werte:
+            \begin{center}
+                \begin{tabular}{ |c|c|c| }
+                    \hline
+                    Quelle & Erwartungswert $\lambda$ &  Varianz $\sigma^2$ \\
+                    \hline
+                    Quelle 7 500V & $10.99 \pm  0,299$&   $10.99 \pm  0,299$   \\
+                    Quelle 7 600V & $12.39 \pm 0,189$&    $12.39 \pm 0,189$     \\
+                    Quelle 6 und 7 500V & $14.83 \pm 0,545$&   $14.83 \pm 0,545$ \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+
+            \begin{figure}[H]  
+                \centering 
+                 \subfigure[Quelle 7 500V]{\includegraphics[width=0.3\textwidth]{Pics/Poisson Quelle 7 500V.png}}\quad 
+                 \subfigure[Quelle 7 600V]{\includegraphics[width=0.3\textwidth]{Pics/Poisson Quelle 7 600V.png}}\quad
+                 \subfigure[Quelle 6 und 7 500V]{\includegraphics[width=0.3\textwidth]{Pics/Poisson Quelle 6 und 7 500V.png}}
+                 \caption{Gefittete Poisson-Verteilungen} 
+             \end{figure}
+
+
+
+        \subsection{Gaussverteilung}
+            Wie wir bereits in der Theoretischen Vorbereitung angesprochen haben kann man ein solches Zerfallsexperiment
+            nicht nur als Poissonverteilt nähern, man kann es sogar als Gaußverteilt betrachten. Die Gaußverteilung
+            für unsere gemessenen Daten müssen wir in unseren Fall jedoch nicht fitten sonder können direkt alle Parameter
+            berechnen. Für die Verteilung gilt:
+            $$ P(x) = \frac{1}{\sqrt{2\pi m}} \cdot F \cdot \sqrt{n} e^{-\frac{(x-m)^2}{2m/n}}$$
+            mit
+            $$ m = z'\cdot\frac{\Delta t}{n} $$
+            wobei m unseren Mittelwert, z' unsere gemessene Zählrate, F den Normierungsfaktor und n die Anzahl der Histogrammbalken
+            angibt die zu einem zusammengefasst werden.
+            Daraus folgt
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|c|c|}
+                    \hline
+                    Quelle(n) & n & z' & $\Delta t$ & m & F \\
+                    \hline
+                    Quelle 7 500V & 8 & 5,499 & 5 & 3,437 & 539 \\
+                    Quelle 7 600V & 8 & 5,930 & 5 & 3,706 & 539 \\
+                    Quelle 6 und 7 500V & 8 & 8,842 & 5 & 5,526 & 539 \\
+                    \hline 
+
+                \end{tabular}
+            \end{center}
+
+            \begin{figure}[H]  
+                \centering 
+                 \subfigure[Quelle 7 500V]{\includegraphics[width=0.3\textwidth]{Pics/Gauss Quelle 7 500V.png}}\quad 
+                 \subfigure[Quelle 7 600V]{\includegraphics[width=0.3\textwidth]{Pics/Gauss Quelle 7 600V.png}}\quad
+                 \subfigure[Quelle 6 und 7 500V]{\includegraphics[width=0.3\textwidth]{Pics/Gauss Quelle 6 und 7 500V.png}}
+                 \caption{Geplottete Gaußverteilungen über Gemessener Verteilung} 
+             \end{figure}
+
+            Wie aus den Graphen klar hervorgeht, liegt unsere Theoretische Verteilung in den Messungen der einzelnen
+            Quellen. Diese Diskrepanz lässt sich über die Untergrundstrahlung erklären, durch welche 
+            mehr Ereignisse registriert werden, als von unserer Quelle abgestrahlt werden. Wir hätten eigentlich eine 
+            theoretische Verteilung oberhalb der Gemessenen erwartet, da durch die Totzeit eigentlich Ereignisse verschwinden
+            sollten, sollte die Aktivität unserer Quelle jedoch nicht hoch genug gewesen sein um eine Signifikante Menge 
+            der Signale durch Totzeit zu verlieren könnten einige Signale aus der Untergrundstrahlung aufgezeichnet worden sein.
+            Bei der Messung beider Quellen ist das oben bereits erwähnte Phänomen zu erkennen, bei dem einige der Theoretisch
+            zu erwartenden Ereignisse durch die Totzeit verschluckt werden und somit die Gemessene Verteilung unterhalb der Theoretischen
+            liegt.
+
+        \subsection{Intervallverteilung}
+            In diesem Teil des Versuchs sollte eine Intervallverteilung aus den Messdaten der Messung zu Quelle 7
+            extrahiert. Dazu untersuchten wir die zeitlichen Abstände zwischen 1,2 bzw. 3 Zerfällen in Zeitintervalle der Länge 
+            $\Delta t$ = 0,001s und plotteten die jeweiligen Intervallverteilungen der Messdaten für n=0,1,2.
+            Des weiteren bestimmten wir die Totzeit, indem wir für den Fall n=0 einen Fit mit folgender Funktion vornahmen:
+            $$Z(t) = A\cdot\frac{a'}{1-a'\tau}\cdot e^{-\frac{a'}{1-a'\tau}\cdot t}$$
+            Dabei ist A die Anzahl der gemessenen Ereignisse, a' die Zählrate und $\tau$ die Totzeit.
+             \begin{figure}[H]
+                 \centering
+                 \includegraphics[width=0.5\textwidth]{Intervall all.png}
+                 \label{fig:Intervall plot n=0,1,2}
+             \end{figure}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\textwidth]{Intervall Quelle 7 600V.png}
+                \label{fig:Intervall fit, Quelle 7 600V}
+            \end{figure}
+
+            Durch den Fit erhielten wir eine Totzeit von 
+            $$\tau = 6,723 \pm 0,4008$$
+        
+        \subsection{$\chi^2$-Test}
+            In diesem Versuchsteil ging es um die Untersuchung dreier Hypothesen mithilfe eines $\chi^2$-Tests.
+            \begin{enumerate}
+                \item Die Präparatstärke ist konstant im betrachteten Zeitraum und gleicht dem Mittelwert der 51 Messwerte.
+                \item Die Präparatstärke ist konstant im betrachteten Zeitraum und gleicht dem Mittelwert der 51 Messwerte minus 10%.
+                \item Die Präparatstärke nimmt im betrachteten Zeitraum linear mit der Zeit ab. Die Anfangszählrate ist der Mittelwert
+                und der Abfall von einer Messung zur anderen sei 1.
+            \end{enumerate}
+            Um diese Hypothesen zu Untersuchen plotteten wir die Extrahierten Messdaten als Histogramm und stellten die Hypothesen Graphisch dar.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\textwidth]{CHI Quelle 6 und 7 500V.png}
+                \label{fig:Messdaten und Hypothesen}
+            \end{figure}
+
+        \subsection{Totzeit}
+            Zur Bestimmung der Totzeit wurden jeweils bei 500, 600 und 700V die Zählraten von Quelle 6,7 und beiden gleichzeitig
+            sowie die des Untergrunds aufgenommen.
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    Quelle & 500V & 600V & 700V \\
+                    \hline
+                    6 & 16735 & 17840 & 18343 \\
+                    7 & 14848 & 16010 & 16477 \\
+                    6+7 & 23873 & 26897 & 28711 \\
+                    Untergrund & 2335 & 2432 & 2442 \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            \begin{center}
+                \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    Totzeit & 500V & 600V & 700V \\
+                    \hline
+                    $\tau_+$[ms] & 0.
+
+                \end{tabular}
+            \end{center}
+
+    \section{Diskussion}
+
+\end{document}

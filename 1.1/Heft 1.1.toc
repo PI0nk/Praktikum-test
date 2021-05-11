@@ -1,0 +1,30 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{}%
+\contentsline {section}{\numberline {2}Theoretische Vorbereitung}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Elektromagnetisches Spektrum}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Planck'sche Strahlungsformel}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Elektrisches Dipolmoment}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Freiheitsgrade}{3}{}%
+\contentsline {subsection}{\numberline {2.5}Normalschwingungen}{3}{}%
+\contentsline {subsection}{\numberline {2.6}Zweiatomiges Molekül}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Energieniveaus}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Rotationsanregung}{4}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}Vibrationsanregung}{4}{}%
+\contentsline {subsubsection}{\numberline {2.6.4}Vergleich}{4}{}%
+\contentsline {subsection}{\numberline {2.7}IR-Aktivität}{4}{}%
+\contentsline {subsection}{\numberline {2.8}IR-Spektrum von $CO_2$}{4}{}%
+\contentsline {subsection}{\numberline {2.9}Rotationsbande}{4}{}%
+\contentsline {subsection}{\numberline {2.10}Photonen}{5}{}%
+\contentsline {subsection}{\numberline {2.11}Gaußsche Normalverteilung}{5}{}%
+\contentsline {subsection}{\numberline {2.12}Teppenfunktionen}{5}{}%
+\contentsline {subsection}{\numberline {2.13}Gewichteter Mittelwert}{5}{}%
+\contentsline {subsection}{\numberline {2.14}Lambert-Beer-Gesetz}{6}{}%
+\contentsline {subsection}{\numberline {2.15}Atmosphärischer Treibhauseffekt}{6}{}%
+\contentsline {section}{\numberline {3}Versuchsaufbau}{6}{}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Zeitkonstante der IR-Quelle und Drifteffekte}{7}{}%
+\contentsline {subsection}{\numberline {4.2}IR-Absorption und -Emission von verschiedenen Materialien}{9}{}%
+\contentsline {subsection}{\numberline {4.3}IR-Absorption in $CO_2$ bei bekannter Konzentration}{11}{}%
+\contentsline {subsection}{\numberline {4.4}Messung der $CO_2$-Konzentration in der Luft durch IR-Absorption}{14}{}%
+\contentsline {subsection}{\numberline {4.5}Zusatzversuch}{15}{}%
+\contentsline {section}{\numberline {5}Diskussion}{15}{}%

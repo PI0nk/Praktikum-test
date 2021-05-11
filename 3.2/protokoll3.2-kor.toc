@@ -1,0 +1,23 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Atomkerne}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Wechselwirkung von $\gamma $ - Strahlung mit Materie}{2}{}%
+\contentsline {paragraph}{\nonumberline Photoeffekt}{3}{}%
+\contentsline {paragraph}{\nonumberline Comtpon - Streuung}{3}{}%
+\contentsline {paragraph}{\nonumberline Paarerzeugung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Das $\gamma $ - Spektrum}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Das Absorptionsgesetz}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Der Halbleiterdetektor}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Elektronik}{8}{}%
+\contentsline {subsection}{\numberline {2.5}Energieaufl"osung \& Nachweiseffizienz}{10}{}%
+\contentsline {section}{\numberline {3}Versuchsdurchf"uhrung}{12}{}%
+\contentsline {section}{\numberline {4}Auswertung}{12}{}%
+\contentsline {subsection}{\numberline {4.1}Pulsformen}{12}{}%
+\contentsline {subsection}{\numberline {4.2}Eichung und Energieaufl"osung}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Bestimmung der Nachweiseffizienz}{15}{}%
+\contentsline {subsection}{\numberline {4.4}Absorptionskoeffizienten von Al und Pb}{16}{}%
+\contentsline {subsection}{\numberline {4.5}Raumuntergrundmessung}{18}{}%
+\contentsline {section}{\numberline {5}Diskussion}{19}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
