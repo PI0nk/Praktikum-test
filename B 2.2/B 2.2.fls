@@ -423,7 +423,17 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
@@ -438,8 +448,12 @@ INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
@@ -448,3 +462,5 @@ INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
