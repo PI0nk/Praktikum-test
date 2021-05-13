@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  11 MAY 2021 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  13 MAY 2021 11:41
 entering extended mode
-**"c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex"
-("c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex"
+**"c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
+("c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
 LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -19,14 +19,14 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count184
@@ -34,18 +34,18 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthography)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 121.
-))) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+))) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count185
 \calc@Bcount=\count186
@@ -57,20 +57,24 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count187
 \calc@Cskip=\skip51
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
+)
 \ESO@tempdima=\dimen142
 \ESO@tempdimb=\dimen143
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -82,13 +86,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -98,7 +102,7 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \AM@pagewidth=\dimen146
 \AM@pageheight=\dimen147
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -107,9 +111,9 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks17
 \c@AM@survey=\count189
 \AM@templatesizebox=\box48
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -117,21 +121,21 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen148
-)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen149
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count190
@@ -171,9 +175,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
@@ -191,11 +195,11 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen163
 \xmathstrut@box=\box51
 \xmathstrut@dim=\dimen164
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count269
@@ -210,18 +214,18 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen171
 \Gm@layoutvoffset=\dimen172
 \Gm@dimlist=\toks24
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count272
 \float@exts=\toks25
 \float@box=\box52
 \@float@everytoks=\toks26
 \@floatcapt=\box53
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box54
-) ("c:/Users\dtimo\Desktop\Praktikum\B 2.2\B 2.2.aux")
+) ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux"))
 \openout1 = `"B 2.2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -238,7 +242,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
 \scratchdimen=\dimen173
@@ -251,12 +255,12 @@ LaTeX Font Info:    ... okay on input line 21.
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks28
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -296,261 +300,56 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
- (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/dtimo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-No file "B 2.2".toc.
+{C:/Users/jesco/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.toc")
 \tf@toc=\write3
 \openout3 = `"B 2.2.toc"'.
 
-[2]
+ [2] [1
 
-LaTeX Warning: File `Images/EMSpektrum.png' not found on input line 73.
+]
+\openout2 = `Einleitung.aux'.
 
+ ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.tex") [2
 
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:73: Package pdftex.def Error: File `Images/EMSpektrum.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...   \includegraphics{Images/EMSpektrum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+]
+\openout2 = `theoretischeVorbereitung.aux'.
 
-LaTeX Warning: File `Images/PlanckStrahlung.png' not found on input line 93.
+ ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex") [3
 
 
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:93: Package pdftex.def Error: File `Images/PlanckStrahlung.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...0.9\textwidth]{Images/PlanckStrahlung.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+]
+\openout2 = `Versuchsaufbau.aux'.
 
-[1
 
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
+No file Versuchsaufbau.tex.
+[4
 
- []
 
 
-LaTeX Warning: File `Images/molek√ºlschwingungen.jpeg' not found on input line 159.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:159: Package pdftex.def Error: File `Images/molek√ºlschwingungen.jpeg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ...raphics{Images/molek√ºlschwingungen.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmtt10!
-Missing character: There is no º in font cmtt10!
-[3]
-Overfull \hbox (17.47177pt too wide) in paragraph at lines 189--195
-\OT1/cmr/m/n/10 Da Wech-sel-wir-kun-gen zwi-schen em-Strahlung und Mo-lek[]ulen nur dann auf-tre-ten kann, wenn die-ses ein ver[]anderbares
- []
-
-
-LaTeX Warning: File `Images/IRSpektrum.PNG' not found on input line 200.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:200: Package pdftex.def Error: File `Images/IRSpektrum.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 ...dth=0.9\textwidth]{Images/IRSpektrum.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4]
-Overfull \hbox (10.91629pt too wide) in paragraph at lines 203--206
-[]\OT1/cmr/m/n/10 Erh[]oht man den Druck in dem Messauf-bau, stellt man ei-ne Li-ni-en-ver-brei-te-rung pro-por-tio-nal zur Druck[]anderung
- []
-
-[5] [6]
-
-LaTeX Warning: File `Images/Versuchsaufbau.PNG' not found on input line 318.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:318: Package pdftex.def Error: File `Images/Versuchsaufbau.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 ...0.9\textwidth]{Images/Versuchsaufbau.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7]
-
-LaTeX Warning: File `Daten/DriftKorrektur.png' not found on input line 329.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:329: Package pdftex.def Error: File `Daten/DriftKorrektur.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.329 ...=0.9\textwidth]{Daten/DriftKorrektur.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8]
-
-LaTeX Warning: Reference `DriftKorr' on page 9 undefined on input line 379.
-
-[9]
-
-LaTeX Warning: File `Daten/DriftKorrekturFit.png' not found on input line 457.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:457: Package pdftex.def Error: File `Daten/DriftKorrekturFit.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.457 ...9\textwidth]{Daten/DriftKorrekturFit.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[10]
-
-LaTeX Warning: File `Daten/Matplot.png' not found on input line 468.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:468: Package pdftex.def Error: File `Daten/Matplot.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.468 ...s[width=0.9\textwidth]{Daten/Matplot.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-Overfull \hbox (26.9938pt too wide) in paragraph at lines 479--491
- [] 
- []
-
-[12]
-
-LaTeX Warning: File `Daten/KonzPlot4ml.png' not found on input line 530.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:530: Package pdftex.def Error: File `Daten/KonzPlot4ml.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.530 ...dth=0.9\textwidth]{Daten/KonzPlot4ml.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[13]
-
-LaTeX Warning: File `Daten/LambertBeer.png' not found on input line 568.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:568: Package pdftex.def Error: File `Daten/LambertBeer.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.568 ...dth=0.7\textwidth]{Daten/LambertBeer.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14]
-
-LaTeX Warning: File `Daten/KonzPlot.png' not found on input line 596.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:596: Package pdftex.def Error: File `Daten/KonzPlot.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 ...[width=0.9\textwidth]{Daten/KonzPlot.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[15]
-
-LaTeX Warning: File `Daten/LuftPlot.png' not found on input line 666.
-
-
-c:/Users/dtimo/Desktop/Praktikum/B 2.2/B 2.2.tex:666: Package pdftex.def Error: File `Daten/LuftPlot.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.666 ...[width=0.8\textwidth]{Daten/LuftPlot.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 676--678
-
- []
-
-[17] ("c:/Users\dtimo\Desktop\Praktikum\B 2.2\B 2.2.aux")
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux")) ) 
 Here is how much of TeX's memory you used:
- 5696 strings out of 479799
- 84339 string characters out of 2869722
- 399726 words of memory out of 3000000
- 22570 multiletter control sequences out of 15000+200000
- 544713 words of font info for 66 fonts, out of 3000000 for 9000
+ 5505 strings out of 479799
+ 80847 string characters out of 2869723
+ 381791 words of memory out of 3000000
+ 22397 multiletter control sequences out of 15000+200000
+ 543864 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,12n,85p,351b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users\dtimo\Desktop\Praktikum\B 2.2\B 2.2.pdf" (19 pages, 265415 bytes).
+ 80i,7n,85p,290b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on "c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.pdf" (6 pages, 87015 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
