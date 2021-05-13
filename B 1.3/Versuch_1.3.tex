@@ -90,33 +90,59 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			\label{forces}
 		\end{figure}
 
-		\subsubsection{Coulomb Kraft [$\vec{F_c}$]}
-			Die Coulomb Kraft beschreibt die Kraft auf ein geladenes Objekt in einem elektrischen Feld.
-			In einem Plattenkondensator:
+		\subsubsection{Coulomb Kraft [ $\vec{F_c}$ ]}
+			Die domininierende Kraft in diesem Versuch ist die Coulomb Kraft. Sie definiert die Kraft auf eine Punktladung oder ein
+			geladenes Makroskopisches Objekt in anwesenheit eines Elektrischen feldes. In diesem Fall wird das Elektrische Feld
+			durch den Plattenkondensator erzeugt und übt eine Kraft auf die Geladenen Öltröpfchen aus. Diese Kraft ist im \ref{forces}
+			gekenzeichnet durch $\vec{F_c}$ und lässt sich beschreiben durch
 			\begin{equation}
-				\vec{F}_C = Q \cdot \frac{U}{d} \vec{e}_z
+				\vec{F_c} = Q \cdot \frac{\pm U}{d} \vec{e}_z
 			\end{equation}
-			wobei Q die Ladung des Objektes ist, U die Spannung zwischen den Kondensatorplatten und d der Abstand der Kondensatorplatten ist.	
-		\subsubsection{Gravitationskraft}
-			Die Gravitationskraft beschreibt die Beschleunigung einer Masse in einem Gravitationsfeld eines Massereichen Objektes.
-			In diesem Fall im Gravitationsfeld der Erde, gilt:
+			wobei Q die Ladung des Objektes ist, U die Spannung zwischen den Kondensatorplatten und d der Abstand der Kondensatorplatten ist.
+			Die Richtung der resultierenden Kraft hängt dabei von der Polarisierung des Kondensators ab. Polt man diesen über den Kommutatorschalter \ref{kommutator}
+			um, so ändert sich auch die Richtung der wirkenden kraft. Sie ändert sich auch mit der Ladung des Objektes selber,
+			diese lässt sich jedoch in diesem aufbau nicht kontrollieren.	
+		
+			\subsubsection{Gravitationskraft [ $\vec{F_g}$ ]}
+			Die nächst größte Kraft ist hier die Gravitationskraft, sie beschreibt die Wirkung eines Massereichen Objektes,
+			hier der Erde, auf eine zweite Masse. Streng genommen beschreibt sie auch die Anziehende wirkung zwischen kleineren
+			massen, jedoch sind diese in anwesenheit einer weitaus massereicheren objektes zu vernachlässigen.
+			Im gravitationsfeld der Erde lässt sich die Kraft auf die die Öltröpchen über
 			\begin{equation}
-				\vec{F}_G = m\vec{g}
+				\vec{F_g} = m\vec{g}
 			\end{equation}
-			wobei m die Masse des Objektes (hier das Öltröpchen) und g die lokale Erdbeschleunigung mit $g = 9,80665 \frac{m}{s^2}$ ist ($\vec{g} = g \cdot -\vec{e}_z$).
-		\subsubsection{Auftriebskraft}
-			Als Auftriebskraft wird eine der Gewichtskraft eines Körpers entgegenwirkende Kraft bezeichnet. Diese resultiert aus dem Druckunterschied zwischen Ober-und Unterseite des Körpers, welcher aus dem Schweredruckdes Mediums resultiert
+			wobei m die Masse des Objektes (hier das Öltröpchen) und g die lokale Erdbeschleunigung mit $g = 9,80665 \frac{m}{s^2}$ ist ($\vec{g} = g \cdot -\vec{e}_z$) beschreiben.
+			sie wirkt stehts in richtung der Erdoberfläche und ist unabhängig von der Ladung der Tröpfchen. Sie wirkt entweder
+			der Coulombkraft entgegen oder Addiert sich zu ihr, daraus folgt auch das die Coulombkraft dominieren muss damit man den
+			steigvorgang der Tröpfchen beobachten kann.
+		
+			\subsubsection{Auftriebskraft [ $\vec{F_a}$ ]}
+			Die Auftriebskraft ist eine der Gravitationskraft entgegenwirkende größe, sie beschreibt die scheinbare
+			massenabnahme eines Objekts durch die Verdrängung des umschließenden Mediums. Sie wirkt daher, das der
+			druck auf ein umschlossenes Object mit der Eintauchtiefe zunimmt und für makroskopische objekte somit
+			nicht als konstant angenommen werden kann. Sie hängt ab von der Dichte des umschließenden Mediums, bzw. des davon abhängigen Drucks,
+			dem Volumen des Objekts und der Gravitationsbeschleunigung.
 			Ein Tröpchen mit dem Radius r erfährt in der Luft unter der Erdbeschleunigung eine Auftriebskraft:
 			\begin{equation}
-				\vec{F}_A = - \rho_{Luft} \frac{4}{3} \pi r^3 \vec{g}
+				\vec{F_a} = - \rho_{Luft} \frac{4}{3} \pi r^3 \vec{g}
 			\end{equation}
-			mit $\rho_{Luft}$ als Dichte der Luft
-		\subsubsection{Reibungskraft}
+			mit $\rho_{Luft}$ als Dichte der Luft. Dabei beschreibt $V=\frac{4}{3} \pi r^3$ das Volumen einer Kugel.
+			Da die dichte der Luft, oder gasen im allgemeinen, im vegleich zu üblichen fluiden wie Wasser, oder flüssigkeiten im allgemeinen, an denen üblicherweise
+			der begriff der Auftriebskraft demonstriert wird, ist die Auftriebskraft verschwindent gering.
+		
+			\subsubsection{Reibungskraft [ $\vec{F_r}$ ]}
 			Reibungskräfte sind geschwindigkeitsabhängige Widerstandskräfte, die der Bewegung eines Körpers entgegenwirken.
-			Man unterscheidet zwischen äußerer und innerer Reibung. Für diesen Versuch interessiert uns die innere Reibung, welche sich aus der Viskosität des Mediums ableitet.
+			Man unterscheidet zwischen äußerer und innerer Reibung.
+			Reibung entsteht im allgemeinen durch energieaustausch eines Bewegten Objektes mit seiner Umgebung,
+			so gibt ein Festkörper im falle von äusserer Reibung durch seine Kontaktfläche mit anderen Festkörpern
+			einen Teil seiner Bewegungsenergie an diese ab, die daraus resultierende negative beschleunigung wirkt
+			der ursprünglichen bewegungsrichtung entgegen und lässt sich in verbindung mit der masse des objektes als
+			Kraft interpretieren. Inner reibung wirkt ähnlich, hier tritt der Energieverlust durch die verformung
+			benachbarter teilchen innerhalb eines Festkörpers, Flüssigkeit oder wie hier einem Gaß auf.
+			Für diesen Versuch interessiert uns die innere Reibung, welche sich aus der Viskosität des Mediums ableitet.
 			Die Stokes-Reibungskraft auf eine Kugel mit dem Radius r und Geschwindigkeit v, welche sich durch ein Medium der Viskosität $\eta$ bewegt ergibt sich zu
 			\begin{equation}
-				\vec{F}_R = -6 \pi r \eta \vec{v}
+				\vec{F_r} = -6 \pi r \eta \vec{v}
 			\end{equation}
 		\subsubsection{Cunningham-Korrektur}
 			Wenn der Radius eines Teilchens im Bereich der mittleren freien Weglänge des umgebenden Mediums liegt, trifft das Stoke´sche Reibungsgesetz nicht mehr zu.
@@ -130,7 +156,6 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			Aus den wirkenden Kräften können wir uns jetzt Formeln für den Radius und die Ladung eines Öltröpchens herleiten.
 			Im Kräftegleichgewicht ist die Summe aller wirkenden Kräfte gleich 0.
 			Das Medium in dem sich die Tröpchen bewegen ist Luft, daher	$\rho_m  = \rho_{Luft}$ und $\rho_K = \rho_{Öl}$
-
 			Ein Tröpchen steigt für
 			\begin{equation}
 				\vec{F}_C + \vec{F}_A > \vec{F}_G
@@ -172,6 +197,7 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			\centering
 			\includegraphics[width=1.0\textwidth]{Versuchsaufbau.PNG}
 			\caption{Versuchsaufbau}
+			\label{versuchsaufbau}
 		\end{figure}
 		\begin{itemize}
 			\item (a) Mikroskop mit vorgeschalteter Kamera
@@ -179,6 +205,13 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			\item (c) Ölstäuber mit Blasebalg
 			\item (d) Kommutatorschaltung
 		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.5\textwidth]{kommutator.png}
+			\caption{Schaltplan eines Kommutator bzw. Wechselschalters in beiden Stellungen}
+			\label{Kommutator } 
+		\end{figure}
+
 	\subsection{Versuchsdurchführung}
 		Zu Beginn des Versuchs müssen sowohl Mikroskop als auch Kamera kalibiriert werden. Dafür wird zunächst die
 		Spannungsversorgung der Mikroskopkamera angeschaltet und dessen Addresse und Konfiguration über die 'Commen Vision Blox Management Console'

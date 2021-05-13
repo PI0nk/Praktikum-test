@@ -4,15 +4,15 @@
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}{}%
 \contentsline {subsection}{\numberline {1.2}Die Elementarladung}{1}{}%
 \contentsline {subsection}{\numberline {1.3}Kräfte im Versuch}{1}{}%
-\contentsline {subsubsection}{\numberline {1.3.1}Coulomb Kraft [$\vec {F_c}$]}{2}{}%
-\contentsline {subsubsection}{\numberline {1.3.2}Gravitationskraft}{2}{}%
-\contentsline {subsubsection}{\numberline {1.3.3}Auftriebskraft}{2}{}%
-\contentsline {subsubsection}{\numberline {1.3.4}Reibungskraft}{2}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Coulomb Kraft [ $\vec {F_c}$ ]}{2}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Gravitationskraft [ $\vec {F_g}$ ]}{2}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Auftriebskraft [ $\vec {F_a}$ ]}{2}{}%
+\contentsline {subsubsection}{\numberline {1.3.4}Reibungskraft [ $\vec {F_r}$ ]}{3}{}%
 \contentsline {subsubsection}{\numberline {1.3.5}Cunningham-Korrektur}{3}{}%
 \contentsline {subsection}{\numberline {1.4}Herleitung der Formeln}{3}{}%
 \contentsline {section}{\numberline {2}Durchführung}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Aufbau}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Versuchsdurchführung}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Versuchsdurchführung}{5}{}%
 \contentsline {section}{\numberline {3}Auswertung}{5}{}%
-\contentsline {section}{\numberline {4}Diskussion}{8}{}%
+\contentsline {section}{\numberline {4}Diskussion}{9}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

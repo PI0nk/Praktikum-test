@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  12 MAY 2021 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  13 MAY 2021 11:13
 entering extended mode
 **"c:/Users/jesco/Documents/Praktikum-test/B 1.3/Versuch_1.3.tex"
 ("c:/Users/jesco/Documents/Praktikum-test/B 1.3/Versuch_1.3.tex"
@@ -655,88 +655,101 @@ Package pdftex.def Info: kr√§fte.png  used on input line 88.
 (pdftex.def)             Requested size: 45.52719pt x 151.9412pt.
 [1
 
-] [2 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/kr√§fte.png>]
+]
 
-LaTeX Warning: Command \" invalid in math mode on input line 132.
+LaTeX Warning: Reference `kommutator' on page 2 undefined on input line 102.
 
-Missing character: There is no ÷ in font cmr8!
+[2 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/kr√§fte.png>]
 
-LaTeX Warning: Command \" invalid in math mode on input line 140.
-
-Missing character: There is no ÷ in font cmr8!
-
-LaTeX Warning: Command \" invalid in math mode on input line 144.
+LaTeX Warning: Command \" invalid in math mode on input line 158.
 
 Missing character: There is no ÷ in font cmr8!
 
-LaTeX Warning: Command \" invalid in math mode on input line 149.
+LaTeX Warning: Command \" invalid in math mode on input line 165.
 
 Missing character: There is no ÷ in font cmr8!
 
-LaTeX Warning: Command \" invalid in math mode on input line 155.
+LaTeX Warning: Command \" invalid in math mode on input line 169.
 
 Missing character: There is no ÷ in font cmr8!
 
-LaTeX Warning: Command \" invalid in math mode on input line 160.
+LaTeX Warning: Command \" invalid in math mode on input line 174.
 
 Missing character: There is no ÷ in font cmr8!
-<Versuchsaufbau.PNG, id=35, 582.67688pt x 362.85562pt>
+[3]
+
+LaTeX Warning: Command \" invalid in math mode on input line 180.
+
+Missing character: There is no ÷ in font cmr8!
+
+LaTeX Warning: Command \" invalid in math mode on input line 185.
+
+Missing character: There is no ÷ in font cmr8!
+<Versuchsaufbau.PNG, id=40, 582.67688pt x 362.85562pt>
 File: Versuchsaufbau.PNG Graphic file (type png)
 <use Versuchsaufbau.PNG>
-Package pdftex.def Info: Versuchsaufbau.PNG  used on input line 173.
+Package pdftex.def Info: Versuchsaufbau.PNG  used on input line 198.
 (pdftex.def)             Requested size: 455.24417pt x 283.5024pt.
-[3] [4 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/Versuchsaufbau.PNG>]
+<kommutator.png, id=41, 180.675pt x 106.3975pt>
+File: kommutator.png Graphic file (type png)
+<use kommutator.png>
+Package pdftex.def Info: kommutator.png  used on input line 210.
+(pdftex.def)             Requested size: 227.62209pt x 134.0453pt.
+[4 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/Versuchsaufbau.PNG>] [5 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/kommutator.png>]
 
-LaTeX Warning: Command \" invalid in math mode on input line 228.
+LaTeX Warning: Command \" invalid in math mode on input line 261.
 
 Missing character: There is no ÷ in font cmr8!
 
-LaTeX Warning: Command \" invalid in math mode on input line 230.
+LaTeX Warning: Command \" invalid in math mode on input line 263.
 
 Missing character: There is no ÷ in font cmr8!
 
-Overfull \hbox (48.0813pt too wide) in paragraph at lines 245--270
+Overfull \hbox (48.0813pt too wide) in paragraph at lines 278--303
 [][] 
  []
 
-[5]
-<QoverRUncorr.pdf, id=50, 433.62pt x 289.08pt>
+<QoverRUncorr.pdf, id=53, 433.62pt x 289.08pt>
 File: QoverRUncorr.pdf Graphic file (type pdf)
 <use QoverRUncorr.pdf>
-Package pdftex.def Info: QoverRUncorr.pdf  used on input line 274.
+Package pdftex.def Info: QoverRUncorr.pdf  used on input line 307.
 (pdftex.def)             Requested size: 455.24417pt x 303.51207pt.
- [6 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/QoverRUncorr.pdf>]
-<QoverRUncorrCunt.pdf, id=94, 433.62pt x 289.08pt>
+[6]
+<QoverRUncorrCunt.pdf, id=57, 433.62pt x 289.08pt>
 File: QoverRUncorrCunt.pdf Graphic file (type pdf)
 <use QoverRUncorrCunt.pdf>
-Package pdftex.def Info: QoverRUncorrCunt.pdf  used on input line 324.
+Package pdftex.def Info: QoverRUncorrCunt.pdf  used on input line 357.
 (pdftex.def)             Requested size: 455.24417pt x 303.51207pt.
- [7] [8 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/QoverRUncorrCunt.pdf>] [9]
+ [7 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/QoverRUncorr.pdf>] [8 <c:/Users/jesco/Documents/Praktikum-test/B 1.3/QoverRUncorrCunt.pdf>] [9]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     364.
-
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     364.
+(LaTeX3)     397.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     364.
+(LaTeX3)     397.
 
- ("c:/Users\jesco\Documents\Praktikum-test\B 1.3\Versuch_1.3.aux") ) 
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     397.
+
+ ("c:/Users\jesco\Documents\Praktikum-test\B 1.3\Versuch_1.3.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9058 strings out of 479799
- 163318 string characters out of 2869723
- 590259 words of memory out of 3000000
- 25895 multiletter control sequences out of 15000+200000
- 556678 words of font info for 83 fonts, out of 3000000 for 9000
+ 9069 strings out of 479799
+ 163487 string characters out of 2869723
+ 593275 words of memory out of 3000000
+ 25904 multiletter control sequences out of 15000+200000
+ 557461 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,10n,111p,10674b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "c:/Users\jesco\Documents\Praktikum-test\B 1.3\Versuch_1.3.pdf" (11 pages, 289589 bytes).
+ <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "c:/Users\jesco\Documents\Praktikum-test\B 1.3\Versuch_1.3.pdf" (11 pages, 297927 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
+ 535 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
