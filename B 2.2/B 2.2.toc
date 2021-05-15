@@ -4,15 +4,16 @@
 \contentsline {subsection}{\numberline {2.1}Reziprokes Gitter}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Ordnungsparameter und Phasenübergänge}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Überstrukturen}{2}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}$CuZn$}{3}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}$CuAu$}{3}{}%
-\contentsline {subsubsection}{\numberline {2.3.3}$Cu_3Au$}{3}{}%
-\contentsline {subsection}{\numberline {2.4}Die röntgenographische Methode}{3}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Aufbau eines Röntgendiffraktometers}{3}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}Röntgenstrahlung}{3}{}%
-\contentsline {subsubsection}{\numberline {2.4.3}Intensität der gestreuten Röntgenstrahlung}{3}{}%
-\contentsline {subsection}{\numberline {2.5}Reflexindizierung im Röntgendiffraktogramm}{3}{}%
-\contentsline {subsection}{\numberline {2.6}Die resistive Methode}{3}{}%
-\contentsline {section}{\numberline {3}Versuchsaufbau}{4}{}%
-\contentsline {section}{\numberline {4}Auswertung}{5}{}%
-\contentsline {section}{\numberline {5}Diskussion}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Legierung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}$CuZn$ - Legierung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}$CuAu$ - Legierung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}$Cu_3Au$ - Legierung}{3}{}%
+\contentsline {subsection}{\numberline {2.5}Die röntgenographische Methode}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Röntgenstrahlung}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Aufbau eines Röntgendiffraktometers}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}Intensität der gestreuten Röntgenstrahlung}{4}{}%
+\contentsline {subsection}{\numberline {2.6}Reflexindizierung im Röntgendiffraktogramm}{4}{}%
+\contentsline {subsection}{\numberline {2.7}Die resistive Methode}{4}{}%
+\contentsline {section}{\numberline {3}Versuchsaufbau}{5}{}%
+\contentsline {section}{\numberline {4}Auswertung}{6}{}%
+\contentsline {section}{\numberline {5}Diskussion}{6}{}%

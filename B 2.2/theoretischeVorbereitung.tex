@@ -12,7 +12,7 @@
             \\\vec{b_2} = 2\pi \frac{\vec{a_3}\times \vec{a_1}}{\vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})}
             \\\vec{b_3} = 2\pi \frac{\vec{a_1}\times \vec{a_2}}{\vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})}
         \end{align*}
-        Über dieses Definition der Basisvektoren lassen sich die Koordinateneines Punktes im reziproken Gitter
+        Über diese Definition der Basisvektoren lassen sich die Koordinaten eines Punktes im reziproken Gitter
         über die Miller'schen indizes $(hkl)$ beschreiben.
         
         \subsubsection*{Bragg Gleichung}
@@ -58,20 +58,77 @@
         Andererseits lässt sich über Beugungsverfahren das reziproke Gitter der Oberfläche abbilden, bei der die
         Überstruktur zu zusätzlichen Gitterpunkten im reziproken Gitter in form von zusätzlichen Beugungsmaxima
         führt. 
-        \subsubsection{$CuZn$}
+
+        \subsection{Legierung}
+            Eine Legierung ist ein Gemisch aus mindestens einem Metall (Basismetall) und einem anderen Element (Komponente). Im Allgemeinen 
+            haben Legierungen einen kristallinen Aufbau. Die Legierung weisst andere chemische Eigenschaften, wie Härte oder elektrische Leitfähigkeit,
+            auf als das Basismetall. Künstliche Legierungen können dazu verwendet werden, um Werkstoffeigenschaften auf gewünschte Weise zu ändern.
+        \subsubsection{$CuZn$ - Legierung}
+            Die $CuZn$ Legierung (Messing) kristalisiert in einem bcc-Gitter. Beide Elemente kristallisieren in einem sc-Gitter,
+            wobei die beiden Gitter so verschoben sind, dass in einer Zelle sich ein Eckatom des anderen Gitters befindet $\Rightarrow$ bcc-Gitter 
             
-        \subsubsection{$CuAu$}
+        \subsubsection{$CuAu$ - Legierung}
+            Wird Kupfer und Gold zu gleichen Teilen gemischt, so bildet sich im ungeordneten Fall eine fcc-Struktur. Die Gitterplätze sind gleichermaßen
+            mit Kupfer- und Goldatomen besetzt. Bei der geordneten Struktur sind in der $[001]$-Ebene die Gitterplätze abwechselnd von Kupfer- und Goldatomen besetzt.
+            Durch diese abwechselnde Besetzung wird das fcc-Gitter verzerrt, so dass $\frac{\vec{a_3}}{\vec{a_1}} = 0.93$ beobachtet wird.
 
-        \subsubsection{$Cu_3Au$}
-
+        \subsubsection{$Cu_3Au$ - Legierung}
+            Wird nun Kupfer und Gold 3:1 gemischt, entsteht im ungeordneten Fall wieder ein fcc-Gitter, aber diesmal mit anderen Wahrscheinlichkeiten
+            (75\% Kupfer-, 25\% Goldatome). Die geordnete Struktur ist nun deutlich komplizierter. Auf den ersten Blick sieht es wie ein fcc-Gitter aus, 
+            jedoch zeichnet sich die $Cu_3Au$ Kristallstruktur dadurch aus, dass sowohl Gold als auch Kupfer in sc-Gittern kristallisieren. Somit liegen 
+            vier sc-Gitter ineinander. Die Goldatome formen ein sc-Gitter, welches mit den bisherigen fcc-Gitter Eckatomen übereinstimmt.
+            Die übrigbleibenden zentrierten Flächenplätze können nun durch  drei sc-Gitter von Kupferatomen beschrieben werden.
     \subsection{Die röntgenographische Methode}
 
-        \subsubsection{Aufbau eines Röntgendiffraktometers}   
+        \subsubsection{Röntgenstrahlung}    
+            Röntgenstrahlung gehört zum elektromagnetischen Spektrum. Röntgenstrahlung entspricht einer Energie von etwa
+            100eV oder einer Wellenlänge $~10 nm$. Es gibt unterschiedliche Möglichkeiten Röntgenstrahlung zu erzeugen. 
+            Durch Elektronen kann Röntgenstrahlung erzeugt werden, bei hochenergetischen Elektronen Übergängen in Atomen. 
+            Bei starkem Beschleunigen (meist Abbremsen oder umlenken) von Elektronen entsteht die sogenannte Bremsstrahlung, welche im Energiebereich
+            von Röntgenstrahlung liegt. Somit lässt sich Röntgenstrahlung in einer Röntgenröhre ohne großen Aufwand erzeugen.
+            Eine Röntgenröhre besteht aus einer evakuierten Röhre, einer Glükathode und einer Anode. Bei der Glühkathode werden
+            freie Elektronen erzeugt und durch einen Spannungsunterschied zur Anode hinbeschleunigt. Beim Auftreffen auf die Anode
+            der Elektronen entsteht Röntgenstrahlung. Die erzeugte Röntgenstrahlung besteht aus zwei Komponenten, dem kontinuierlichen Spektrum
+            und einem diskreten Linienspektrum. Das kontinuierliche Spektrum wird erzeugt, durch die verschiedenen Endenergien der auftreffenden Elektronen. 
+            Das diskrete Linienspektrum entsteht durch das Material der Anode. Wenn die auftreffenden Elektronen die richtige Energie haben, 
+            können diese die Atome der Anode anregen, welche wiederum Röntgenstrahlung emittieren.
 
-        \subsubsection{Röntgenstrahlung}
+        \subsubsection{Aufbau eines Röntgendiffraktometers}   
+            Es gibt drei verschiedene Methoden der Röntgendiffraktometrie. Alle drei Methoden bauen auf der Bragg-Bedingung auf.
+            \begin{enumerate}
+                \item   Laue-Verfahren: Hier wird ein kontinuierliches Röntgenspektrum mit fester Orientierung zu einem Einkristall verwendet. 
+                        jede Ebenenschar sucht sich genau die Wellenlänge raus, für die die Bragg-Bedingung bei vorgegebenen Winkel erfüllt ist.
+                \item   Drehkristall-Verfahren: In diesem Verfahren wird monochromatische Röntgenstrahlung an einem Einkristall gebeugt. Der Einkristall 
+                        wird mit einem Detektor gedreht. Immer wenn bei einer Wellenlänge die Bragg-Bedingung erfüllt ist, tritt ein Beugungsreflex auf.
+                \item   Debye-Scherrer-Verfahren: Bei dem Debye-Scherrer-Verfahren wird monochromatische Röntgenstrahlung verwendet. Im Unterschied
+                        zum Drehkristall-Verfahren besteht hier unsere Probe aus einem Pulver. In diesem Pulver sind die einzelnen Kristalle in alle möglichen 
+                        Richtungen gerichtet. 
+            \end{enumerate}
 
         \subsubsection{Intensität der gestreuten Röntgenstrahlung}
+            Die Intensität der Röntgenstrahlen ist proportional zum Betragsquadrat des Formfaktors. 
+            \begin{equation}
+                I_{hkl} \propto |F|^2 p L_P A_t
+            \end{equation}
+            mit F = Strukturfaktor, p = Flächenhäufigkeitsfaktor, $L_P$ = Lorentz-Polarisationsfaktor und $A_T$ = Absorptionsfaktor
+            Der Strukturfaktor gibt die Streudichte einer Elementarzelle an. Er lässt sich aus der Fouriertransformierten
+            der Ladungsverteilung bestimmen.
+            \begin{equation}
+                F_{hkl} = \sum_i f_i e^{i \vec{G} \cdot \vec{r_i}}
+            \end{equation}
+            $\vec{r_i}$ ist der Ortsvektor der i-ten Atoms, $f_i$ der Atomformfaktor und G der reziproke Gittervektor des vorliegenden Bravais-Gitters
+            Für ein kubisches Gitter vereinfacht sich  die Formel zu:
+            \begin{equation}
+                F_{hkl} = \sum_i f_i e^{i 2 \pi (hx + ky + lz)_i}
+            \end{equation}
+            Der Lorentz-Polarisationsfaktor ist ein Korrekturterm, welcher die Winkelabhängigkeit der Intensität berücksichtigt. Außerdem,
+            dass die beobachteten Peaks keine scharfen Linien bilden.
+            \begin{equation}
+                L_P = \frac{1 + cos^2(2 \theta)}{sin^2(\theta) cos^2(\theta)}
+            \end{equation}
 
+            Eine weitere Korrektur ist der Absorptionsfaktor. Er berücksichtigt die Absorption von Strahlung innerhalb des Materials.
+            
         \subsection{Reflexindizierung im Röntgendiffraktogramm}
     
     \subsection{Die resistive Methode}
