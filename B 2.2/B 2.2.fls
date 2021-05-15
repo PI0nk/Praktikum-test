@@ -423,6 +423,9 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.tex
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0700.tfm
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0500.tfm
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
@@ -444,6 +447,8 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
+INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
