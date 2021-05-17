@@ -18,5 +18,7 @@
 \contentsline {subsubsection}{\numberline {2.7.2}Temperaturabhängigkeit}{4}{}%
 \contentsline {subsubsection}{\numberline {2.7.3}Vierpunktmethode}{5}{}%
 \contentsline {section}{\numberline {3}Versuchsaufbau}{6}{}%
-\contentsline {section}{\numberline {4}Auswertung}{7}{}%
-\contentsline {section}{\numberline {5}Diskussion}{7}{}%
+\contentsline {section}{\numberline {4}Versuchsafbau}{7}{}%
+\contentsline {section}{\numberline {5}Durchführung}{8}{}%
+\contentsline {section}{\numberline {6}Auswertung}{9}{}%
+\contentsline {section}{\numberline {7}Diskussion}{9}{}%

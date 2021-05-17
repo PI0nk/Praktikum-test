@@ -318,6 +318,9 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
 OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -437,6 +440,7 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
+OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
@@ -447,6 +451,9 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
 INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  17 MAY 2021 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  17 MAY 2021 16:47
 entering extended mode
 **"c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
 ("c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
@@ -225,7 +225,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box54
-) ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux"))
+) ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux"))
 \openout1 = `"B 2.2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -338,21 +338,31 @@ Overfull \hbox (15.08293pt too wide) in paragraph at lines 123--126
 
  ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex") [7
 
+] [8
 
 
-] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux")) ) 
+]
+\openout2 = `[Durchführung.tex].aux'.
+
+
+No file [Durchführung.tex].tex.
+[9
+
+
+
+] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux")) ) 
 Here is how much of TeX's memory you used:
- 5518 strings out of 479799
- 81105 string characters out of 2869723
- 394793 words of memory out of 3000000
- 22405 multiletter control sequences out of 15000+200000
+ 5527 strings out of 479799
+ 81487 string characters out of 2869723
+ 395085 words of memory out of 3000000
+ 22409 multiletter control sequences out of 15000+200000
  544877 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,85p,290b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.pdf" (9 pages, 188570 bytes).
+Output written on "c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.pdf" (11 pages, 189986 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
