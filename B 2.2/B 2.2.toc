@@ -15,5 +15,7 @@
 \contentsline {subsection}{\numberline {2.6}Reflexindizierung im Röntgendiffraktogramm}{4}{}%
 \contentsline {subsection}{\numberline {2.7}Die resistive Methode}{4}{}%
 \contentsline {section}{\numberline {3}Versuchsaufbau}{5}{}%
-\contentsline {section}{\numberline {4}Auswertung}{6}{}%
-\contentsline {section}{\numberline {5}Diskussion}{6}{}%
+\contentsline {section}{\numberline {4}Versuchsafbau}{6}{}%
+\contentsline {section}{\numberline {5}Durchführung}{7}{}%
+\contentsline {section}{\numberline {6}Auswertung}{8}{}%
+\contentsline {section}{\numberline {7}Diskussion}{8}{}%
