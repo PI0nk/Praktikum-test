@@ -14,6 +14,9 @@
 \contentsline {subsubsection}{\numberline {2.5.3}Intensität der gestreuten Röntgenstrahlung}{4}{}%
 \contentsline {subsection}{\numberline {2.6}Reflexindizierung im Röntgendiffraktogramm}{4}{}%
 \contentsline {subsection}{\numberline {2.7}Die resistive Methode}{4}{}%
-\contentsline {section}{\numberline {3}Versuchsaufbau}{5}{}%
-\contentsline {section}{\numberline {4}Auswertung}{6}{}%
-\contentsline {section}{\numberline {5}Diskussion}{6}{}%
+\contentsline {subsubsection}{\numberline {2.7.1}Elektrische Leitfähigkeit}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.2}Temperaturabhängigkeit}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.3}Vierpunktmethode}{5}{}%
+\contentsline {section}{\numberline {3}Versuchsaufbau}{6}{}%
+\contentsline {section}{\numberline {4}Auswertung}{7}{}%
+\contentsline {section}{\numberline {5}Diskussion}{7}{}%

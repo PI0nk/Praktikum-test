@@ -132,4 +132,59 @@
         \subsection{Reflexindizierung im Röntgendiffraktogramm}
     
     \subsection{Die resistive Methode}
+        Die zweite Methode zur Proben charakterisierung die hier Anwendung findet ist die resistive.
+        Dabei erhällt man informationen über die Ordnung s im Kristall über die Messung des Widerstands.
+        \subsubsection{Elektrische Leitfähigkeit}
+            Möchte man die elektrische Leitung von Elektronen durch ein Metall beschreiben bietet sich unter
+            anderem das Modell von Arnold Sommerfeld, auch gennant Drude-Sommerfeld-Modell, an. In diesem Modell
+            wird ein elektrischer Leiter mit frei beweglichen Elektronen als Elektronengaß betrachtet.
+            Durch ein äußeres Elektrisches Feld erfahren die freien Elektronen im Leiter eine Kraft $F_{el} = qE$
+            und es kommt zu einem Stromfluss. Das problem der unbegrenzten Beschleunigung wird durch das Drude-Modell
+            durch Stöße zwischen den Elektronen und Gitterionen beschrieben, durch die das Elektron abgebremst wird
+            und die Energie als Wärme abgegeben wird. Diese Bewegung lässt sich beschreiben über
+            \begin{equation}
+                ma + \frac{m}{\tau}v_D = -eE
+            \end{equation}  
+
+        \subsubsection{Temperaturabhängigkeit}
+            Der speziefische Wiederstand einer Kristallstruktur wie z.B. einer Legierung lässt sich schreiben als
+            \begin{equation}
+                \rho = \rho_D + \rho_L(T)
+            \end{equation}
+            wobei $\rho_D$ den sogennanten temperaturunabhängigen Restwiderstand und $\rho_L$ den temperaturabhängigen
+            Widerstand beschreibt.\\
+            Geht man nun von einem reinen Metall zu einer Legierung ändert sich die Gitterstruktur und 
+            damit auch die Defektstellen im ursprünglichen Gitter, wodurch über das Phononenspektrum auch
+            die Temperaturabhängigkeit beeinflusst wird. Für kleine Konzentrationen an Fremdatomen ist die
+            Zahl der zusätzlichen Defektstellen proportional zur Konzentration. Im falle von $Cu_1-_xAu_x$ ergibt sich
+            die folgende quadratische Konzentrationsabhängigkeit für den Restwiderstand
+            \begin{equation}
+                \rho_D(x) = \rho_D(0)+Ax(1-x)
+            \end{equation}  
+            mit einer Materialkonstante A.\\
+            Für Ordnungsfähige legierungen wie $CuAu$ und $Cu_3Au$ muss zusätzlich noch die Abhängigkeit vom
+            Ordnungsgrad $S$ der langreichweitigen Ordnung berücksichtigt werden, da diese ebenfalls ein regelmäßiges
+            Gitter bilden.
+            \begin{equation}
+                \rho_D(x) = \rho_D(0)+Ax(1-x)(1-S^2)
+            \end{equation}
+            Mit bekanntem Restwiderstand und Materialkonstante lässt sich so der Ordnungsparameter bestimmen.
         
+        \subsubsection{Vierpunktmethode}   
+            Um nun aus dem Wiederstand den Ordnungsparameter S zu extrahieren lässt sich die Vierpunktmethode
+            zur Widerstandsmessung nutzen. Bei dieser werden vier Elektrische Kontakte bzw. Messspitzen auf die 
+            Oberfläche gebracht. Nun wird über die äußeren Kontakte ein bekannter/messbarer Strom auf die Oberfläche
+            geführt wodurch sich im Material ein Elektrisches Feld ausbildet, welches sich in Form einer 
+            Potentialdifferenz aus den mittleren Spitzen bestimmen lässt.
+            Wichtig bei dieser Messung ist es möglichst weit von den Rändern der Probe entfernt zu sein, da durch die Randbedingungen der
+            Strom dort stehts parralel zum Rand fließt. Im falle der idealisierten annahme und vier Messspitzen 
+            mit gleichem Abstand erhält man den Flächenwiderstand $R_{sq}$ über
+            \begin{equation}
+                R_{sq} = \frac{\pi}{ln2}\frac{U}{I}
+            \end{equation}
+            wobei U die Potentialdifferenz der Mittleren SPitzen und I der Strom der äusseren Spitzen ist.
+            Aus dem Flächenwiderstand lässt sich nun der gewünschte spezifische Widerstand berechnen
+            \begin{equation}
+                \rho = d R_{sq}
+            \end{equation}
+            mit d als Schichtdicke der Probe.
