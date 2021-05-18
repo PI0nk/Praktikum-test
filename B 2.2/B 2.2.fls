@@ -296,6 +296,17 @@ INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\generic\soul\soul.sty
+INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -318,9 +329,12 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
 OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -440,7 +454,63 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex
-OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+OUTPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperkek.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\copperwut.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\linienspeckie.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\4pointstyle.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\geom.PNG
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux
@@ -451,9 +521,12 @@ INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
 INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
-INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\[Durchführung.tex].aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\Durchführung.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
+INPUT c:\Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux
 INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jesco\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jesco\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

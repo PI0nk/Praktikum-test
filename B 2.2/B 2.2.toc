@@ -17,8 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.7.1}Elektrische Leitfähigkeit}{4}{}%
 \contentsline {subsubsection}{\numberline {2.7.2}Temperaturabhängigkeit}{4}{}%
 \contentsline {subsubsection}{\numberline {2.7.3}Vierpunktmethode}{5}{}%
-\contentsline {section}{\numberline {3}Versuchsaufbau}{6}{}%
-\contentsline {section}{\numberline {4}Versuchsafbau}{7}{}%
-\contentsline {section}{\numberline {5}Durchführung}{8}{}%
-\contentsline {section}{\numberline {6}Auswertung}{9}{}%
-\contentsline {section}{\numberline {7}Diskussion}{9}{}%
+\contentsline {section}{\numberline {3}Versuchsafbau}{6}{}%
+\contentsline {section}{\numberline {4}Durchführung}{7}{}%
+\contentsline {section}{\numberline {5}Auswertung}{8}{}%
+\contentsline {section}{\numberline {6}Diskussion}{8}{}%

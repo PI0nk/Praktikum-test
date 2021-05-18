@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  17 MAY 2021 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  18 MAY 2021 12:30
 entering extended mode
 **"c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
 ("c:/Users/jesco/Documents/Praktikum-test/B 2.2/B 2.2.tex"
@@ -221,40 +221,51 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box52
 \@float@everytoks=\toks26
 \@floatcapt=\box53
+) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks27
+\SOUL@lasttoken=\toks28
+\SOUL@cmds=\toks29
+\SOUL@buffer=\toks30
+\SOUL@token=\toks31
+\SOUL@spaceskip=\skip56
+\SOUL@ttwidth=\dimen173
+\SOUL@uldp=\dimen174
+\SOUL@ulht=\dimen175
 ) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box54
-) ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\[Durchf체hrung.tex].aux"))
+) ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Durchf체hrung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux"))
 \openout1 = `"B 2.2.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
-\scratchdimen=\dimen173
+\scratchdimen=\dimen176
 \scratchbox=\box55
 \nofMPsegments=\count275
 \nofMParguments=\count276
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count277
-\MPscratchDim=\dimen174
+\MPscratchDim=\dimen177
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -299,11 +310,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
  (C:\Users\jesco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -330,39 +341,76 @@ Overfull \hbox (15.08293pt too wide) in paragraph at lines 123--126
 \OT1/cmr/m/n/10 Der Lorentz-Polarisationsfaktor ist ein Kor-rek-tur-term, wel-cher die Win-kelabh[]angigkeit der In-ten-sit[]at ber[]ucksichtigt.
  []
 
-[4]) [5] [6
+[4]) [5]
+\openout2 = `Versuchsaufbau.aux'.
+
+ ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex") [6
+
 
 
 ]
-\openout2 = `Versuchsaufbau.aux'.
+\openout2 = `Durchf체hrung.aux'.
 
- ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.tex") [7
+ ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Durchf체hrung.tex"
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3.
+
+Missing character: There is no � in font cmr10!
+) [7
+
+
 
 ] [8
 
 
 ]
-\openout2 = `[Durchf체hrung.tex].aux'.
+\openout2 = `blaueFragen.aux'.
 
+ ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.tex"
+<copperkek.PNG, id=48, 600.74437pt x 298.86656pt>
+File: copperkek.PNG Graphic file (type png)
+<use copperkek.PNG>
+Package pdftex.def Info: copperkek.PNG  used on input line 23.
+(pdftex.def)             Requested size: 386.95894pt x 192.51434pt.
+<copperwut.PNG, id=50, 286.06876pt x 131.74219pt>
+File: copperwut.PNG Graphic file (type png)
+<use copperwut.PNG>
+Package pdftex.def Info: copperwut.PNG  used on input line 24.
+(pdftex.def)             Requested size: 386.95894pt x 178.2081pt.
+ [9
 
-No file [Durchf체hrung.tex].tex.
-[9
-
-
-
-] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\[Durchf체hrung.tex].aux")) ) 
+ <c:/Users/jesco/Documents/Praktikum-test/B 2.2/copperkek.PNG> <c:/Users/jesco/Documents/Praktikum-test/B 2.2/copperwut.PNG>]
+<linienspeckie.PNG, id=56, 531.48563pt x 259.7203pt>
+File: linienspeckie.PNG Graphic file (type png)
+<use linienspeckie.PNG>
+Package pdftex.def Info: linienspeckie.PNG  used on input line 27.
+(pdftex.def)             Requested size: 386.95894pt x 189.09886pt.
+<4pointstyle.PNG, id=57, 702.37407pt x 340.27126pt>
+File: 4pointstyle.PNG Graphic file (type png)
+<use 4pointstyle.PNG>
+Package pdftex.def Info: 4pointstyle.PNG  used on input line 29.
+(pdftex.def)             Requested size: 386.95894pt x 187.47166pt.
+<geom.PNG, id=58, 307.1475pt x 79.79813pt>
+File: geom.PNG Graphic file (type png)
+<use geom.PNG>
+Package pdftex.def Info: geom.PNG  used on input line 33.
+(pdftex.def)             Requested size: 386.95894pt x 100.54005pt.
+) [10 <c:/Users/jesco/Documents/Praktikum-test/B 2.2/linienspeckie.PNG> <c:/Users/jesco/Documents/Praktikum-test/B 2.2/4pointstyle.PNG> <c:/Users/jesco/Documents/Praktikum-test/B 2.2/geom.PNG>] ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.aux" ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Einleitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\theoretischeVorbereitung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Versuchsaufbau.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\Durchf체hrung.aux") ("c:/Users\jesco\Documents\Praktikum-test\B 2.2\blaueFragen.aux")) ) 
 Here is how much of TeX's memory you used:
- 5527 strings out of 479799
- 81487 string characters out of 2869723
- 395085 words of memory out of 3000000
- 22409 multiletter control sequences out of 15000+200000
- 544877 words of font info for 66 fonts, out of 3000000 for 9000
+ 5750 strings out of 479799
+ 84791 string characters out of 2869723
+ 398919 words of memory out of 3000000
+ 22612 multiletter control sequences out of 15000+200000
+ 545190 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,11n,85p,290b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,11n,85p,290b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jesco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jesco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.pdf" (11 pages, 189986 bytes).
+Output written on "c:/Users\jesco\Documents\Praktikum-test\B 2.2\B 2.2.pdf" (12 pages, 325250 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
