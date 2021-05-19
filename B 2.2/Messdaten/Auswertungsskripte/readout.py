@@ -29,7 +29,7 @@ def returnArray(ftype,data,cols,rows):
 
 for filepath in filepaths:
     for name in os.listdir(filepath):
-        if name.endswith('.xlsx'):
+        if name.endswith('.xlsx') or name.endswith('.txt'):
             continue
         
         if '.UXD' in name:
@@ -72,7 +72,7 @@ for filepath in filepaths:
                         columns = cleanString(header[3].split('\t'))
 
                         break
-
+            
             df = pd.DataFrame(returnArray(ftype,content,cols,rows),columns=columns)
             df.to_excel(filepath + '\\' + name.split('.')[0] + '.xlsx',index=False)
             
