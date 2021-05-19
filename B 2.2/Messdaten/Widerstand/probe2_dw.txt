@@ -1,0 +1,6 @@
+# Cu3Au
+#
+# sweep T-Probe 7 rate 10
+#T-Probe	Flaeche_0	Dx_Rho_0	R-Strom_0	R-Spannung_0	Widerstand_0	Zeit
+#1		2		3		4		5		6		7
+#
