@@ -348,7 +348,25 @@
             die Umkehr der Kondersatorspannung und der daraus resultierenden kurzen Beschleunigungsstrecke, sowie die Bewegung der
             Teilchen in 3D, die Brownsche Molekularbewegung und die Umweltbedingte Bewegung der Luft im Kondensator.
             
-            Zuletzt lässt sich nicht desto trotz die Elementarladung aus den Messwerten bestimmen. Dafür werden zunächst
+            Zuletzt lässt sich nicht desto trotz die Elementarladung aus den Messwerten bestimmen. Dafür wird für $N \geq 5$
+            der Mittelwert 
+            \begin{equation}
+                \bar{x} = \frac{1}{n} \sum^n x_i
+            \end{equation} 
+            mit dem Fehler
+            \begin{equation}
+                \Delta \bar{x} = \frac{1}{n} \sqrt{\sum^n \Delta x_i^2} 
+            \end{equation}
+            und für $N < 5$ das geometrische Mittel
+            \begin{equation}
+                \bar{x}_{geom} = \sqrt[3]{\prod^n x_i}
+            \end{equation}
+            mit dem Fehler
+            \begin{equation}
+                \Delta \bar{x}_{geom} = \sqrt{\frac{1}{n (\prod^n x_n)^{\frac{n-1}{n}}}}
+            \end{equation}
+            
+            Dafür werden zunächst
             alle mehrfachgeladen Teilchen auf die Einfache Ladungsmenge durch Division normiert (dh. $Q_i = \frac{Q_i}{\text{Mehrfachladung n}}$).
             Danach fließen alle Werte gewichtet mit ihrer Standardabweichung vom Mittelwert $w_i$ in die Berechnung der
             Elementarladung ein. Dafür gilt
