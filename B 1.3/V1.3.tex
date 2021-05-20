@@ -7,6 +7,7 @@
 \usepackage{figsize}
 \usepackage{float}
 \usepackage{geometry}
+\usepackage[table,x11names]{xcolor}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
 \usepackage[format=plain,font=small,labelfont=bf]{caption}
 \usepackage[OT2,T1]{fontenc}
@@ -347,7 +348,10 @@
             die Umkehr der Kondersatorspannung und der daraus resultierenden kurzen Beschleunigungsstrecke, sowie die Bewegung der
             Teilchen in 3D, die Brownsche Molekularbewegung und die Umweltbedingte Bewegung der Luft im Kondensator.
             
-            Zuletzt lässt sich nicht desto trotz die Elementarladung aus den Messwerten bestimmen. Dafür gilt
+            Zuletzt lässt sich nicht desto trotz die Elementarladung aus den Messwerten bestimmen. Dafür werden zunächst
+            alle mehrfachgeladen Teilchen auf die Einfache Ladungsmenge durch Division normiert (dh. $Q_i = \frac{Q_i}{\text{Mehrfachladung n}}$).
+            Danach fließen alle Werte gewichtet mit ihrer Standardabweichung vom Mittelwert $w_i$ in die Berechnung der
+            Elementarladung ein. Dafür gilt
             \begin{equation}
                 e = \frac{1}{\sum_{i=1}^n w_i} \sum_{i=1}^n Q_i \cdot w_i 
             \end{equation}
@@ -360,7 +364,8 @@
             \begin{equation}
                 \Delta e = \sqrt{\sum_{i=1}^n\frac{1}{w_i}}
             \end{equation}
-            Woraus sich für unsere Messung eine Elementarladung von $(1,83\pm 0.39)\cdot 10^{-19} C$ ergibt.
+            Woraus sich für unsere Messung eine Elementarladung von $(2.04\pm 0.39)\cdot 10^{-19} C$ für die Unkorrigierten werte und eine
+            Elementarladung von $(1.63\pm 0.39)\cdot 10^{-19}C$ für die korrigierten Werte ergibt.
             Diese liegt innerhalb des Fehlerbereichs auf dem Literaturwert von $e=1.602176634\cdot 10^{-19}C$.
             \section{Diskussion}
                 Abschließend noch eine Zusammenfassung. Die unkorrigierten Messwerte stimmen, wie zu erwarten, 
@@ -462,4 +467,62 @@
                         \caption{Verwendete Konstanten}
                         \label{Konstanten}
                     \end{figure}
+
+                    \begin{figure}[H]
+                        \centering
+                        \resizebox{\textwidth}{!}{
+                            \begin{tabular}{c| c| >{\bfseries}c| c| c| >{\bfseries}c| c| c| >{\bfseries}c| c| c| >{\bfseries}c| c| c| >{\bfseries}c}
+                                \hline
+                                \rowcolor{gray} Frames & Frames & $t_1$ & Frames & Frames & $t_2$ & Frames & Frames & $t_3$ & Frames & Frames & $t_4$ & Frames & Frames & $t_5$\\
+                                \hline
+                                508 & 662 & 154 & 677 & 929 & 252 & 939 & 1082 & 143 & 1096 & 1358 & 262 & 1374 & 1522 & 148\\
+                                \rowcolor{lightgray} 629 & 740 & 111 & 749 & 878 & 129 & 888 & 994 & 106 & 1005 & 1141 & 136 & 1149 & 1257 & 108\\
+                                893 & 1339 & 446 & 1347 & 1509 & 162 & 1529 & 1977 & 448 & 1999 & 2160 & 161 & 2185 & 2643 & 458\\
+                                \rowcolor{lightgray} 1225 & 1384 & 159 & 1405 & 1841 & 436 & 1857 & 2020 & 163 & 2028 & 2482 & 454 & 2504 & 2668 & 164\\
+                                1577 & 1892 & 315 & 1909 & 2062 & 153 & 2071 & 2392 & 321 & 2401 & 2556 & 155 & 2565 & 2878 & 313\\
+                                \rowcolor{lightgray} 903 & 1149 & 246 & 1169 & 1313 & 144 & 1334 & 1578 & 244 & 1599 & 1744 & 145 & 1770 & 2013 & 243\\
+                                1797 & 1903 & 106 & 1908 & 2238 & 330 & 2244 & 2349 & 105 & 2355 & 2670 & 315 & 2676 & 2782 & 106\\
+                                \rowcolor{lightgray} 1094 & 1245 & 151 & 1251 & 1511 & 260 & 1527 & 1674 & 147 & 1718 & 1983 & 265 & 1999 & 2147 & 148\\
+                                455 & 562 & 107 & 574 & 696 & 122 & 705 & 811 & 106 & 825 & 952 & 127 & 956 & 1057 & 101\\
+                                \rowcolor{lightgray} 335 & 754 & 419 & 762 & 922 & 160 & 928 & 1357 & 429 & 1370 & 1529 & 159 & 1540 & 1972 & 432\\
+                                348 & 739 & 391 & 760 & 922 & 162 & 945 & 1331 & 386 & 1341 & 1502 & 161 & 1507 & 1897 & 390\\
+                                \rowcolor{lightgray} 220 & 477 & 257 & 508 & 591 & 83 & 613 & 866 & 253 & 889 & 971 & 82 & 993 & 1254 & 261\\
+                                315 & 466 & 151 & 484 & 736 & 252 & 745 & 897 & 152 & 910 & 1174 & 264 & 1195 & 1343 & 148\\
+                                \rowcolor{lightgray} 934 & 1093 & 159 & 1114 & 1709 & 595 & 1715 & 1871 & 156 & 1892 & 2453 & 561 & 2458 & 2621 & 163\\
+                                1801 & 1958 & 157 & 1975 & 2327 & 352 & 2339 & 2494 & 155 & 2504 & 2860 & 356 & 2877 & 3035 & 158\\
+                                \rowcolor{lightgray} 307 & 464 & 157 & 482 & 882 & 400 & 895 & 1056 & 161 & 1079 & 1469 & 390 & 1483 & 1643 & 160\\
+                                432 & 536 & 104 & 542 & 765 & 223 & 779 & 883 & 104 & 905 & 1127 & 222 & 1134 & 1238 & 104\\
+                                \rowcolor{lightgray} 968 & 1413 & 445 & 1425 & 1531 & 106 & 1542 & 1964 & 422 & 1977 & 2083 & 106 & 2096 & 2522 & 426\\
+                                458 & 613 & 155 & 625 & 910 & 285 & 932 & 1091 & 159 & 1096 & 1354 & 258 & 1375 & 1523 & 148\\
+                                \rowcolor{lightgray} 584 & 706 & 122 & 708 & 813 & 105 & 821 & 943 & 122 & 948 & 1056 & 108 & 1063 & 1184 & 121\\
+                                \\
+                                \hline
+                                \rowcolor{gray} Frames & Frames & $t_6$ & Frames & Frames & $t_7$ & Frames & Frames & $t_8$ & Frames & Frames & $t_9$ & Frames & Frames & $t_{10}$\\
+                                \hline
+                                1535 & 1801 & 266 & 1814 & 1973 & 159 & 1990 & 2254 & 264 & 2271 & 2411 & 140 & 2426 & 2681 & 255\\
+                                \rowcolor{lightgray} 1265 & 1396 & 131 & 1404 & 1512 & 108 & 1523 & 1653 & 130 & 1661 & 1764 & 103 & 1771 & 1909 & 138\\
+                                2663 & 2826 & 163 & 2847 & 3307 & 460 & 3332 & 3494 & 162 & 3513 & 3972 & 459 & 3993 & 4153 & 160\\
+                                \rowcolor{lightgray} 2686 & 3132 & 446 & 3149 & 3316 & 167 & 3332 & 3792 & 460 & 3811 & 3975 & 164 & 3997 & 4456 & 459\\
+                                2889 & 3042 & 153 & 3049 & 3365 & 316 & 3375 & 3527 & 152 & 3537 & 3856 & 319 & 3864 & 4018 & 154\\
+                                \rowcolor{lightgray} 2035 & 2178 & 143 & 2203 & 2447 & 244 & 2470 & 2611 & 141 & 2632 & 2877 & 245 & 2903 & 3048 & 145\\
+                                2788 & 3119 & 331 & 3126 & 3233 & 107 & 3239 & 3549 & 310 & 3554 & 3662 & 108 & 3667 & 3993 & 326\\
+                                \rowcolor{lightgray} 2162 & 2426 & 264 & 2444 & 2596 & 152 & 2616 & 2877 & 261 & 2895 & 3042 & 147 & 3059 & 3325 & 266\\
+                                1069 & 1194 & 125 & 1206 & 1313 & 107 & 1321 & 1445 & 124 & 1454 & 1554 & 100 & 1565 & 1694 & 129\\
+                                \rowcolor{lightgray} 1984 & 2144 & 160 & 2155 & 2575 & 420 & 2585 & 2744 & 159 & 2752 & 3181 & 429 & 3189 & 3350 & 161\\
+                                1912 & 2072 & 160 & 2088 & 2479 & 391 & 2495 & 2657 & 162 & 2669 & 3060 & 391 & 3073 & 3234 & 161\\
+                                \rowcolor{lightgray} 1280 & 1366 & 86 & 1387 & 1651 & 264 & 1674 & 1760 & 86 & 1784 & 2035 & 251 & 2060 & 2143 & 83\\
+                                1361 & 1613 & 252 & 1628 & 1775 & 147 & 1794 & 2058 & 264 & 2073 & 2223 & 150 & 2241 & 2488 & 247\\
+                                \rowcolor{lightgray} 2638 & 3219 & 581 & 3233 & 3396 & 163 & 3408 & 3975 & 567 & 3991 & 4144 & 153 & 4159 & 4706 & 547\\
+                                3052 & 3404 & 352 & 3416 & 3573 & 157 & 3591 & 3946 & 355 & 3958 & 4113 & 155 & 4126 & 4482 & 356\\
+                                \rowcolor{lightgray} 1658 & 2047 & 389 & 2061 & 2216 & 155 & 2233 & 2621 & 388 & 2640 & 2801 & 161 & 2813 & 3201 & 388\\
+                                1251 & 1470 & 219 & 1480 & 1586 & 106 & 1597 & 1816 & 219 & 1826 & 1931 & 105 & 1942 & 2159 & 217\\
+                                \rowcolor{lightgray} 2533 & 2639 & 106 & 2651 & 3064 & 413 & 3079 & 3186 & 107 & 3197 & 3641 & 444 & 3655 & 3759 & 104\\
+                                1542 & 1809 & 267 & 1823 & 1975 & 152 & 1991 & 2245 & 254 & 2264 & 2426 & 162 & 2441 & 2694 & 253\\
+                                \rowcolor{lightgray} 1189 & 1294 & 105 & 1300 & 1419 & 119 & 1424 & 1527 & 103 & 1534 & 1654 & 120 & 1659 & 1767 & 108\\
+                           
+                            \end{tabular}
+                    }
+                   \caption{Orginale Messwerte}
+                   \label{Measurements}
+               \end{figure}
 \end{document}  
