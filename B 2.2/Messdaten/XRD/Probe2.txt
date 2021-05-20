@@ -1,4 +1,4 @@
-; C:\Data\Jenni\Praktikum B2.2\11-12-18-Jörg\Probe2.raw(Diffrac Plus V1.01 file) converted by XCH V1.0
+; C:\Data\Jenni\Praktikum B2.2\11-12-18-Jï¿½rg\Probe2.raw(Diffrac Plus V1.01 file) converted by XCH V1.0
 _FILEVERSION=2
 _SAMPLE='Probe2'
 _SITE='II. Physikalisches Institut'
