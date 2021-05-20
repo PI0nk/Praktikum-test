@@ -359,11 +359,11 @@
             \end{equation}
             und für $N < 5$ das geometrische Mittel
             \begin{equation}
-                \bar{x}_{geom} = \sqrt[3]{\prod^n x_i}
+                \bar{x}_{geom} = \sqrt[n]{\prod^n x_i}
             \end{equation}
             mit dem Fehler
             \begin{equation}
-                \Delta \bar{x}_{geom} = \sqrt{\frac{1}{n (\prod^n x_n)^{\frac{n-1}{n}}}}
+                \Delta \bar{x}_{geom} = \frac{1}{n (\prod^n x_n)^{\frac{n-1}{n}}} \sqrt{\sum_j^n (\Delta x_j \cdot \prod_{i\neq j}^n x_i)^2}
             \end{equation}
             
             Dafür werden zunächst
