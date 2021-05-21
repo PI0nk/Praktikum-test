@@ -315,6 +315,7 @@
                 \centering
                 \includegraphics[width=1.0\textwidth]{QoverRUncorr.pdf}
                 \caption{Ladung als Funktion des Radius}
+                \label{Abbildung5}
             \end{figure}
             Es ist deutlich zu erkennen, dass eine Quantifizierung wahrscheinlich ist, jedoch stimmt diese
             nicht mit den zu erwartenden Werten über ein, weswegen man die Cunningham Korrektur zu Hilfe nimmt.
@@ -341,6 +342,7 @@
                 \centering
                 \includegraphics[width=1.0\textwidth]{QoverRUncorrCunt.pdf}
                 \caption{$Q_c$ als Funktion von $r_c$}
+                \label{Abbildung6}
             \end{figure}
             In dieser Grafik ist eine deutlich bessere Übereinstimmung der Messwerte mit der quantisierten Elementarladung zu
             erkennen. Einige der Messwerte fallen leider nicht innerhalb des Fehlerbereichs mit einem Vielfachen der Elementarladung
@@ -387,21 +389,42 @@
             Elementarladung von $(1.62\pm 0.16)\cdot 10^{-19}C$ für die korrigierten Werte ergibt.
             Der unkorrigierte Wert liegt im Fehlerbereich des Literaturwerts $e=1.602176634\cdot 10^{-19}C$.
             \section{Diskussion}
-                Abschließend noch eine Zusammenfassung. Die unkorrigierten Messwerte stimmen, wie zu erwarten, 
-                nicht mit den Literaturwerten über ein. Die korrigierten jedoch passen schon besser. 
-                Auffällig ist, dass die korrigierten Ladungen und Radien geringer sind, als die ursprünglichen. 
-                Dies war zu erwarten, da die Korrektur die Geschwindigkeiten nach unten korrigiert. 
-            
-                Der große Fehler bei unserem Ergebnis lässt sich dadurch erklären, dass bei der Berechnung
-                der Elementarladung alle Messwerte eingeflossen sind. Bei Betrachtung der Grafiken wird jedoch deutlich,
-                dass ein paar der Messwerte wahrscheinlich Mehrfachgeladen sind. Der Großteil ist aber Einfach geladen.
-                Einige andere Fehlerquellen wären, wie oben schon kurz angeschnitten, dass die Teilchen auch einen Drift 
-                aus der Bildebene raus hatten. Was dazu führt, dass die Tröpchen während des Messvorgangs größer/kleiner und
-                bei einer zu späten Anpassung des Mikroskops unscharf wurden.
-            
-                Insgesamt hätte eine Statistik mit mehr Messwerten zu einem besseren Ergebnis geführt, da die Mehrfachladungen
-                seltener sind, als die einfach geladenen Tröpchen. Jedoch ist auch unser Ergebnis mit 20 Tröpchen auf
-                ein Ergebnis gekommen, welches mit Fehlerbereichs auf dem Literaturwert liegt.
+                Was als erstes auffällt ist, dass die korrigierten Werte in \ref{Abbildung6} und unsere errechnete
+                Elementarladung gut übereinstimmt mit dem Literaturwert. Während die unkorrigierten Werte in \ref{Abbildung5}
+                und die damit verbundene Elementarladung größer sind und damit von Literaturwert abweichen. Da die Cunningham-Korrektur
+                die Geschwindigkeiten nach unten korrigiert, war dies auch zu erwarten. 
+
+                Es weichen nur wenige Werte stark von dem Literaturwert ab. Auffällig ist, dass diese Werte einen geringen Radius haben.
+                Eine mögliche Erklärung hier für ist, dass mögliche Drifteffekte, wie zum Beispiel Luftbewegungen oder die Brownsche
+                Molekularbewegung, einen größeren Einfluss und größere Ablekung auf Tröpchen mit geringer Masse, also kleinerem Radius,
+                haben. 
+
+                Wir konnten unsere Werte jeweils gut einer n-fachen Elementarladung ($n \in \mathbb{N} $)
+                zuordnen. Dies war hilfreich, da wir dadurch die jeweiligen Mehrfachladungen auf die Elementarladung
+                normieren konnten. Durch Gewichten der Werte einer Mehrfachladung ist unser Fehler der Elementarladung
+                relativ klein. Würden wir den Mittelwert und die Gewichtungen für die Werte insgesamt berechnen,
+                wäre der Fehler der Elementarladung deutlich größer.
+
+                Eine Fehlerquelle des Versuchs ist, dass die Tröpchen in den Aufnahmen nicht immer die "selbe Größe"
+                bei behielten. Wenn die Tröpchen einen Drift aus der Bildebene raus hatten, erschienen sie uns größer. 
+                Anders herum genau so, wenn sie einen Drift in die Bildebene rein hatten, erschienen uns die Tröpchen kleiner.
+                Durch diese Größenänderung wurde die Positionsbestimmung ungenauer bzw. in unserem Fall die Bestimmung
+                wann ein Tröpchen die Grenze der Skala überschreitet.
+                
+                In dem Aufbau liegen auch noch mögliche Fehlerquellen die zu Ungenauigkeiten führen. 
+                Wenn zum Beispiel die Kondensatorplatten nicht genau orthogonal zur Gravitationskraft stehen,
+                müsste man eine vektorielle Betrachtung der Kräfte machen, da diese nicht mehr ausschließlich
+                auf der z-Achse wirken. Mögliche Lücken in den Verdichtungen oder in dem Kondensator Behälter, 
+                führen, wie oben schon erwähnt, zu möglichen Luftbewegungen. Auch ist der Aufbau nicht vor Erschütterungen
+                geschützt. Erschütterungen haben keine direkte Auswirkung auf die schwebenden Teilchen, wohl aber 
+                auf das Mikroskop und damit auch auf die Skala.
+
+                Da deutlich mehr Werte nah an den Literaturwerten der n-fachen Elementarladung liegen, würde eine Messung
+                mit mehr Werten ein besseres Ergebnis liefern
+
+                Aber alles in allem verlief unsere Messung wie wir erwartet haben und wir kommen auf ein gutes Ergebnis. Die unkorrigierten Werte sind deutlich ungenauer
+                und liegen nicht in dem Fehlerbereich des Literaturwerts. Die korrigierten Werte sind wie zu erwarten 
+                näher an dem Literaturwert dran und liegen auch im Fehlerbereich. 
             
                 \newcommand{\etalchar}[1]{$^{#1}$}
                 \begin{thebibliography}{HWZ{\etalchar{+}}}
