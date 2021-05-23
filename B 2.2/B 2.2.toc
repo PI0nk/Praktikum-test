@@ -20,4 +20,5 @@
 \contentsline {section}{\numberline {3}Versuchsafbau}{6}{}%
 \contentsline {section}{\numberline {4}Durchführung}{7}{}%
 \contentsline {section}{\numberline {5}Auswertung}{8}{}%
-\contentsline {section}{\numberline {6}Diskussion}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Die röntgenographische Methode}{8}{}%
+\contentsline {section}{\numberline {6}Diskussion}{9}{}%
