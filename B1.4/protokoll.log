@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  25 MAY 2021 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  25 MAY 2021 16:57
 entering extended mode
 **c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/protokoll.tex
 (c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/protokoll.tex
@@ -645,50 +645,56 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
  [2] [1
 
-] [2] [3]
-<he_gegenspannung.png, id=33, 1011.78pt x 1011.78pt>
+] [2]
+<Aufbau.PNG, id=29, 232.61906pt x 251.43938pt>
+File: Aufbau.PNG Graphic file (type png)
+<use Aufbau.PNG>
+Package pdftex.def Info: Aufbau.PNG  used on input line 171.
+(pdftex.def)             Requested size: 364.19672pt x 393.70175pt.
+ [3] [4 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/Aufbau.PNG>]
+<he_gegenspannung.png, id=41, 1011.78pt x 1011.78pt>
 File: he_gegenspannung.png Graphic file (type png)
 <use he_gegenspannung.png>
-Package pdftex.def Info: he_gegenspannung.png  used on input line 201.
+Package pdftex.def Info: he_gegenspannung.png  used on input line 211.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [4 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_gegenspannung.png>]
-<he_direkt.png, id=42, 1011.78pt x 1011.78pt>
+ [5 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_gegenspannung.png>]
+<he_direkt.png, id=48, 1011.78pt x 1011.78pt>
 File: he_direkt.png Graphic file (type png)
 <use he_direkt.png>
-Package pdftex.def Info: he_direkt.png  used on input line 231.
+Package pdftex.def Info: he_direkt.png  used on input line 241.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [5 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_direkt.png>]
-<intensität.png, id=48, 1011.78pt x 1011.78pt>
+ [6 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_direkt.png>]
+<intensität.png, id=53, 1011.78pt x 1011.78pt>
 File: intensität.png Graphic file (type png)
 <use intensität.png>
-Package pdftex.def Info: intensität.png  used on input line 318.
+Package pdftex.def Info: intensität.png  used on input line 328.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [6] [7 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/intensität.png>] [8]
+ [7] [8 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/intensität.png>] [9]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     414.
-
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     414.
+(LaTeX3)     424.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     414.
+(LaTeX3)     424.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     424.
 
  (c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.aux) ) 
 Here is how much of TeX's memory you used:
- 9040 strings out of 479799
- 162972 string characters out of 2869722
+ 9047 strings out of 479799
+ 163055 string characters out of 2869722
  583257 words of memory out of 3000000
- 25878 multiletter control sequences out of 15000+200000
+ 25883 multiletter control sequences out of 15000+200000
  556081 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,9n,111p,10672b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 106i,9n,111p,10672b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.pdf (10 pages, 332529 bytes).
+Output written on c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.pdf (11 pages, 355485 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
+ 450 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
