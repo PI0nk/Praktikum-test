@@ -1,30 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  7 FEB 2021 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.25)  25 MAY 2021 13:04
 entering extended mode
-**./protokoll.tex
-(protokoll.tex
+**c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/protokoll.tex
+(c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/protokoll.tex
 LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-10-27> xparse <2020-03-03>
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cl
-s
+L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
 Document Class: scrartcl 2020/09/21 v3.32 KOMA-Script document class (article)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
-y
-Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
+(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
-
 
 LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
 
@@ -103,15 +91,12 @@ LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
 LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
 (LaTeX3)     line 298.
 
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
 ))) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-)))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
-y
+))) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box47
@@ -119,16 +104,10 @@ Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
 Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 222
-2.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt
-.clo
-File: scrsize11pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (11pt
-)
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
-y
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2222.
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
+File: scrsize11pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (11pt)
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
 Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
 \ta@bcor=\skip48
 \ta@div=\count175
@@ -193,12 +172,10 @@ Class scrartcl Info: using compatibility default `afterindent=bysign'
 \c@pti@nb@sid@b@x=\box48
 Package tocbasic Info: babel extension for `lof' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 6076.
-
 \scr@dte@figure@maxnumwidth=\skip61
 \c@figure=\count182
 Package tocbasic Info: babel extension for `lot' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 6088.
-
 \scr@dte@table@maxnumwidth=\skip62
 \c@table=\count183
 Class scrartcl Info: Redefining `\numberline' on input line 6252.
@@ -206,20 +183,18 @@ Class scrartcl Info: Redefining `\numberline' on input line 6252.
 ) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip63
+
 For additional information on amsmath, use the `?' option.
 (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen139
-))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count184
@@ -259,17 +234,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/27 3.51 The Babel package
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count196
 \U@D=\dimen148
 \l@babelnohyphens=\language79
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count197
@@ -278,54 +250,39 @@ File: babel.def 2020/10/27 3.51 Babel common definitions
 * Local config file bblopts.cfg used
 *
 (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
-f
-Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
-phy)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
-df
-Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
-aphy)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthography)
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 121.
-)))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+))) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
 ) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/figsize\figsize.sty
 Package: figsize 2002/03/18 v0.1 FigSize sizes graphics for graphicx package
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count198
 \calc@Bcount=\count199
@@ -337,8 +294,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count266
 \calc@Cskip=\skip68
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip69
 \subfigcapskip=\skip70
@@ -350,12 +306,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \c@lofdepth=\count268
 \c@subtable=\count269
 \c@lotdepth=\count270
+
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg
-)
+(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip73
 \subfig@bottom=\skip74
 ) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -363,22 +318,18 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \figwidth=\skip75
 \figheight=\skip76
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count271
 \float@exts=\toks21
 \float@box=\box51
 \@float@everytoks=\toks22
 \@floatcapt=\box52
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count272
@@ -393,12 +344,9 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen161
 \Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks23
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen163
 \captionmargin@=\dimen164
@@ -408,11 +356,8 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@parindent=\dimen168
 \caption@hangindent=\dimen169
 Package caption Info: KOMA-Script document class detected.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.st
-o
-File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
-KOMA-Script document classes (AR)
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
 \c@caption@flags=\count275
 \c@continuedfloat=\count276
@@ -420,13 +365,11 @@ Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
 ) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2enc.def
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2enc.def
 File: ot2enc.def 2001/08/11 v3.3a Cyrillic encoding definition file
 Now handling font encoding OT2 ...
 ... processing UTF-8 mapping file for font encoding OT2
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\ot2enc.dfu
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\ot2enc.dfu
 File: ot2enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -569,13 +512,11 @@ File: ot2enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+2116 (decimal 8470)
 )))
 \symcyrletters=\mathgroup6
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box53
-) (protokoll.aux)
+) (c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.aux)
 \openout1 = `protokoll.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -593,16 +534,12 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 1
-6.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2cmr.fd
+LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 16.
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
 \scratchdimen=\dimen170
@@ -615,43 +552,29 @@ ii
 \MPnumerator=\count282
 \makeMPintoPDFobject=\count283
 \everyMPtoPDFconversion=\toks25
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
+) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+)) (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 )
 *geometry* driver: auto-detecting
@@ -695,20 +618,15 @@ Package geometry Warning: The marginal notes overrun the paper.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
-
 (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
-
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT2+wncyr on input line
- 32.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2wncyr.fd
+LaTeX Font Info:    Trying to load font information for OT2+wncyr on input line 32.
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\ot2wncyr.fd
 File: ot2wncyr.fd 1999/12/17 v3.2a Computer Modern Cyrillic font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 40--43
@@ -718,85 +636,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--43
 [1
 
 {C:/Users/dtimo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-6.
-
-(C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 46.
+ (C:\Users\dtimo\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-(protokoll.toc)
+) (c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.toc)
 \tf@toc=\write3
 \openout3 = `protokoll.toc'.
 
  [2] [1
 
-] [2]
-<he_gegenspannung.png, id=29, 1011.78pt x 1011.78pt>
+] [2] [3]
+<he_gegenspannung.png, id=33, 1011.78pt x 1011.78pt>
 File: he_gegenspannung.png Graphic file (type png)
 <use he_gegenspannung.png>
-Package pdftex.def Info: he_gegenspannung.png  used on input line 191.
+Package pdftex.def Info: he_gegenspannung.png  used on input line 201.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [3]
-<he_direkt.png, id=35, 1011.78pt x 1011.78pt>
+ [4 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_gegenspannung.png>]
+<he_direkt.png, id=42, 1011.78pt x 1011.78pt>
 File: he_direkt.png Graphic file (type png)
 <use he_direkt.png>
-Package pdftex.def Info: he_direkt.png  used on input line 221.
+Package pdftex.def Info: he_direkt.png  used on input line 231.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [4 <./he_gegenspannung.png>] [5 <./he_direkt.png>]
+ [5 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/he_direkt.png>]
 <intensität.png, id=48, 1011.78pt x 1011.78pt>
 File: intensität.png Graphic file (type png)
 <use intensität.png>
-Package pdftex.def Info: intensität.png  used on input line 308.
+Package pdftex.def Info: intensität.png  used on input line 318.
 (pdftex.def)             Requested size: 364.19672pt x 364.1942pt.
- [6] [7 <./intensität.png>] [8] [9]
+ [6] [7 <c:/Users/dtimo/Desktop/Praktikum/praktikum/B1.4/intensität.png>] [8]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     404.
-
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     404.
+(LaTeX3)     414.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     404.
+(LaTeX3)     414.
 
- (protokoll.aux) ) 
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     414.
+
+ (c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.aux) ) 
 Here is how much of TeX's memory you used:
  9040 strings out of 479799
- 162578 string characters out of 2869722
- 582327 words of memory out of 3000000
- 25879 multiletter control sequences out of 15000+200000
+ 162972 string characters out of 2869722
+ 583257 words of memory out of 3000000
+ 25878 multiletter control sequences out of 15000+200000
  556081 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,10n,111p,10626b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecrm0600.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecrm0800.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\dtimo\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\dtimo\AppData\
-Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\dtimo\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dt
-imo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Us
-ers\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> 
-<C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx172
-8.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbx2488.pk><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dtimo/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dtimo/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dtimo/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dt
-imo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb>
-Output written on protokoll.pdf (11 pages, 331503 bytes).
+ 106i,9n,111p,10672b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\dtimo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dtimo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on c:/Users\dtimo\Desktop\Praktikum\praktikum\B1.4\protokoll.pdf (10 pages, 332529 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
+ 441 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

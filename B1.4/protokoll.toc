@@ -8,19 +8,19 @@
 \contentsline {subsection}{\numberline {2.4}Photoeffekt}{2}{}%
 \contentsline {subsection}{\numberline {2.5}Elektrisches Feld und Spannung}{2}{}%
 \contentsline {subsection}{\numberline {2.6}Funktionsweise einer Photozelle}{2}{}%
-\contentsline {subsection}{\numberline {2.7}stromfreie Spannungsmessung}{3}{}%
+\contentsline {subsection}{\numberline {2.7}Stromfreie Spannungsmessung}{3}{}%
 \contentsline {subsection}{\numberline {2.8}Transmissionsgrad}{3}{}%
 \contentsline {subsection}{\numberline {2.9}Farbfilter}{3}{}%
 \contentsline {subsection}{\numberline {2.10}Graufilter}{3}{}%
 \contentsline {section}{\numberline {3}Auswertung}{3}{}%
 \contentsline {subsection}{\numberline {3.1}Bestimmung von h/e}{3}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Gegenspannungsmethode}{3}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}Direkte Messung}{4}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}Vergleich}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Direkte Messung}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}Vergleich}{6}{}%
 \contentsline {subsection}{\numberline {3.2}Intensität und Photostrom}{6}{}%
 \contentsline {subsection}{\numberline {3.3}Untersuchung von LEDs mit der Photozelle}{8}{}%
 \contentsline {section}{\numberline {4}Diskussion}{8}{}%
 \contentsline {subsection}{\numberline {4.1}Zu Bestimmung von h/e}{8}{}%
 \contentsline {subsection}{\numberline {4.2}Zu Intensität und Photostrom}{8}{}%
-\contentsline {subsection}{\numberline {4.3}Zu Untersuchung von LEDs mit der Photozelle}{9}{}%
+\contentsline {subsection}{\numberline {4.3}Zu Untersuchung von LEDs mit der Photozelle}{8}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
