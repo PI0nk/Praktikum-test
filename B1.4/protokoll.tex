@@ -222,11 +222,11 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			\end{figure}
 			Aus der Geradenanpassung ging eine Geradensteigung von 
 			\begin{equation}
-				\frac{h}{e} = (4,795\pm 0,359)\cdot 10^{-15}V s
+				\frac{h}{e} = (3,48\pm 0,05)\cdot 10^{-15}V s
 			\end{equation}
 			und ein Ordinatenabschnitt von
 			\begin{equation}
-				\frac{W_A(A)}{e} = (3,373\pm 0,17)V
+				\frac{W_A(A)}{e} = (1.17\pm 0,03)V
 			\end{equation}
 			hervor.
 		\subsubsection{Direkte Messung}
@@ -252,11 +252,11 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 			\end{figure}
 			Aus der Geradenanpassung ging eine Geradensteigung von 
 			\begin{equation}
-				\frac{h}{e}= (4,758\pm 0,435)\cdot 10^{-15}V s
+				\frac{h}{e}= (3,47\pm 0,11)\cdot 10^{-15}V s
 			\end{equation}
 			und ein Ordinatenabschnitt von
 			\begin{equation}
-				\frac{W_A(A)}{e} = (3,340\pm 0,206)V
+				\frac{W_A(A)}{e} = (1,18\pm 0,07)V
 			\end{equation}
 			hervor.
 		\subsubsection{Vergleich}
@@ -267,8 +267,8 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 					\hline
 					Methode & h/e & $W_A(A)/e$ \\
 					\hline
-					Gegenspannung & $3,48\pm 0,11$ & $1,17\pm 0,07$ \\
-					Direkt & $3,5\pm 0,1$ & $1,17\pm 0,07$ \\
+					Gegenspannung & $3,48\pm 0,05$ & $1,17\pm 0,03$ \\
+					Direkt & $3,47\pm 0,11$ & $1,18\pm 0,07$ \\
 					Literatur & $4,14$ & - \\
 					\hline
 				\end{tabular}
@@ -382,40 +382,43 @@ $^2$ tdanowsk@smail.uni-koeln.de, Matrikel-Nr.: 7348629\\
 		\end{figure}
 		Mit den aus dem ersten Abschnitt gewonnenen Daten lässt sich nun über
 		\begin{equation}
-			U_0 = \frac{h}{e}\cdot \nu - \frac{W_A(A)}{e} 
+			U_0 = \frac{h}{e}\cdot \nu - \frac{W_A}{e}
 			\Leftrightarrow 
-			\nu = \frac{eU_0}{h} + \frac{W_A(A)}{hc}
-		\end{equation}
-		\begin{equation}
-			\Delta \nu = \sqrt{(-\frac{1}{(\frac{h}{e})^2} (U_0 + \frac{W_A(A)}{e})\Delta \frac{h}{e}
-			)^2 + (\frac{e}{h}\Delta U_0) + (\frac{e}{h} \Delta \frac{W_A(A)}{e})^2}
+			\nu = \frac{U_0 + b}{a}
 		\end{equation}
 		Mit Hilfe der Beziehungen $ \lambda = \frac{c}{\nu}$ und $\Delta \lambda = \frac{c}{\nu^2} \Delta \nu$
 		lässt sich die zugehörige Wellenlänge bestimmen.
-		
+		\begin{equation}
+			\lambda = \frac{c\cdot a }{U_0 + b}
+		\end{equation}
+		mit
+		\begin{equation}
+			\Delta \lambda = \sqrt{(\frac{\Delta a \cdot c}{(U_0+b)})^2+(\frac{\Delta b \cdot a \cdot c}{(U_0+b)^2})^2+(\frac{\Delta U_0 \cdot a \cdot c}{(U_0+b)^2})^2}
+		\end{equation}
+		mit $a = (3,48 \pm 0,05) \cdot 10^{-15} Vs$ und $b=(1,17 \pm 0,03)V$
 		\begin{figure}[H]
 			\centering
 			\begin{tabular}{|c|c|c|c|}
 				\hline
 				LED & $\lambda_{max}$ [nm] & $\Delta\lambda_{max}$ [nm] & Literaturwert \\
 				\hline
-				1 & 575 & 21 & 570-580 (Gelblich)\\
-				2 & 612 & 23 & 595-620 (Orange)\\
-				3 & 630 & 24 & 620-780 (Rot)\\
+				1 & 483 & 13 & 450-500 (Blau)\\
+				2 & 514 & 15 & 500-570 (Grün)\\
+				3 & 530 & 16 & 500-570 (Grün)\\
 				\hline
 			\end{tabular}
 		\end{figure}
-		Literaturwerte für die Farben wurden von dieser Tabelle\footnote{https://www.hug-technik.com/inhalt/ta/farben} entnommen.
+		Literaturwerte für die Farben wurden von dieser Tabelle\footnote{https://de.wikipedia.org/wiki/Leuchtdiode} entnommen.
 		Allen LEDs konnte eine Farbe zugewiesen werden die im Fehlerbereich liegen. Die bestimmten Wellenlängen sind mit einer 
 		Aufspaltung von etwa 20nm im üblichen Bereich für LED Licht.  
 
 \section{Diskussion}
 	\subsection{Zu Bestimmung von h/e}
-	Der Literaturwert stimmt nicht mit unseren ermittelten Werten überein. Begründet könnte diese 		    Diskrepanz mit der empfindlichen Messapparatur, welche schon durch kleine Stöße ausschlaggebende
+	Der Literaturwert stimmt nicht mit unseren ermittelten Werten überein. Begründet könnte diese Diskrepanz mit der empfindlichen Messapparatur, welche schon durch kleine Stöße ausschlaggebende
 	Veränderungen zeigt. 
 	
 	\subsection{Zu Intensität und Photostrom}
-	Anhand der oben abgebildeten Diagramme erkennt man sehr gut die Proportionalität zwischen       		Photostrom und Intensität des Lichts. Auch ist, wie zu erwarten, die Stoppspanung der beiden 		    Messungen gleich. Somit konnten wir in diesem Versuchsteil nachweisen, dass die maximale    kinetische Energie der rausgelösten Elektronen unabhängig von der Intensität des einfallenden Lichts  ist.
+	Anhand der oben abgebildeten Diagramme erkennt man sehr gut die Proportionalität zwischen Photostrom und Intensität des Lichts. Auch ist, wie zu erwarten, die Stoppspanung der beiden 		    Messungen gleich. Somit konnten wir in diesem Versuchsteil nachweisen, dass die maximale    kinetische Energie der rausgelösten Elektronen unabhängig von der Intensität des einfallenden Lichts  ist.
 	
 	\subsection{Zu Untersuchung von LEDs mit der Photozelle}
 	Die bestimmten Wellenlängen der verwendeten LEDs stimmen gut mit den Literaturwerten überein. Damit konnte jeder LED eine Farbe zugewiesen werden.
