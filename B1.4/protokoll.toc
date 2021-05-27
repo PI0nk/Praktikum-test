@@ -18,10 +18,10 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Gegenspannungsmethode}{5}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Direkte Messung}{6}{}%
 \contentsline {subsubsection}{\numberline {3.2.3}Vergleich}{7}{}%
-\contentsline {subsection}{\numberline {3.3}Intensität und Photostrom}{8}{}%
-\contentsline {subsection}{\numberline {3.4}Untersuchung von LEDs mit der Photozelle}{10}{}%
-\contentsline {section}{\numberline {4}Diskussion}{10}{}%
-\contentsline {subsection}{\numberline {4.1}Zu Bestimmung von h/e}{10}{}%
-\contentsline {subsection}{\numberline {4.2}Zu Intensität und Photostrom}{10}{}%
-\contentsline {subsection}{\numberline {4.3}Zu Untersuchung von LEDs mit der Photozelle}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Intensität und Photostrom}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Untersuchung von LEDs mit der Photozelle}{9}{}%
+\contentsline {section}{\numberline {4}Diskussion}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Zu Bestimmung von h/e}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Zu Intensität und Photostrom}{9}{}%
+\contentsline {subsection}{\numberline {4.3}Zu Untersuchung von LEDs mit der Photozelle}{10}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
