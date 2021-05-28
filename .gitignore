@@ -15,3 +15,7 @@ B1.4/protokoll.aux
 B1.4/protokoll.log
 B1.4/protokoll.synctex.gz
 B1.4/protokoll.toc
+*.fdb_latexmk
+*.log
+*.gz
+*.toc
