@@ -1,0 +1,51 @@
+\section{Auswertung}
+    \subsection{Die röntgenographische Methode}
+        \subsubsection{Gitterkonstante}
+            Die verwendete $K_{\alpha}$-Strahlung beinhaltet zwei verschiedene Wellenlängen ($\lambda_{\alpha 1} = 1.5406 \mathring{A}), \lambda_{\alpha 2} = 1.5444 \mathring{A})$),
+            daraus wird eine Wellenlänge
+            für die Auswertung gemittelt. Die beiden Strahlungen haben ein Intensitätsverhältnis von $\frac{K_{\alpha 2}}{K_{\alpha 1}} = 0.52$
+            \begin{align}
+                \lambda = \frac{1 \cdot \lambda_{\alpha 1} + 0.52 \cdot \lambda_{\alpha 2}}{1.52}
+            \end{align}
+            \begin{align*}
+                \lambda = 1.5419 \mathring{A}
+            \end{align*}
+
+            Aus der Bragg-Bedingung geht hervor, mit $\Psi =  h^2 + l^2 + k^2$ und $d = \frac{a}{\sqrt{\Psi}}$
+            \begin{equation}
+                n \lambda = 2dsin(\theta) = \frac{2asin(\theta)}{\sqrt{\Psi}} \Leftrightarrow \frac{n \lambda}{2a} = \frac{sin(\theta)}{\sqrt{\Psi}}
+            \end{equation}
+            Die linke Seite $\frac{n \lambda}{2a}$ ist eine Konstante, da wir $n=1$ annehmen, die Wellenlänge haben wir oben 
+            bestimmt und die Gitterkonstante verändert sich nicht bei einer Probe. Der Fundamentalreflex mit dem kleinsten Winkel
+            $2\theta$ entspricht nach unserer \hl{Vorbereitung(?)} den Indizes (111). Dadurch können wir auch die 
+            weiteren Reflexe finden mit der Relation:
+            \begin{align}
+                \frac{sin^2(\theta_1)}{\Psi_1} = \frac{sin^2(\theta_2)}{\Psi_2} \\
+                \Leftrightarrow \Psi_2 = \frac{sin^2(\theta_2)\Psi_1}{sin^2(\theta_1)}
+            \end{align}
+            mit $\Psi_1 = 3$ und die Winkel $\theta_{1,2}$ können aus den Messwerten entnommen werden. Theoretisch
+            müsste $\Psi_2 \in \mathbb{N}$, durch Messungenauigkeiten stimmt dies nicht ganz. Daher runden wir $\Psi_2$ immer auf die 
+            nächste natürliche Zahl. Dieser Zahl kann nun eine Kombination von Indizes zugeordnet werden, da:
+            $\Psi_2 = h^2+k^2+l^2$ die Wahl der Indizes ist nicht eindeutig z.B für $\Psi_2 = 2$, würden (110), (011) und (101) passen.
+            
+            Um daraus nun die Gitterkonstante a zu bestimmen, wird wieder die Bragg-Bedingung genutzt:
+            \begin{equation}
+                \Leftrightarrow a = \frac{n \lambda \sqrt{\Psi}}{2 sin(\theta)}
+            \end{equation}
+            wobei $n=1$, $\lambda = 1.54190 \mathring{A}$, $\Psi$ wie oben beschrieben bestimmt und $2 \theta$ wurde gemessen.
+
+            Tabelle Probe 2
+            Tabelle Probe 3
+            Tabelle Probe 4
+
+            Für jede Probe wird jetzt der Mittelwert der Gitterkonstante mit zugehörigem
+            Fehler berechnet, nach den Formeln:
+            \begin{equation}
+                \bar{a} = \frac{1}{n} \sum^n_i a_i
+            \end{equation}
+            \begin{equation}
+                \Delta \bar{a} = \sqrt{\frac{1}{n(n-1)} \sum^n_i (\bar{a}-a_i)^2}
+            \end{equation}  
+
+            \subsubsection{Bestimmung des Ordnungsgrades}
+
