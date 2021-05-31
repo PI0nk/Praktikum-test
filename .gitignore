@@ -1,21 +1,31 @@
+gitignore-latex
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
 
-*.aux
+# PDF output - usually a bad idea to keep this in Git
+*.pdf
+
+# Latexmk
 *.fdb_latexmk
-*.fls
-*.log
-*.gz
-*.toc
-*.toc
-B 2.2/B 2.2.toc
-*.aux
-*.log
-*.gz
-*.toc
-B1.4/protokoll.aux
-B1.4/protokoll.log
-B1.4/protokoll.synctex.gz
-B1.4/protokoll.toc
-*.fdb_latexmk
-*.log
-*.gz
-*.toc
+
+# SyncTeX
+*.synctex.gz
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
+
+# Log created by Adobe Reader
+C:\\nppdf32Log\\debuglog.txt
+
+# Sublime Text Project Files (usually contain absolute paths)
+*.sublime-project
+*.sublime-workspace
