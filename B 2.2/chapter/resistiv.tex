@@ -1,1 +1,85 @@
 \subsection{resistives Verfahren}
+    Um in diesem Abschnitt den Ordnungsparameter bestimmen zu können wurde zunächst der Widerstand der Verschiedener Proben mit
+    unterschiedlichem Ordnungsparameter $S$ gemessen. Um daraus den Ordnungsparameter der Proben zu bestimmen
+    wurden die Daten zunächst durch ein lineares lineare abhängigkeit des Widerstands von der Temperatur
+    approximiert, welches for $T\Rightarrow 0$ in einen konstanten Restwiderstand übergeht.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/Widerstand.pdf}
+        \caption{Plot der Gemessenen Widerstände in abhängigkeit von der Temperatur, in Rot das gefittete Modell, links von der Grauen linie wird
+        ein konstantes Restwiderstandsverhalten angenommen, rechts davon ein lineares Wachstum}
+        \label{resistance plot}
+    \end{figure}
+    Für den Widerstand einer Legierung kann für den Restwiderstand folgendes Verhalten angenommen werden
+    \begin{equation}
+        \rho_D(x) = \rho_D(T=0) + A\cdot x(1-x)(1-S^2)
+    \end{equation}
+    wobei $A$ eine zu bestimmende Materialkonstante ist.\\
+    Um $A$ zu bestimmen wurde zunächst angenommen, das aufgrund der Gitterstruktur die Probe mit dem höchsten
+    Restwiderstand ebenfalls die größste Unordnung aufweißt, dort wurde $S=0$ angenommen. Ebenso wurde angenommen
+    das die Probe mit dem geringsten Restwiderstand die geordneste ist. Dort gilt $S=1$. Diese annahmen sind
+    notwendig um die Materialkonstante aus den Daten zu ermitteln, da sonst unser Gleichungssystem unterbestimmt wäre,
+    jedoch sollten alle daraus resultierenden ergebnisse mit vorsicht betrachtete werden, da sowohl ein Ordnungsparameter
+    von ~1 als auch von ~0 äussert schwer zu erreichen sind. Nutzt man jedoch diese annahme, lässt sich die Materialkonstante
+    mithilfe der gefitteten modelle bestimmen. Dazu wird angenommen, das es sich bei den Proben um $Cu_3Au$ handelt, womit
+    aus der Anleitung über $Cu_{1-x}Aux$ ein anteil von 75\% Kupfer und 25\% Gold, und damit $x=0.25$ folgt. Damit folgt weiter
+    \begin{equation}
+        \rho_{D_{max}}(0.25) = \rho_D(T=0) + A\cdot 0.25(1-0.25)(1-S^2)
+    \end{equation} 
+    $\rho_D(T=0)$ gibt hierbei einen Konstanten Restwiderstand einer reinen Probe bei $0K$ an.
+    Ferner folgt
+    \begin{align*}
+        \rho_{(S=1)} = \rho_D(T=0)\\
+        \rho_{(S=0)} = \rho_D(T=0) + Ax(1-x)
+    \end{align*}
+    \begin{equation}
+        A=\frac{\rho_{(S=0)}-\rho_{(S=1)}}{x(1-x)}
+    \end{equation}
+    \begin{equation}
+        \Delta A=\frac{1}{x(1-x)}\sqrt{\Delta \rho_{(S=0)}^2+ \Delta \rho_{(S=1)}^2}
+    \end{equation}
+    \begin{equation}
+        S = \sqrt{\frac{\rho_{(S=0)}-\rho_{(S=?)}}{\rho_{(S=0)}-\rho_{(S=1)}}}
+    \end{equation}
+    \begin{equation}
+        \Delta S = \sqrt{(\Delta \rho_{(S=0)} \frac{\rho_{(S=?)}-\rho_{(S=1)}}{2(\rho_{(S=0)}-\rho_{(S=1)})^2 S})^2 + ( \frac{\Delta \rho_{(S=?)}}{2(\rho_{(S=0)}-\rho_{(S=1)}) S})^2 + (\Delta \rho_{(S=1)} \frac{(\rho_{(S=0)}-\rho_{(S=?)})}{2(\rho_{(S=0)}-\rho_{(S=1)})^2 S})^2}
+    \end{equation}
+    Um nun S bestimmen zu können muss zunächst aus den Wiederstandswerten zusammen mit den geometrien
+    der Proben der zugehörige Spezifische Widerstand bestimmt werden. Dafür gilt folgende relation:
+    \begin{equation}
+        \rho = \frac{b\cdot d \cdot R}{l}
+    \end{equation}
+    \begin{equation}
+        \Delta \rho = \sqrt{(\frac{d R \Delta b}{l})^2 + (\frac{b R \Delta d}{l})^2 + (\frac{db\Delta R}{l})^2 + (\frac{db R \Delta l}{l^2})^2}
+    \end{equation}
+    für die probengeometrien
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}{l|c|c|c}
+             & Länge l [mm] & Breite b [mm] & Dicke d [mm] \\
+            \hline
+            Probe 2 & $6.7\pm 0.05$ & $5.1\pm 0.03$ & $0.2\pm 0.05$ \\
+            Probe 3 & $4.3\pm 0.05$ & $5.2\pm 0.03$ & $0.2\pm 0.05$ \\
+            Probe 4 & $4.1\pm 0.05$ & $5.1\pm 0.03$ & $0.2\pm 0.05$ \\
+        \end{tabular}
+    \end{figure}
+    und damit folgt
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/spezWiderstand.pdf}
+        \caption{Plot der Spez Widerstände}
+        \label{spec resistance plot}
+    \end{figure}
+    aus der Modellbetrachtung folgen Restwiderstände von
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}{c|c|c}
+            Probe & Widerstand R [$\Omega$] &spezifischer Widerstand [$\Omega m$] \\
+            \hline
+            Probe 2 & $(3.9\pm 0.0099)e-4 $ & $(5.9\pm 1.5)e-08$ \\
+            Probe 3 & $(2.6\pm 0.015)e-4 $ & $(6.3\pm 1.6)e-08$ \\
+            Probe 4 & $(2.6\pm 0.00091)e-3 $ & $(6.5\pm 1.6)e-07$ \\
+        \end{tabular}
+    \end{figure}
+    Darauf folgt entsprechend $A=(7.85\pm8.7)e-7 \Omega m$ und damit für Probe 3 auch $S=0.997 \pm 0.018$. Dieses Resultat
+    entspricht unseren erwartungen, da Probe 3 und 2 etwa den selben Restwiderstand bei T=5K besitzen.
