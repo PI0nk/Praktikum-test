@@ -126,7 +126,32 @@
             \begin{equation}
                 F_{hkl} = \sum_i f_i e^{i 2 \pi (hx + ky + lz)_i}
             \end{equation}
-            \hl{hier noch Herleitung  Auswahlregeln}\\
+            Für den Strukturfaktor ergibt sich somit, für Cu$_3$Au im geordneten Fall:
+            \begin{flalign*}
+                F^{g}_{hkl} = f_{Au} \cdot e^{2\pi i (h\cdot 0 + k\cdot 0 + l\cdot 0)} 
+                + f_{Cu} \cdot (e^{2\pi i (\frac{h}{2} + \frac{k}{2} + l\cdot 0)} + e^{(2\pi i (\frac{h}{2} + k\cdot 0 + \frac{l}{2})} + e^{(2\pi i (h\cdot 0 + \frac{k}{2} + \frac{l}{2})}) \\
+                \Rightarrow F^{g}_{khl} =
+                \begin{Bmatrix}
+                    f_{Au} + 3f_{Cu}, \text{wenn h,k,l gerade oder ungerade sind}\\
+                    f_{Au} - f_{Cu}, sonst
+                \end{Bmatrix}
+            \end{flalign*}  
+            Im ungeordneten Fall gilt:
+            \begin{flalign*}
+                F^{ug}_{hkl} = (\frac{f_{AU} + 3\cdot f_{Cu}}{4}) \cdot (
+                e^{2 \pi i (h\cdot 0 + k \cdot 0 + l \cdot 0)} + e^{2 \pi i (\frac{h}{2} + \frac{k}{2}+ l \cdot 0)}
+                + e^{2 \pi i (\frac{h}{2} + k \cdot 0 + \frac{l}{2})} + e^{2 \pi i (h\cdot 0 + \frac{k}{2} + \frac{l}{2})})\\
+                \Rightarrow F^{ug}_{khl} =
+                \begin{Bmatrix}
+                    f_{Au} + 3f_{Cu}, \text{wenn h,k,l gerade oder ungerade sind}\\
+                    0, sonst
+                \end{Bmatrix}
+            \end{flalign*}
+
+            Als Fundamentalreflex werden jene Reflexe bezeichnet, welche im geordneten sowie ungeordneten
+            Fall auftreten und identisch sind. Im geordneten Fall treten die sogenannten Überstrukturreflexe
+            auf, welche im ungeordneten Fall verboten wären.\\
+
             Der Lorentz-Polarisationsfaktor ist ein Korrekturterm, welcher die Winkelabhängigkeit der Intensität berücksichtigt. Außerdem,
             dass die beobachteten Peaks keine scharfen Linien bilden.
             \begin{equation}
