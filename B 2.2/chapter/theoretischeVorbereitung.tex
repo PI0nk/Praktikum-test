@@ -158,11 +158,26 @@
                 L_P = \frac{1 + cos^2(2 \theta)}{8 \cdot sin^2(\theta) cos(\theta)}
                 \label{Lorentz-Polarisationsfaktor}
             \end{equation}
-
             Eine weitere Korrektur ist der Absorptionsfaktor. Er berücksichtigt die Absorption von Strahlung innerhalb des Materials.
+            Dieser ist Stark von der Probengeometrie abhängig, da die Intensität in einer Probe mit
+            $$ I = I_0 exp(-\mu d)$$
+            $$ \mu = n \sigma$$
+            abfällt, dabei beschreibt $\sigma$ den Effektiven Wirkungsquerschnitt der Probe, $n$ die Anzahl der Atome pro Kubikmeter und $d$ die Probendicke selbst.
+            Um nun den Faktor $A_T$ vernachlässigen zu können werden stehts nur Reflexe mit kleinem $\theta$ Unterschied verglichen, da
+            über Winkelabhängigkeit von $A_T$ so angenommen werden kann, dass $A_T$ für diesen Fall identisch ist und somit vernachlässigt werden kann.
             
         \subsection{Reflexindizierung im Röntgendiffraktogramm}
-            \hl{hier fehlt noch was}
+            Um die Reflexe im Röntgendiffraktogramm zuordnen zu können lassen sich zunächst mithilfe der Gitterkonstante $a$ für
+            kubische Gitter die Netzebenenabstände schreiben als
+            \begin{equation}
+                d_{hkl} = \frac{a}{\sqrt{h^2+k^2+l^2}}
+            \end{equation}
+            Da $h,k,l\in \natural$ folgt mit
+            \begin{equation}
+                n\lambda = 2d_{hkl}sin(\theta_{hkl})
+            \end{equation}
+            bei bekannter Wellenlänge lässt sich so jedem gemessenen Peak bei Winkel $\theta$ ein Satz millersche Indizes
+            zuordnen.
         
     
     \subsection{Die resistive Methode}
