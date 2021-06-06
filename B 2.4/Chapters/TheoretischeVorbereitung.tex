@@ -181,7 +181,42 @@
     \subsection{Entmagnetisierungsfaktor}
 
         \subsubsection*{Entmagnetisierung}
-            
+            Eine Entmagnetisierung ist ein Vorgang, indem das Magnetfeld eines Magneten verschwindet.
+            Die Ursache hierfür können: Erschütterung, Hitze sein. Aber meist wird ein Material
+            durch ein zuerst starkes Wechsel-Magnetfeld, welches aber mit der Zeit abklingt, verwendet.
+            \hl{Bild}
+            \begin{figure}[H]
+                \centering
+                \includegraphics{images/Ringkern}
+            \end{figure}
+        \subsubsection*{Herleitung Entmagnetisierungsfaktor}
+            Man nimmt an, dass die Lücke des Rings sehr klein ist und die Feldlinien sich homogen
+            fortsetzen. Dann vergleicht man die Erregerfelder mit und ohne Luftspalt. Dies geht, da 
+            bei beiden die gleiche Stromstärke verwendet wird.
+            \begin{equation}
+                H \cdot L = H_R \cdot L_R + H_L \cdot L_L
+            \end{equation}
+            mit $L = 2 \pi r$ der Umfang des Kerns. $L_L, L_R$ sind die Länge der Lücke bzw. des restlichen Kerns.
+            $H_R, H_L$ sind die Erregerfelder im Ring und in der Lücke.
+            Mit den Maxwellgleichungen und dem Stoke'schen Satz folgt:
+            \begin{equation}
+                B_R \cdot F = B_L \cdot F
+            \end{equation}
+            mit F ist die Querschnittsfläche des Rings. Es gilt allg.
+            \begin{equation}
+                B = \mu_0 (H + M)
+            \end{equation}
+            da Luft als Vakuum genähert werden kann, ist $M=0$ in der Lücke.
+            Durch diese Gleichungen ergeben sich für $H_R$ bzw. $H_L$:
+            \begin{align*}
+                H_R = H - \frac{L_L}{L} M\\
+                H_L = H + \frac{L_L}{L} M
+            \end{align*}
+            das entmagnetisierende Feld ist damit:
+            \begin{equation}
+                H_e = \frac{L_L}{L} M 
+            \end{equation}
+            mit dem Entmagnetisierungsfaktor $N = \frac{L_L}{L}$
         \subsubsection*{gescherte Hysteresenkurven}
 
         \subsubsection*{Einfluss der Entmagnetisierung auf $\chi$}
