@@ -1,12 +1,12 @@
 \subsection{resistives Verfahren}
-    Um in diesem Abschnitt den Ordnungsparameter bestimmen zu können wurde zunächst der Widerstand der Verschiedener Proben mit
+    Um in diesem Abschnitt den Ordnungsparameter bestimmen zu können, wurde zunächst der Widerstand der verschiedenen Proben mit
     unterschiedlichem Ordnungsparameter $S$ gemessen. Um daraus den Ordnungsparameter der Proben zu bestimmen
-    wurden die Daten zunächst durch ein lineares lineare abhängigkeit des Widerstands von der Temperatur
+    wurden die Daten zunächst durch ein lineares lineare Abhängigkeit des Widerstands von der Temperatur
     approximiert, welches for $T\Rightarrow 0$ in einen konstanten Restwiderstand übergeht.
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/Widerstand.pdf}
-        \caption{Plot der Gemessenen Widerstände in abhängigkeit von der Temperatur, in Rot das gefittete Modell, links von der Grauen linie wird
+        \caption{Plot der gemessenen Widerstände in Abhängigkeit von der Temperatur, in rot das gefittete Model, links von der grauen Linie wird
         ein konstantes Restwiderstandsverhalten angenommen, rechts davon ein lineares Wachstum}
         \label{resistance plot}
     \end{figure}
@@ -15,14 +15,14 @@
         \rho_D(x) = \rho_D(T=0) + A\cdot x(1-x)(1-S^2)
     \end{equation}
     wobei $A$ eine zu bestimmende Materialkonstante ist.\\
-    Um $A$ zu bestimmen wurde zunächst angenommen, das aufgrund der Gitterstruktur die Probe mit dem höchsten
-    Restwiderstand ebenfalls die größste Unordnung aufweißt, dort wurde $S=0$ angenommen. Ebenso wurde angenommen
-    das die Probe mit dem geringsten Restwiderstand die geordneste ist. Dort gilt $S=1$. Diese annahmen sind
-    notwendig um die Materialkonstante aus den Daten zu ermitteln, da sonst unser Gleichungssystem unterbestimmt wäre,
-    jedoch sollten alle daraus resultierenden ergebnisse mit vorsicht betrachtete werden, da sowohl ein Ordnungsparameter
-    von ~1 als auch von ~0 äussert schwer zu erreichen sind. Nutzt man jedoch diese annahme, lässt sich die Materialkonstante
-    mithilfe der gefitteten modelle bestimmen. Dazu wird angenommen, das es sich bei den Proben um $Cu_3Au$ handelt, womit
-    aus der Anleitung über $Cu_{1-x}Aux$ ein anteil von 75\% Kupfer und 25\% Gold, und damit $x=0.25$ folgt. Damit folgt weiter
+    Um $A$ zu bestimmen wurde zunächst angenommen, dass aufgrund der Gitterstruktur die Probe mit dem höchsten
+    Restwiderstand ebenfalls die größste Unordnung aufweist, dort wurde $S=0$ angenommen. Ebenso wurde angenommen,
+    dass die Probe mit dem geringsten Restwiderstand die geordnetste ist. Dort gilt $S=1$. Diese Annahmen sind
+    notwendig, um die Materialkonstante aus den Daten zu ermitteln, da sonst unser Gleichungssystem unterbestimmt wäre,
+    jedoch sollten alle daraus resultierenden Ergebnisse mit Vorsicht betracht werden, da sowohl ein Ordnungsparameter
+    von $\thicksim 1$, als auch von $\thicksim 0$ äussert schwer zu erreichen sind. Nutzt man jedoch diese Annahme, lässt sich die Materialkonstante
+    mithilfe der gefitteten Modelle bestimmen. Dazu wird angenommen, dass es sich bei den Proben um $Cu_3Au$ handelt, womit
+    aus der Anleitung über $Cu_{1-x}Au_x$ ein Anteil von 75\% Kupfer und 25\% Gold, und damit $x=0.25$ folgt. Damit folgt weiter
     \begin{equation}
         \rho_{D_{max}}(0.25) = \rho_D(T=0) + A\cdot 0.25(1-0.25)(1-S^2)
     \end{equation} 
@@ -44,15 +44,15 @@
     \begin{equation}
         \Delta S = \sqrt{(\Delta \rho_{(S=0)} \frac{\rho_{(S=?)}-\rho_{(S=1)}}{2(\rho_{(S=0)}-\rho_{(S=1)})^2 S})^2 + ( \frac{\Delta \rho_{(S=?)}}{2(\rho_{(S=0)}-\rho_{(S=1)}) S})^2 + (\Delta \rho_{(S=1)} \frac{(\rho_{(S=0)}-\rho_{(S=?)})}{2(\rho_{(S=0)}-\rho_{(S=1)})^2 S})^2}
     \end{equation}
-    Um nun S bestimmen zu können muss zunächst aus den Wiederstandswerten zusammen mit den geometrien
-    der Proben der zugehörige Spezifische Widerstand bestimmt werden. Dafür gilt folgende relation:
+    Um nun S bestimmen zu können muss zunächst aus den Wiederstandswerten zusammen mit den Geometrien
+    der Proben der zugehörige spezifische Widerstand bestimmt werden. Dafür gilt folgende Relation:
     \begin{equation}
         \rho = \frac{b\cdot d \cdot R}{l}
     \end{equation}
     \begin{equation}
         \Delta \rho = \sqrt{(\frac{d R \Delta b}{l})^2 + (\frac{b R \Delta d}{l})^2 + (\frac{db\Delta R}{l})^2 + (\frac{db R \Delta l}{l^2})^2}
     \end{equation}
-    für die probengeometrien
+    für die Probengeometrien
     \begin{figure}[H]
         \centering
         \begin{tabular}{l|c|c|c}
@@ -82,8 +82,8 @@
         \end{tabular}
     \end{figure}
     Darauf folgt entsprechend $A=(7.85\pm8.7)e-7 \Omega m$ und damit für Probe 3 auch $S=0.997 \pm 0.018$. Dieses Resultat
-    entspricht unseren erwartungen, da Probe 3 und 2 etwa den selben Restwiderstand bei T=5K besitzen.\\
+    entspricht unseren Erwartungen, da Probe 3 und 2 etwa den selben Restwiderstand bei T=5K besitzen.\\
     Es fällt auf, dass dieses Ergebniss nur für kleine Temperaturen gilt. Würde man diese Auswertung bei
     Raumtemperatur ($\sim 272K$) durchführen würden wir erwarten, dass der unterschied der Ordnung zwischen Probe
     3 und 2 größer ist. Gegebenfalls liesen sich die Unterschiede in der Temperaturabhängigkeit durch die lineare
-    Regression berücksichtigen um ein ähnliches Ergebniss zu erlangen, jedoch wäre dieses Ergebniss größer Fehlerbehaftet.
+    Regression berücksichtigen um ein ähnliches Ergebnis zu erlangen, jedoch wäre dieses Ergebnis größer fehlerbehaftet.
