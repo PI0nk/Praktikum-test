@@ -1,7 +1,8 @@
 \section{Theoretische Vorbereitung}
     \subsection{Reziprokes Gitter}
-        Das reziproke Gitter beschreibt in der Festkörperphysik die Röntgen-, Elektronen-, und Neutronenbeugung
-        an kristallinen Strukturen. Es wird häufig in Zusammenhang mit den Miller'schen Indizes verwendet
+        Das reziproke Gitter ist ein mathematisches Konstrukt, welches besonders geeignet ist um Beugung von Wellen
+        an periodischem Gittern zu beschreiben, \hl{da es durch diese Beugungen gebildet wird.(?)}
+         Es wird häufig in Zusammenhang mit den Miller'schen Indizes verwendet
         um die Netzebenen $(hkl)$ zu beschreiben. Es bietet sich an diese im Reziproken zu definieren, da die Länge
         eines Vektors der die Position eines Gitterpunkts beschreibt gleich dem Reziproken des Abstands der
         Netzebenen entspricht.
@@ -17,8 +18,10 @@
         
         \subsubsection*{Bragg Gleichung}
             Die Bragg Gleichung liefert einen Zusammenhang zwischen dem Netzebenenabstand $d_{hkl}$ und dem
-            Beugungswinkel $\theta$. Damit dieser Zusammenhang gilt muss jedoch der einfallende und gebeugte
-            Strahl symmetrisch zur reflektierende Netzebene verlaufen. Dann lässt sich der Zusammenhang beschreiben durch
+            Beugungswinkel $\theta$. Damit dieser Zusammenhang gilt, muss jedoch der einfallende und gebeugte
+            Strahl symmetrisch zur reflektierende Netzebene verlaufen. Damit die beiden Strahlen konstruktiv
+            inteferieren können, muss der Wellenlängenunterschied $n\lambda$ betragen \hl{(destruktive $n\frac{\lambda}{2}$)}
+            Dann lässt sich der Zusammenhang beschreiben durch
             \begin{equation}
                 n\lambda = 2d_{hkl} \sin(\theta)
             \end{equation}
@@ -36,15 +39,16 @@
        hohen Symmetrie in eine Phase in der lediglich die Gittersymetrie verbleibt. Dieser Übergang lässt sich
        anhand des Ordnungsparameters als Übergang von absoluter Unordnung ($s=0$) zur absoluten Ordnung
        ($s=1$) beschreiben. Diese Beschreibung lässt sich auf beliebige Übergänge übertragen, bei denen
-       gegebenenfalls kein eindeutiger Phasenwechsel auftritt.\hl{ keine Ahnunh was hier stehen sollte}da nach dem verändert sich der Ordnungsparameter
+       gegebenenfalls kein eindeutiger Phasenwechsel auftritt, je nach dem verändert sich der Ordnungsparameter
        entweder plötzlich oder kontinuierlich. Anhand der Thermondynamik lässt sich über
        \begin{equation}
            F = E-TS
        \end{equation}
        zeigen, dass der Ordnungsparameter stehts versucht die freie Energie zu minimieren um schlussendlich
-       einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen. 
+       einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen. \hl{noch nicht verbessert} 
 
     \subsection{Überstrukturen}
+        \hl{noch nicht verbessert} 
         Eine Überstruktur beschreibt eine Elementarzelle die größer ist als diejenige die man beim Durchschneiden
         des Kristallgitters erhalten würde. Nimmt man beispielsweise eine reine Oberfläche/Kristalline Struktur an, so
         gäbe es keine Überstrukturen, diese kommen erst dann zustande wenn beispielweise Adsorbatome an einer Oberfläche
@@ -56,8 +60,8 @@
         \end{align*}
         Überstrukturen lassen sich beispielsweise direkt mit dem Rastertunnelmikroskop sichtbar machen.
         Andererseits lässt sich über Beugungsverfahren das reziproke Gitter der Oberfläche abbilden, bei der die
-        Überstruktur zu zusätzlichen Gitterpunkten im reziproken Gitter in form von zusätzlichen Beugungsmaxima
-        führt. 
+        Überstruktur zu anderen Periodizitäten im reziproken Gitter führt. Was sich in Form von zusätzlichen Beugungsmaxima 
+        Beugungsmaxima bemerkbar macht.
 
         \subsection{Legierung}
             Eine Legierung ist ein Gemisch aus mindestens einem Metall (Basismetall) und einem anderen Element (Komponente). Im Allgemeinen 
@@ -81,15 +85,16 @@
     \subsection{Die röntgenographische Methode}
 
         \subsubsection{Röntgenstrahlung}    
-            Röntgenstrahlung gehört zum elektromagnetischen Spektrum. Röntgenstrahlung entspricht einer Energie von etwa
-            100eV oder einer Wellenlänge $~10 nm$. Es gibt unterschiedliche Möglichkeiten Röntgenstrahlung zu erzeugen. 
-            Durch Elektronen kann Röntgenstrahlung erzeugt werden, bei hochenergetischen Elektronen Übergängen in Atomen. 
-            Bei starkem Beschleunigen (meist Abbremsen oder Umlenken) von Elektronen entsteht die sogenannte Bremsstrahlung, welche im Energiebereich
+            Röntgenstrahlung gehört zum elektromagnetischen Spektrum und entspricht einer Energie von etwa
+            100eV oder einer Wellenlänge $~10 nm$. In diesem Versuch benötigt man eine Wellenlänge von $\lambda \thicksim 0.1 nm$, \hl{da 
+            die Wellenlaenge ungefaehr mit den Groessen der Streuobjekte uebereinstimmen muss.} Es gibt unterschiedliche Möglichkeiten Röntgenstrahlung zu erzeugen. 
+            Durch Elektronen kann Röntgenstrahlung erzeugt werden, bei starkem Beschleunigen (meist Abbremsen oder Umlenken) von Elektronen entsteht die sogenannte Bremsstrahlung, welche im Energiebereich
             von Röntgenstrahlung liegt. Somit lässt sich Röntgenstrahlung in einer Röntgenröhre ohne großen Aufwand erzeugen.
             Eine Röntgenröhre besteht aus einer evakuierten Röhre, einer Glühkathode und einer Anode. Bei der Glühkathode werden
             freie Elektronen erzeugt und durch einen Spannungsunterschied zur Anode hinbeschleunigt. Beim Auftreffen auf die Anode
             der Elektronen entsteht Röntgenstrahlung. Die erzeugte Röntgenstrahlung besteht aus zwei Komponenten, dem kontinuierlichen Spektrum
-            und einem diskreten Linienspektrum. Das kontinuierliche Spektrum wird erzeugt, durch die verschiedenen Endenergien der auftreffenden Elektronen. 
+            und einem diskreten Linienspektrum. Das kontinuierliche Spektrum wird erzeugt, durch die unterschiedlich starken Umlenkungen oder das unterschiedlich starke
+            Abbremsen der Elektronen an der Anode.\hl{durch die verschiedenen Endenergien der auftreffenden Elektronen.} 
             Das diskrete Linienspektrum entsteht durch das Material der Anode. Wenn die auftreffenden Elektronen die richtige Energie haben, 
             können diese die Atome der Anode anregen, welche wiederum Röntgenstrahlung emittieren.
             \begin{figure}
@@ -159,7 +164,7 @@
                 \label{Lorentz-Polarisationsfaktor}
             \end{equation}
             Eine weitere Korrektur ist der Absorptionsfaktor. Er berücksichtigt die Absorption von Strahlung innerhalb des Materials.
-            Dieser ist stark von der Probengeometrie abhängig, da die Intensität in einer Probe mit
+            Dieser ist stark von der Probengeometrie abhängig, da die Intensität der Röntgenstrahlung in einer Probe mit
             $$ I = I_0 exp(-\mu d)$$
             $$ \mu = n \sigma$$
             abfällt, dabei beschreibt $\sigma$ den effektiven Wirkungsquerschnitt der Probe, $n$ die Anzahl der Atome pro Kubikmeter und $d$ die Probendicke selbst.
@@ -176,16 +181,18 @@
             \begin{equation}
                 n\lambda = 2d_{hkl}sin(\theta_{hkl})
             \end{equation}
-            Bei bekannter Wellenlänge lässt sich so jedem gemessenen Peak bei Winkel $\theta$ ein Satz millersche Indizes
+            \hl{fehlt noch}
+            Bei bekannter Wellenlänge lässt sich so jedem gemessenen Peak bei Winkel $\theta$, ein Satz millersche Indizes
             zuordnen.
         
     
     \subsection{Die resistive Methode}
+        \hl{fehlt noch}
         Die zweite Methode zur Proben charakterisierung die hier Anwendung findet ist die resistive.
-        Dabei erhällt man informationen über die Ordnung s im Kristall über die Messung des Widerstands.
+        Dabei erhält man informationen über die Ordnung s im Kristall über die Messung des Widerstands.
         \subsubsection{Elektrische Leitfähigkeit}
             Möchte man die elektrische Leitung von Elektronen durch ein Metall beschreiben bietet sich unter
-            anderem das Modell von Arnold Sommerfeld, auch gennant Drude-Sommerfeld-Modell, an. In diesem Modell
+            anderem das Modell von Arnold Sommerfeld und Paul Drude, auch gennant Drude-Sommerfeld-Modell, an. In diesem Modell
             wird ein elektrischer Leiter mit frei beweglichen Elektronen als Elektronengas betrachtet.
             Durch ein äußeres elektrisches Feld erfahren die freien Elektronen im Leiter eine Kraft $F_{el} = qE$
             und es kommt zu einem Stromfluss. Das Problem der unbegrenzten Beschleunigung wird durch das Drude-Modell
@@ -194,7 +201,9 @@
             \begin{equation}
                 ma + \frac{m}{\tau}v_D = -eE
             \end{equation}  
-
+            mit m der Elektronenmasse, v die Elektronengeschwindigkeit, e der Elementarladung, $\tau$ der Stoßzeit, $v_D$ der Driftgeschwindigkeit und E der elektrischen Feldstärke.
+            (\hl{glaube ich zumindest so keine Ahnung grad})
+            wobei $ma$ die Bewegung ohne Stöße beschreibt und $\frac{m}{\tau}v_D$ genau diese berücksichtigt.
         \subsubsection{Temperaturabhängigkeit}
             Der spezifische Wiederstand einer Kristallstruktur wie z.B. einer Legierung lässt sich schreiben als
             \begin{equation}
