@@ -31,25 +31,27 @@
             reziproken Gittervektor ist. 
     
     \subsection{Ordnungsparameter und Phasenübergänge}
-       Bei einem Phasenübergang handelt es sich um eine Umwandlung einer Phase eines Stoffes in 
-       eine andere Phase. Diese Übergänge treten meist in Abhängigkeit von einem oder mehrerer Zustandsvariablen
-       wie Druck oder Temperatur auf.\\
-       Will man nun den Zustand eines physikalischen Systems nicht nur vor und nach einem Übergang beschreiben,
-       so dienen die Ordnungsparameter zur eben dieser. Geht man beispielsweise von einem Übergang von einer
-       flüssigen in eine feste Phase, wie beispielweise bei Gefrierung von Wasser, so geht das System von einer
-       hohen Symmetrie in eine Phase in der lediglich die Gittersymetrie verbleibt. Dieser Übergang lässt sich
-       anhand des Ordnungsparameters als Übergang von absoluter Unordnung ($s=0$) zur absoluten Ordnung
-       ($s=1$) beschreiben. Diese Beschreibung lässt sich auf beliebige Übergänge übertragen, bei denen
-       gegebenenfalls kein eindeutiger Phasenwechsel auftritt, je nach dem verändert sich der Ordnungsparameter
-       entweder plötzlich oder kontinuierlich. Anhand der Thermondynamik lässt sich über
-       \begin{equation}
-           F = E-TS
-       \end{equation}
-       zeigen, dass der Ordnungsparameter stehts versucht die freie Energie zu minimieren um schlussendlich
-       einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen. \hl{noch nicht verbessert} 
+        Bei einem Phasenübergang handelt es sich um eine Umwandlung einer Phase eines Stoffes in 
+        eine andere Phase. Diese Übergänge treten meist in Abhängigkeit von einem oder mehrerer Zustandsvariablen
+        wie Druck oder Temperatur auf.\\
+        Will man nun den Zustand eines physikalischen Systems nicht nur vor und nach einem Übergang beschreiben,
+        so dienen die Ordnungsparameter zur eben dieser. Geht man beispielsweise von einem Übergang von einer
+        flüssigen in eine feste Phase, wie beispielweise bei Gefrierung von Wasser, so geht das System von einer
+        hohen Symmetrie in eine Phase in der lediglich die Gittersymetrie verbleibt. Dieser Übergang lässt sich
+        anhand des Ordnungsparameters als Übergang von absoluter Unordnung ($s=0$) zur absoluten Ordnung
+        ($s=1$) beschreiben. Diese Beschreibung lässt sich auf beliebige Übergänge übertragen, bei denen
+        gegebenenfalls kein eindeutiger Phasenwechsel auftritt, je nach dem verändert sich der Ordnungsparameter
+        entweder plötzlich oder kontinuierlich. Nach der Ehrenfest Klassifikation gibt es Phasenübergänge erster Ordnung (plötzlicher Wechsel) und jene 
+        höherer Ordnung (kontinuierliche Phasenübergänge).
+        Anhand der Thermondynamik lässt sich über
+        \begin{equation}
+            F = E-TS
+        \end{equation}
+        (freie Energie F, Energie E, Temperatur T, Entropie S)\\
+        zeigen, dass der Ordnungsparameter stehts versucht die freie Energie zu minimieren um schlussendlich
+        einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen.
 
     \subsection{Überstrukturen}
-        \hl{noch nicht verbessert} 
         Eine Überstruktur beschreibt eine Elementarzelle die größer ist als die des Kristallgitters selbst.
         Nimmt man beispielsweise eine reine Oberfläche/Kristalline Struktur an, so
         gäbe es keine Überstrukturen, diese kommen erst dann zustande wenn beispielweise Adsorbatome an einer Oberfläche
@@ -105,16 +107,18 @@
             \end{figure}
 
         \subsubsection{Aufbau eines Röntgendiffraktometers}   
-            Es gibt drei verschiedene Methoden der Röntgendiffraktometrie. Alle drei Methoden bauen auf der Bragg-Bedingung auf.
-            \begin{enumerate}
-                \item   Laue-Verfahren: Hier wird ein kontinuierliches Röntgenspektrum mit fester Orientierung zu einem Einkristall verwendet. 
-                        jede Ebenenschar sucht sich genau die Wellenlänge raus, für die die Bragg-Bedingung bei vorgegebenen Winkel erfüllt ist.
-                \item   Drehkristall-Verfahren: In diesem Verfahren wird monochromatische Röntgenstrahlung an einem Einkristall gebeugt. Der Einkristall 
-                        wird mit einem Detektor gedreht. Immer wenn bei einer Wellenlänge die Bragg-Bedingung erfüllt ist, tritt ein Beugungsreflex auf.
-                \item   Debye-Scherrer-Verfahren: Bei dem Debye-Scherrer-Verfahren wird monochromatische Röntgenstrahlung verwendet. Im Unterschied
-                        zum Drehkristall-Verfahren besteht hier unsere Probe aus einem Pulver. In diesem Pulver sind die einzelnen Kristalle in alle möglichen 
-                        Richtungen gerichtet. 
-            \end{enumerate}
+            Es gibt verschiedene Aufbauten um Röntgendiffraktogramme zu messen. Der in diesem Versuch verwendete
+            Aufbau basiert auf der Bragg-Brentano-Geometrie. Für diesen Aufbau werden flache Proben benötigt, welche in der Mitte
+            eines Drehkreises befestigt werden. Die Probe wird mit monochromatischer Röntgenstrahlung bestrahlt, während sich ein
+            Detektor auf dem Drehkreis bewegt. Der Detektor fährt eine Strecke 2$\Theta$ ab, wobeo $\Theta$ der Relfexionswinkel bezüglich der reflektierenden Gitterebene. 
+            Der Detektor registriert die gebeugten Intensitäten und wandelt diese in elektrische Signale um.
+            \begin{figure}[H]
+                \centering
+                \includegraphics{images/Bragg-Bretano.jpg}
+                \caption{Bragg-Bretano-Geometrie [9]}
+            \end{figure}
+
+            
 
         \subsubsection{Intensität der gestreuten Röntgenstrahlung}
             Die Intensität der Röntgenstrahlen ist proportional zum Betragsquadrat des Strukturfaktor. 
