@@ -1,7 +1,8 @@
 \section{Theoretische Vorbereitung}
     \subsection{Reziprokes Gitter}
         Das reziproke Gitter ist ein mathematisches Konstrukt, welches besonders geeignet ist um Beugung von Wellen
-        an periodischem Gittern zu beschreiben, \hl{da es durch diese Beugungen gebildet wird.(?)}
+        an periodischem Gittern zu beschreiben, da es durch die Beugungen von Wellen an diesem bzw. durch die 
+        Fouriertransformation beschrieben wird.
          Es wird häufig in Zusammenhang mit den Miller'schen Indizes verwendet
         um die Netzebenen $(hkl)$ zu beschreiben. Es bietet sich an diese im Reziproken zu definieren, da die Länge
         eines Vektors der die Position eines Gitterpunkts beschreibt gleich dem Reziproken des Abstands der
@@ -20,7 +21,7 @@
             Die Bragg Gleichung liefert einen Zusammenhang zwischen dem Netzebenenabstand $d_{hkl}$ und dem
             Beugungswinkel $\theta$. Damit dieser Zusammenhang gilt, muss jedoch der einfallende und gebeugte
             Strahl symmetrisch zur reflektierende Netzebene verlaufen. Damit die beiden Strahlen konstruktiv
-            inteferieren können, muss der Wellenlängenunterschied $n\lambda$ betragen \hl{(destruktive $n\frac{\lambda}{2}$)}
+            inteferieren können, muss der Wellenlängenunterschied $n\lambda$ betragen (destruktive $n\frac{\lambda}{2}$)
             Dann lässt sich der Zusammenhang beschreiben durch
             \begin{equation}
                 n\lambda = 2d_{hkl} \sin(\theta)
@@ -30,33 +31,35 @@
             reziproken Gittervektor ist. 
     
     \subsection{Ordnungsparameter und Phasenübergänge}
-       Bei einem Phasenübergang handelt es sich um eine Umwandlung einer Phase eines Stoffes in 
-       eine andere Phase. Diese Übergänge treten meist in Abhängigkeit von einem oder mehrerer Zustandsvariablen
-       wie Druck oder Temperatur auf.\\
-       Will man nun den Zustand eines physikalischen Systems nicht nur vor und nach einem Übergang beschreiben,
-       so dienen die Ordnungsparameter zur eben dieser. Geht man beispielsweise von einem Übergang von einer
-       flüssigen in eine feste Phase, wie beispielweise bei Gefrierung von Wasser, so geht das System von einer
-       hohen Symmetrie in eine Phase in der lediglich die Gittersymetrie verbleibt. Dieser Übergang lässt sich
-       anhand des Ordnungsparameters als Übergang von absoluter Unordnung ($s=0$) zur absoluten Ordnung
-       ($s=1$) beschreiben. Diese Beschreibung lässt sich auf beliebige Übergänge übertragen, bei denen
-       gegebenenfalls kein eindeutiger Phasenwechsel auftritt, je nach dem verändert sich der Ordnungsparameter
-       entweder plötzlich oder kontinuierlich. Anhand der Thermondynamik lässt sich über
-       \begin{equation}
-           F = E-TS
-       \end{equation}
-       zeigen, dass der Ordnungsparameter stehts versucht die freie Energie zu minimieren um schlussendlich
-       einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen. \hl{noch nicht verbessert} 
+        Bei einem Phasenübergang handelt es sich um eine Umwandlung einer Phase eines Stoffes in 
+        eine andere Phase. Diese Übergänge treten meist in Abhängigkeit von einem oder mehrerer Zustandsvariablen
+        wie Druck oder Temperatur auf.\\
+        Will man nun den Zustand eines physikalischen Systems nicht nur vor und nach einem Übergang beschreiben,
+        so dienen die Ordnungsparameter zur eben dieser. Geht man beispielsweise von einem Übergang von einer
+        flüssigen in eine feste Phase, wie beispielweise bei Gefrierung von Wasser, so geht das System von einer
+        hohen Symmetrie in eine Phase in der lediglich die Gittersymetrie verbleibt. Dieser Übergang lässt sich
+        anhand des Ordnungsparameters als Übergang von absoluter Unordnung ($s=0$) zur absoluten Ordnung
+        ($s=1$) beschreiben. Diese Beschreibung lässt sich auf beliebige Übergänge übertragen, bei denen
+        gegebenenfalls kein eindeutiger Phasenwechsel auftritt, je nach dem verändert sich der Ordnungsparameter
+        entweder plötzlich oder kontinuierlich. Nach der Ehrenfest Klassifikation gibt es Phasenübergänge erster Ordnung (plötzlicher Wechsel) und jene 
+        höherer Ordnung (kontinuierliche Phasenübergänge).
+        Anhand der Thermondynamik lässt sich über
+        \begin{equation}
+            F = E-TS
+        \end{equation}
+        (freie Energie F, Energie E, Temperatur T, Entropie S)\\
+        zeigen, dass der Ordnungsparameter stehts versucht die freie Energie zu minimieren um schlussendlich
+        einen Gleichgewichtszustand mit mininmaler freien Energie zu erreichen.
 
     \subsection{Überstrukturen}
-        \hl{noch nicht verbessert} 
-        Eine Überstruktur beschreibt eine Elementarzelle die größer ist als diejenige die man beim Durchschneiden
-        des Kristallgitters erhalten würde. Nimmt man beispielsweise eine reine Oberfläche/Kristalline Struktur an, so
+        Eine Überstruktur beschreibt eine Elementarzelle die größer ist als die des Kristallgitters selbst.
+        Nimmt man beispielsweise eine reine Oberfläche/Kristalline Struktur an, so
         gäbe es keine Überstrukturen, diese kommen erst dann zustande wenn beispielweise Adsorbatome an einer Oberfläche
         eine weiteres geordnetes Gitter bilden welches größer ist als das des reinen ursprünglichen Gitters.
         Überstrukturen werden nach Wood, über ein vielfaches der reziproken Gittervektoren angegeben, beispielweise
         \begin{align*}
             (2\times1) \text{  die Überstruktur ist in x-Richtung doppelt so groß wie die Elementar Zelle}\\
-            (\sqrt{2}\times\sqrt{2})R45 \text{  um 45° rotierte quadratische Zelle}
+            (\sqrt{2}\times\sqrt{2})R45 \text{  um 45° rotierte quadratische Zelle[2]}
         \end{align*}
         Überstrukturen lassen sich beispielsweise direkt mit dem Rastertunnelmikroskop sichtbar machen.
         Andererseits lässt sich über Beugungsverfahren das reziproke Gitter der Oberfläche abbilden, bei der die
@@ -86,34 +89,36 @@
 
         \subsubsection{Röntgenstrahlung}    
             Röntgenstrahlung gehört zum elektromagnetischen Spektrum und entspricht einer Energie von etwa
-            100eV oder einer Wellenlänge $~10 nm$. In diesem Versuch benötigt man eine Wellenlänge von $\lambda \thicksim 0.1 nm$, \hl{da 
-            die Wellenlaenge ungefaehr mit den Groessen der Streuobjekte uebereinstimmen muss.} Es gibt unterschiedliche Möglichkeiten Röntgenstrahlung zu erzeugen. 
+            100eV oder einer Wellenlänge $~10 nm$. In diesem Versuch benötigt man eine Wellenlänge von $\lambda \thicksim 0.1 nm$, da 
+            die Wellenlaenge ungefaehr mit den Groessen der Streuobjekte uebereinstimmen muss. Es gibt unterschiedliche Möglichkeiten Röntgenstrahlung zu erzeugen. 
             Durch Elektronen kann Röntgenstrahlung erzeugt werden, bei starkem Beschleunigen (meist Abbremsen oder Umlenken) von Elektronen entsteht die sogenannte Bremsstrahlung, welche im Energiebereich
             von Röntgenstrahlung liegt. Somit lässt sich Röntgenstrahlung in einer Röntgenröhre ohne großen Aufwand erzeugen.
             Eine Röntgenröhre besteht aus einer evakuierten Röhre, einer Glühkathode und einer Anode. Bei der Glühkathode werden
             freie Elektronen erzeugt und durch einen Spannungsunterschied zur Anode hinbeschleunigt. Beim Auftreffen auf die Anode
             der Elektronen entsteht Röntgenstrahlung. Die erzeugte Röntgenstrahlung besteht aus zwei Komponenten, dem kontinuierlichen Spektrum
             und einem diskreten Linienspektrum. Das kontinuierliche Spektrum wird erzeugt, durch die unterschiedlich starken Umlenkungen oder das unterschiedlich starke
-            Abbremsen der Elektronen an der Anode.\hl{durch die verschiedenen Endenergien der auftreffenden Elektronen.} 
+            Abbremsen der Elektronen an der Anode.
             Das diskrete Linienspektrum entsteht durch das Material der Anode. Wenn die auftreffenden Elektronen die richtige Energie haben, 
             können diese die Atome der Anode anregen, welche wiederum Röntgenstrahlung emittieren.
-            \begin{figure}
+            \begin{figure}[H]
                 \centering
                 \includegraphics{images/Spektrum_Röntgenröhre.jpg}
-                \caption{Spektrum Röntgenröhre}
+                \caption{Spektrum Röntgenröhre [8]}
             \end{figure}
 
         \subsubsection{Aufbau eines Röntgendiffraktometers}   
-            Es gibt drei verschiedene Methoden der Röntgendiffraktometrie. Alle drei Methoden bauen auf der Bragg-Bedingung auf.
-            \begin{enumerate}
-                \item   Laue-Verfahren: Hier wird ein kontinuierliches Röntgenspektrum mit fester Orientierung zu einem Einkristall verwendet. 
-                        jede Ebenenschar sucht sich genau die Wellenlänge raus, für die die Bragg-Bedingung bei vorgegebenen Winkel erfüllt ist.
-                \item   Drehkristall-Verfahren: In diesem Verfahren wird monochromatische Röntgenstrahlung an einem Einkristall gebeugt. Der Einkristall 
-                        wird mit einem Detektor gedreht. Immer wenn bei einer Wellenlänge die Bragg-Bedingung erfüllt ist, tritt ein Beugungsreflex auf.
-                \item   Debye-Scherrer-Verfahren: Bei dem Debye-Scherrer-Verfahren wird monochromatische Röntgenstrahlung verwendet. Im Unterschied
-                        zum Drehkristall-Verfahren besteht hier unsere Probe aus einem Pulver. In diesem Pulver sind die einzelnen Kristalle in alle möglichen 
-                        Richtungen gerichtet. 
-            \end{enumerate}
+            Es gibt verschiedene Aufbauten um Röntgendiffraktogramme zu messen. Der in diesem Versuch verwendete
+            Aufbau basiert auf der Bragg-Brentano-Geometrie. Für diesen Aufbau werden flache Proben benötigt, welche in der Mitte
+            eines Drehkreises befestigt werden. Die Probe wird mit monochromatischer Röntgenstrahlung bestrahlt, während sich ein
+            Detektor auf dem Drehkreis bewegt. Der Detektor fährt eine Strecke 2$\Theta$ ab, wobeo $\Theta$ der Relfexionswinkel bezüglich der reflektierenden Gitterebene. 
+            Der Detektor registriert die gebeugten Intensitäten und wandelt diese in elektrische Signale um.
+            \begin{figure}[H]
+                \centering
+                \includegraphics{images/Bragg-Bretano.jpg}
+                \caption{Bragg-Bretano-Geometrie [9]}
+            \end{figure}
+
+            
 
         \subsubsection{Intensität der gestreuten Röntgenstrahlung}
             Die Intensität der Röntgenstrahlen ist proportional zum Betragsquadrat des Strukturfaktor. 
@@ -181,14 +186,12 @@
             \begin{equation}
                 n\lambda = 2d_{hkl}sin(\theta_{hkl})
             \end{equation}
-            \hl{fehlt noch}
-            Bei bekannter Wellenlänge lässt sich so jedem gemessenen Peak bei Winkel $\theta$, ein Satz millersche Indizes
-            zuordnen.
+            , dass sich bei bekannter Wellenlänge so jedem gemessenen Peak, bei Winkel $\theta$, ein Satz millersche Indizes
+            zuordnen lässt.
         
     
     \subsection{Die resistive Methode}
-        \hl{fehlt noch}
-        Die zweite Methode zur Proben charakterisierung die hier Anwendung findet ist die resistive.
+        Die zweite Methode zur Proben charakterisierung, die hier Anwendung findet, ist die resistive Methode.
         Dabei erhält man informationen über die Ordnung s im Kristall über die Messung des Widerstands.
         \subsubsection{Elektrische Leitfähigkeit}
             Möchte man die elektrische Leitung von Elektronen durch ein Metall beschreiben bietet sich unter
@@ -202,7 +205,6 @@
                 ma + \frac{m}{\tau}v_D = -eE
             \end{equation}  
             mit m der Elektronenmasse, v die Elektronengeschwindigkeit, e der Elementarladung, $\tau$ der Stoßzeit, $v_D$ der Driftgeschwindigkeit und E der elektrischen Feldstärke.
-            (\hl{glaube ich zumindest so keine Ahnung grad})
             wobei $ma$ die Bewegung ohne Stöße beschreibt und $\frac{m}{\tau}v_D$ genau diese berücksichtigt.
         \subsubsection{Temperaturabhängigkeit}
             Der spezifische Wiederstand einer Kristallstruktur wie z.B. einer Legierung lässt sich schreiben als
@@ -236,7 +238,7 @@
             Potentialdifferenz aus den mittleren Spitzen bestimmen lässt.
             Wichtig bei dieser Messung ist es möglichst weit von den Rändern der Probe entfernt zu sein, da durch die Randbedingungen der
             Strom dort stehts parallel zum Rand fließt. Im Falle der idealisierten Annahme und vier Messspitzen 
-            mit gleichem Abstand erhält man den Flächenwiderstand $R_{sq}$ über
+            mit gleichem Abstand erhält man den Flächenwiderstand $R_{sq}$ über [3]
             \begin{equation}
                 R_{sq} = \frac{\pi}{ln2}\frac{U}{I}
             \end{equation}

@@ -24,7 +24,7 @@
                 \frac{sin^2(\theta_1)}{\Psi_1} = \frac{sin^2(\theta_2)}{\Psi_2} \\
                 \Leftrightarrow \Psi_2 = \frac{sin^2(\theta_2)\Psi_1}{sin^2(\theta_1)}
             \end{align}
-            mit $\Psi_1 = 3$ und die Winkel $\theta_{1,2}$ können aus den Messwerten entnommen werden. Theoretisch
+            wobei $\Psi = 3$ (da kleinere Reflexe verboten sind) und die Winkel $\theta_{1,2}$ aus den Messwerten entnommen werden können. Theoretisch
             müsste $\Psi_2 \in \mathbb{N}$, durch Messungenauigkeiten stimmt dies nicht ganz. Daher runden wir $\Psi_2$ immer auf die 
             nächste natürliche Zahl. Dieser Zahl kann nun eine Kombination von Indizes zugeordnet werden, da:
             $\Psi_2 = h^2+k^2+l^2$ die Wahl der Indizes nicht eindeutig ist z.B für $\Psi_2 = 2$, würden (110), (011) und (101) passen.
@@ -34,7 +34,7 @@
                 \Leftrightarrow a = \frac{n \lambda \sqrt{\Psi}}{2 sin(\theta)}
             \end{equation}
             wobei $n=1$, $\lambda = 1.54190 \mathring{A}$, $\Psi$ wie oben beschrieben bestimmt und $2 \theta$ wurde gemessen.
-            \begin{figure}[H]
+            \begin{table}[H]
                 \centering
                 \begin{tabular}{c| c| c| c| c}
                     Reflexart & $2 \theta $[\textdegree] & $\Psi_2$ &  mögl. Reflex & a[$\mathring{A}$]\\
@@ -54,9 +54,9 @@
                     Ü & 100.76 & 14 & (123) & 3.745\\
                 \end{tabular}
                 \caption{Gitterkonstanten Probe 2}
-            \end{figure}
+            \end{table}
             
-            \begin{figure}[H]
+            \begin{table}[H]
                 \centering
                 \centering
                 \begin{tabular}{c | c | c | c | c}
@@ -76,9 +76,9 @@
                     Ü & 100.5 & 14 & (123) & 3.752\\
                 \end{tabular}
                 \caption{Gitterkonstanten Probe 3}
-            \end{figure}
+            \end{table}
             
-            \begin{figure}[H]
+            \begin{table}[H]
                 \centering
                 \begin{tabular}{c | c | c | c | c}
                     Reflexart & $2 \theta $[\textdegree] & $\Psi_2$ &  mögl. Reflex & a[$\mathring{A}$]\\
@@ -90,7 +90,7 @@
                     F & 87.6 & 12 & (222) & 3.859\\
                 \end{tabular}
                 \caption{Gitterkonstanten Probe 4}
-            \end{figure}
+            \end{table}
 
             Für jede Probe wird jetzt der Mittelwert der Gitterkonstante mit zugehörigem
             Fehler berechnet, nach den Formeln:
@@ -106,8 +106,26 @@
                 \bar{a}_{Probe3} = (3,77 \pm 0,006)[\mathring{A}]\\
                 \bar{a}_{Probe4} = (3,86 \pm 0,001)[\mathring{A}]
             \end{align*}
-            Im Anhang befinden sich unsere Röntgendiffraktogramme und die dazu gefitteten Gaußpeaks.
-            Probe 2: \ref{Röntgendiffraktogramm Probe 2}, Probe 3: \ref{Röntgendiffraktogramm Probe 3}, Probe 4: \ref{Röntgendiffraktogramm Probe 4}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/Probe2.pdf}
+                \caption{Röntgendiffraktogramm Probe 2}
+                \label{Röntgendiffraktogramm Probe 2}
+            \end{figure}
+        
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/Probe3.pdf}
+                \caption{Röntgendiffraktogramm Probe 3}
+                \label{Röntgendiffraktogramm Probe 3}
+            \end{figure}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Messdaten/Auswertungsskripte/Probe4.pdf}
+                \caption{Röntgendiffraktogramm Probe 4}
+                \label{Röntgendiffraktogramm Probe 4}
+            \end{figure}
+
 
             \subsubsection{Bestimmung des Ordnungsgrades}
                 Um den Ordnungsgrad der Proben zu bestimmen nutzen wir die Formel:
@@ -133,7 +151,7 @@
                     \caption{Flächenhäufigkeitsfaktor}
                 \end{figure}
 
-                \begin{figure}[H]
+                \begin{table}[H]
                     \centering
                     \begin{tabular}{c | c | c | c | c | c | c}
                         Intensität & $2\theta$ & $f_{Cu}$ & $f_{Au}$ & p & $L_p$ & $S^2$\\
@@ -153,9 +171,9 @@
                         74 & 100.76 & 46.91 & 13.72 & 0 & 0.342 & -\\
                     \end{tabular}
                     \caption{Ordnungsgrad Probe 2}
-                \end{figure}
+                \end{table}
 
-                \begin{figure}[H]
+                \begin{table}[H]
                     \centering
                     \begin{tabular}{c | c | c | c | c | c | c}
                         Intensität & $2\theta$ & $f_{Cu}$ & $f_{Au}$ & p & $L_p$ & $S^2$\\
@@ -174,7 +192,7 @@
                         79 & 100.5 & 46.96 & 13.75 & 0 & 0.342 & - \\
                     \end{tabular}
                     \caption{Ordnungsgrad Probe 3}
-                \end{figure}
+                \end{table}
 
                 Aus diesen Werten wird der mittlere Ordnungsgrad mit Fehler, wie schon bei der Gitterkonstanten, 
                 bestimmt:
