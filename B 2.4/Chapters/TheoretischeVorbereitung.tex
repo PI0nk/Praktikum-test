@@ -5,47 +5,46 @@
     \end{itemize}
     \subsection{Grundlegende Beziehungen}
         \subsubsection{Magnetfelder}
-            In der Physik wird das Vektorielle Magnetfeld meist als B-Feld bezeichnet. Es besitzt den Formelbuchstaben
-            $\vec{B}$ und wird genauer auch als Magnetische Flussdichte bezeichnet und es wird in der Regel in Tesla angegeben.
-            Das B-Feld ist jedoch keine Messbare größe, die zugehörige Messgröße zum B-Feld ist die Magnetische Feldstärke $\vec{H}$.
-            Die Magnetische Feldstärke $H$ wird in Ampere pro Meter angegeben ($\frac{A}{m}$) und ist im Vaccum auch Direkt proportional
-            zum B-Feld. Dort gilt
+            Die magnetische Flussdichte $\vec{B}$ ist ein Vektorfeld, das im SI-System die Einheit Tesla hat.
+            Das $\vec{B}$ - Feld ist jedoch keine direkt messbare Größe, die zugehörige Messgröße ist die magnetische Feldstärke $\vec{H}$.
+            Diese wird in Ampere pro Meter angegeben ($\frac{A}{m}$) und ist im Vakuum direkt proportional
+            zum $\vec{B}$ - Feld. Dort gilt:
             \begin{equation}
                 \vec{B} = \mu_0 \vec{H}
             \end{equation}
-            $\mu_0$($\eqsim 4\pi ×10^{-7 }\frac{N}{A^2}$) bezeichnet dabei die Magnetische permeabilität von Vaccum.
-            In Anwesenheit eines Material mit Magnetisierungs Vektor $M [\frac{A}{m}]$, welcher die dichte der im Material induzierten oder permanenten magnetischen Dipolmomente angibt, ändert sich der Zusammenhand zu
+            $\mu_0$($\eqsim 4\pi ×10^{-7 }\frac{N}{A^2}$) bezeichnet dabei die magnetische Permeabilität des Vakuums.
+            In Anwesenheit eines Materials mit der Magnetisierung $\vec{M} [\frac{A}{m}]$, welcher die räumliche Dichte der im Material induzierten oder permanenten magnetischen Dipolmomente $\vec{\mu}$ angibt ($\vec{M} = \frac{d\vec{\mu}}{dV}$), ändert sich der Zusammenhang zu
             \begin{equation}
                 \vec{B} = \mu_0 (\vec{H} + \vec{M})
             \end{equation}
-            Zusätzlich lässt sich nun die magnetische Suszeptibilität $\chi$ nutzen um beispielsweise die Relation zwischen $\vec{H}$ und $\vec{M}$ zu beschreiben
+            Zusätzlich lässt sich die magnetische Suszeptibilität $\chi$ nutzen, um beispielsweise die Relation zwischen $\vec{H}$ und $\vec{M}$ zu beschreiben:
             \begin{equation}
                 \vec{M} = \chi \vec{H}
             \end{equation}
-            Die magnetische Suszeptibilität beschreibt dabei wie stark dich die Magnetisierung in einem
-            Material bei angelegetem Magnetfeld ändert, bzw wie viele der Magnetischen momente sich ausrichten.
+            Die magnetische Suszeptibilität beschreibt dabei, wie stark sich die Magnetisierung in einem
+            Material, das sich in einem externen Magnetfeld befindet, ändert, bzw wie viele der magnetischen Momente sich entlang des externen Feldes ausrichten.
             Dabei Unterscheidet man im Allgemeinen zwischen
             \begin{itemize}
                 \item $\chi > 0$ Paramagneten
                 \item $\chi < 0$ Diamagneten
             \end{itemize}
-            Daraus folgt über
+            Daraus ergibt sich über
             \begin{equation}
                 \mu = \mu_0 (1 + \chi)
             \end{equation}
-            die Magnetsiche permeabilität $\mu [\frac{N}{A^2}]$, die das Verhältniss zwischen Magnetischer Flussdichte $B$ und magnetischer Feldstärke $H$ beschreibt
+            die magnetsiche Permeabilität $\mu [\frac{N}{A^2}]$, die das Verhältnis zwischen magnetischer Flussdichte $B$ und magnetischer Feldstärke $H$ beschreibt:
             $$ \mu = \frac{B}{H}$$
-            Zuletzt gilt es noch das magnetische (Dipol-)Moment $\vec{\mu}$ [$\frac{A}{m^2}$] zu beschreiben, dieses ist ein Maß für die Stärke
-            und Richtung eines Magnetischen Dipols. Es lässt sich jedoch auch für Ströme definieren, beispielsweise gilt für eine
+            Das magnetische (Dipol-)Moment $\vec{\mu}$ [$\frac{A}{m^2}$] ist ein Maß für die Stärke
+            und Richtung eines magnetischen Dipols. Es lässt sich jedoch auch für Ströme definieren, beispielsweise gilt für eine ebene
             Leiterschleife
             \begin{equation}
                 \vec{\mu} = n I \vec{A}
             \end{equation}
-            oder Allgemeiner 
+            In einem externen $\vec{B}$ - Feld wirkt auf einen magnetischen Dipol $\vec{\mu}$ ein Drehmoment $\vec{D}$:
             \begin{equation}
                 \vec{D} = \vec{\mu} \times \vec{B}
             \end{equation}.
-            Erweitert man das Konzept einer Leiterschleife zu einer Reihe derselbigen, erhält das Magnetfeld einer Spule mit Windungen N
+            Erweitert man das Konzept einer Leiterschleife zu einer Reihe von Leiterschleifen, erhält man das Magnetfeld einer Spule der Länge $l$ mit $N$ Windungen, durch die ein Strom $I$ fließt:
             \begin{equation}
                 B = N \frac{\mu_0 I}{l}
             \end{equation}
