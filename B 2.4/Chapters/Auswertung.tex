@@ -82,3 +82,59 @@
         \end{figure}
         Um nun anschließend den Entmagnetisierungsfaktor N als Funktion der Spaltbreite zu ermitteln wurden Hysteresenkurve bei verschiedenen Spaltbreiten und gleicher Maximalen Magnetisierung
         aufgenommen.
+        \subsection{Entmagnetisierungsfaktor}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8 \textwidth]{Images/Teil4.2_unsereTrashdaten_panda.png}
+                \caption{Hysteresekurven bei verschiedenen Spaltbreiten}
+            \end{figure}
+            In diesem Versuchsteil sollten nun Magnetisierungskurven bei gleichbleibender maximaler 
+            Magnetisierung aufgenommen werden, damit aus den Scherungen der Kurven die Entmagnetisierungsfaktoren
+            bestimmt werden können. Um die Entmagnetisierungsfaktoren berechnen zu können, mitteln wir zunächst 
+            über die maximalen Magnetisierungen:
+            \begin{align}
+                \bar{M}_{max} = \sqrt{\frac{1}{6} \sum^6_{i=0} M_{max, i}}\\
+                \Delta \bar{M}_{max} = \sqrt{\frac{1}{30} \sum^6_{i=0} (M_{max, i} - \bar{M}_{max})^2}
+            \end{align}
+            Damit erhalten wir für die mittlere maximale Magnetisierung: $\bar{M}_{max} = (129,808 \pm 788) \cdot 10^3 \frac{A}{m}$\\
+            Um daraus die Entmagnetisierungsfaktoren zu bestimmen, wird das Entmagnetisierungsfeld $H_{ent} = H_a - H_i$ verwendet,
+            mit $H_i$ dem inneren Feld (also bei Spaltbreite d = 0).\\
+            Daraus werden die Entmagnetisierungsfaktoren wie folgt bestimmt:
+            \begin{equation}
+                N_e = \frac{H_a-H_i}{\bar{M}_{max}}
+            \end{equation}
+            Um die experimentellen Werte mit den theoretischen bestimmen zu können, müssen diese erst berechnet werden,
+            was folgendermaßen geht:
+            \begin{equation}
+                N_t = \frac{L_L}{L} = \frac{d}{\pi R + d}
+            \end{equation}
+            \begin{table}[H]
+                \centering
+                \begin{tabular}[]{c|c|c}
+                    d [mm] & $N_e$ & $N_t$\\
+                    \hline
+                    0.0     & 0.0       & 0.0   \\
+                    0.075   & 0.0004    & 0.0016\\
+                    0.125   & 0.0007    & 0.0026\\
+                    0.2     & 0.0013    & 0.0042\\
+                    0.5     & 0.0022    & 0.0105\\
+                    1.0     & 0.0034    & 0.0208\\
+                \end{tabular}
+                \caption{Experimentelle und theoretische Werte für die Entmagnetisierungsfaktoren}
+            \end{table}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8 \textwidth]{Images/Teil4.2_Entmagnetisierungsfakoren.png}
+                \caption{Entmagnetisierungsfaktoren aufgetragen gegen Spaltbreiten}
+            \end{figure}
+            Man erkennt aus Abbildung 9 und Tabelle 2, dass unsere experimentellen Werte deutlich zu klein sind und
+            stark von den theoretisch berechneten Werten abweichen. Jedoch ist wie zu erwarten der Verlauf 
+            nahezu linear, was darauf schließen lassen könnte, dass es ein System interner Fehler ist \hl{?}.
+            Die Abweichungen könnten auf fehlerhafte Annahmen zurückzuführen sein. Wir haben beispielsweise das Material im Spalt,
+            als Vakuum genährt, wobei es sich jedoch um Kunststoff handelt. Außerdem haben wir angenommen, dass das Feld 
+            im Inneren des Spaltes homogen weiterlaufen würde, was auch nicht der Fall ist.\\
+            \\
+
+            Alles in allem sind unsere Werte in diesem Versuchsteil deutlich zu klein, wobei jedoch
+            der Verlauf wie zu erwarten linear ist. Auf Grund eines System internen Fehlers \hl{?} sind die Messwerte
+            um eine Größenordnung zu klein. 
