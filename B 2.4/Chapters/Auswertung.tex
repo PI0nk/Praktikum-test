@@ -72,12 +72,13 @@
         auch die Unordnung der internen Dipole zunimmt und somit die Magnetisierung abnimmt. Bei ca. 55°C verfällt die Magnetisierung vollständig. Dort ist die Curie-Temperatur erreicht.
         $$T_C  = (55 \pm 2)\text{°C}$$
         Dieser Wert ist bei uns leider starken Schwankungen unterlegen, da die Temperaturmessung sich teilweise sprunghaft änderte. Durch Auswertung der Rohdaten sind wir auf einen Wert von 55°C gestoßen, bei dem die Magnetisierung erstmals
-        0 $\frac{A}{m}$ erreichte. Alternativ zur Auswertung durch die Rohdaten wurden hier auch das fitten verschiedener Modelle versucht, jedoch mit zweifelhaftem Erfolg.
-        Fit (2) unterliegt leider keiner spezifischen physikalischen Grundlage und ist lediglich ein Polynom 12ten grades da wir leider keine mathematische Beschreibung für M(T) finden konnten. Betrachtet man den Ordinatenabschnitt des Polynoms erhält man
-        $T_C = (56,752 \pm 2)\text{°C}$ was unsere innerhalb des großzügigen Fehlerbereichs der ursprünglichen Annahme liegt-
+        0 $\frac{A}{m}$ erreichte. Alternativ zur Auswertung durch die Rohdaten wurden hier auch das die Funktion
+        $$ M(T) = M_0 * (1 - T/T_c)^b)$$
+        gefittet, wodurch eine kritische Temperatur von 55.23 resultiert.
     \subsection{Ringkern mit Spalt}
         Für den Ringkern mit Spalt wurde zunächst analog zum ersten Teil der Auswertung eine Hysteresenkurve aufgenommen als Referenz für die folgenden Messungen mit Variablen Spaltbreiten.
         Diese Referenzmessung wurde für I=0.94A durchgeführt.\\
+        I = 0.94A ergibt sich aus der Relation $\frac{17}{54} * 3A$, also dem Verhältnis der Windungen beider Spulen.
         Aus der Analyse des Graphen ergab sich
         \begin{figure}[H]
             \centering
