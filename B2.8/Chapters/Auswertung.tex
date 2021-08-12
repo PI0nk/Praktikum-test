@@ -1,8 +1,8 @@
 ﻿\section{Auswertung}
 	Da unsere getemperte Probe ungewöhnlich viele Ätzgrübchen aufweist und im Verlauf des Versuchs beschädigt wurde, haben wir eine weitere getemperte Probe erhalten und somit insgesamt 3 Proben untersucht.
     \subsection{Ätzgrübchendichte}
-        Zunächst gilt es die Nominale Unordnung der Proben zu definieren, dies lässt sich über die Ätzgrübchendichte an der Oberfläche
-        realisieren. Dazu wurden für beide Proben je 3 Bilder von verschiedenen Positionen an der Oberfläche aufgenommen und anschließend
+        Zunächst gilt es, als eine erste Näherung der Versetzungsdichte die Ätzgrübchendichte an der Oberfläche zu bestimmen.
+	Dazu wurden für beide Proben je 3 Bilder von verschiedenen Positionen an der Oberfläche aufgenommen und anschließend
         aus der Fläche, aufgenommen durch das Mikroskop, und den sichtbaren Ätzgrübchen die Ätzgrübchendichte bestimmt. Dieser Vorgang ist,
         durch das manuelle Zählen der Grübchen sehr müßig und ungenau, lässt aber dennoch eine Qualitative aussage über die Ordnung im Kristall zu.
         Aus den Aufgenommen Bildern lies sich folgende Tabelle erstellen.
@@ -11,18 +11,21 @@
             \begin{tabular}[]{c|c|c|c|c}
                 Probe & Aufnahme Nr. & Anzahl Grübchen & Fläche [$\mu m^2$] & Dichte [$\frac{n}{\mu m^2}$] \\
                 \hline
-                \multirow{3}{*}{\rotatebox[origin=c]{90}{Get.}} & 1 & $39 \pm 3$ & 839908,67 & 4,64e-5 \\
-                                                                     & 2 & $25 \pm 3$ & 1099357,61& 2,27e-5 \\
-                                                                     & 3 & $31 \pm 3$ & 454314,66 & 6,82e-5 \\
-                Mittelwert                                           & - & - & - & $4,58e-5 \pm 2,27$\\
+                \multirow{3}{*}{\rotatebox[origin=c]{90}{Get.}} & 1 & $39 \pm 3$ & 839908,67 & 4,64e-5$\pm$3,6e-6 \\
+                                                                     & 2 & $25 \pm 3$ & 1099357,61& 2,27e-5$\pm$2,8e-6 \\
+                                                                     & 3 & $31 \pm 3$ & 454314,66 & 6,82e-5$\pm$6,7e-6 \\
+                Mittelwert                                           & - & - & - & 4,85e-5$\pm$4,7e-6\\
                 \hline
-                \multirow{3}{*}{\rotatebox[origin=c]{90}{Unget.}}  & 1 & $344 \pm 40$  & 18894,73 & 0,018 \\
-                                                                        & 2 & $27 \pm 5$    & 7942,73 & 0,003 \\
-                                                                        & 3 & $103 \pm 15$  & 6251,25 & 0,017 \\
-                Mittelwert                                           & - & - & - & $0,013 \pm 0,008$\\
+                \multirow{3}{*}{\rotatebox[origin=c]{90}{Unget.}}  & 1 & $344 \pm 40$  & 18894,73 & 1,82e-2$\pm$0,21e-2 \\
+                                                                        & 2 & $27 \pm 5$    & 7942,73 & 0,34e-2$\pm$0,06e-2 \\
+                                                                        & 3 & $103 \pm 15$  & 6251,25 & 1,74e-2$\pm$0,24e-2 \\
+                Mittelwert                                           & - & - & - & 1,27e-2$\pm$0,19e-2\\
                 
             \end{tabular}    
         \end{table}
+	Als Flächenfehler nehmen wir an, dass aus einem linearen Abmessungsfehler von 0,1\% ein Flächenfehler von $10^{-4}$\% resultiert.
+	Der Fehler der Dichte ergibt sich gemäß Fortpflanzung zu $\Delta \rho = \sqrt{(\frac{\Delta n}{A})^2 + (\frac{n\Delta A}{A^2})^2}$.
+	Den Gesamtfehler des Mittelwerts bestimmen wir über $\Delta \rho^2 = (\sum_{i=1}^3 \Delta \rho_i^2)/3$, mit den drei Einzelfehlern $\rho_i$. Die Standardabweichung zum Mittelwert der getemperten Probe beträgt 2,27e-5, der Standardfehler 1,31e-5, diese Werte berücksichtigen jedoch keine Grübchenzahl- und Flächenfehler. Für die ungetemperte Probe ergeben sich eine Standardbweichung von 0,8e-2 sowie ein Standardfehler von 0,5e-2.\\
         Es ist deutlich zu erkennen, dass die Ätzgrübchendichte der ungetemperten Probe um ein Vielfaches höher ist, als die der getemperten.
         Auch ist zu erkennen, dass die Ätzgrübchendichte an verschiedenen stellen der Oberfläche stark variiert, also nicht konstant ist.
     \begin{figure}[H]
@@ -37,7 +40,7 @@
             den Winkel zwischen den Kristalliten zu bestimmen. Um den Winkel aus den Abständen zwischen den Ätzgrübchen zu bestimmen wurde bereits in der Vorbereitung
             folgende Formel hergeleitet
             \begin{equation}
-                \theta \approx \frac{b}{d} \approx \frac{n\cdot a}{\sqrt{2}\cdot d}
+                \theta \approx \frac{b}{d} \approx \frac{(n-1)\cdot a}{\sqrt{2}\cdot d}
             \end{equation}
             Wobei $n$ die Anzahl der Ätzgrübchen angibt und $d$ den abstand zwischen dem ersten und letzten. Zudem nehmen wir für $b=\frac{a}{\sqrt{2}}$ an, sodass für
             Messungen mit mehreren Grübchen ein gesamt Verschiebung von $b_ges = n * g$ gilt.
@@ -47,11 +50,11 @@
                 \includegraphics[width=\textwidth]{Images/kleinwinkelkorngrenze 2.jpg}
                 \caption{Aufnahme einer vermutlichen Kleinwinkelkorngrenzen mit Abständen}
             \end{figure}
-            Konnte folgende Tabelle erstellt werden
+            konnte folgende Tabelle erstellt werden
             \begin{table}[H]
                 \centering
                 \begin{tabular}[]{c|c|c}
-                    Abstand d [$\mu m$] & Anzahl Grübchen n & Winkel $\theta$ [°] \\
+                    Abstand d [$\mu m$] & Anzahl Grübchen (n-1) & Winkel $\theta$ [°] \\
                     \hline
                     $128,5 \pm 1$ & 9 & $1,14e-3 \pm 1,55e-10$\\
                     $16,43 \pm 1$ & 1 & $0,99e-3 \pm 1,05e-9$\\
@@ -59,10 +62,12 @@
                     $13,14 \pm 1$ & 1 & $1,24e-3 \pm 1,65e-9$\\   
                 \end{tabular}
             \end{table}
-            Grundsätzlich entsprechen die Winkel den Erwartungen, da diese recht klein ausfallen, jedoch lässt die Messmethode nur ganzzahlige n zu, die nur eine
-            geringe Auflösung der Tatsächlichen abstände d zulassen.
+		Die jeweiligen Winkelfehler ergeben sich dabei durch Fehlerfortpflanzung aus $\Delta \theta = \frac{(n-1)\cdot a}{\theta\cdot d^2}\cdot \Delta d$.
+            Grundsätzlich entsprechen die Winkel den Erwartungen, da diese recht klein ausfallen. Eine Kleinwinkelkorngrenze, die mehr auf einer Linie befindliche Ätzgrübchen erzeugt hätte,
+		hätte jedoch eine genauere Winkelmessung ermöglicht.
+% jedoch lässt die Messmethode nur ganzzahlige n zu, die nur eine geringe Auflösung der Tatsächlichen abstände d zulassen.
         \subsection{Versetzungsbewegungen}
-            Dieser abschnitt befasst sich mit der Wanderung der der Versetzungen bei äußerer Druckeinwirkung, dazu wurden 2-3 Rosetten durch Nadeleindruck erzeugt,
+            Dieser abschnitt befasst sich mit der Wanderung der Versetzungen bei äußerer Druckeinwirkung, dazu wurden 2-3 Rosetten durch Nadeleindruck erzeugt,
             deren Dimension über das Mikroskop aufgenommen und anschließend durch axialen Druck bewegt. Durch das Gewicht der Presse sowie der Querschnittsfläche der Probe
             lässt sich die Kraft bestimmen und über die Dauer der Anwendung die Geschwindigkeit der Wanderung.
             \begin{figure}[H]
@@ -97,16 +102,20 @@
                 \end{tabular}
                 \caption{Messung der Wanderung der Rosettenarme}
             \end{table}
-            Es ist deutlich zu erkennen, dass durch den axialen Druck nur wenige Arme, die entlang der <110> Richtung, ein Starkes Wachstum erfahren haben, das Wachstum der anderen Arme ist im Rahmen unsere
-            Messgenauigkeit kaum aussagekräftig, ließe sich jedoch auf die Statistische Verteilung der Energie entlang aller Achsen zurückführen.
+            Es ist deutlich zu erkennen, dass durch den axialen Druck nur wenige Arme entlang der $<110>$ - Richtung ein Starkes Wachstum erfahren haben, das Wachstum der anderen Arme ist im Rahmen unserer
+            Messgenauigkeit kaum aussagekräftig, ließe sich jedoch auf die statistische Verteilung der Energie entlang aller Achsen zurückführen.
+		Das ausbleibende Wachstum der Arme in $<100>$ - Richtung entspricht grundsätzlich unseren Erwartungen, wir hätten allerdings auch ein deutlicher sichtbares Wachstum der Arme in $<110>$ - Richtung erwartet.
+		Vermutlich hätte sich durch ein höheres Lastgewicht oder eine erhöhte Belastungsdauer ein stärkeres Wachstum ergeben. Genauso hätte dies jedoch auch eine Zunahme der Fehlstellen abseits der Nadeleindrücke
+		verursachen können, was die Auswertung an dieser Stelle erschwert hätte. Bereits in unserer Aufnahme ist zu erkennen, dass sich durch die Belastung unzählige zusätzliche Fehlstellen auf der Kristalloberfläche
+		gebildet haben.
         \subsubsection*{Schubspannung im Gleitsystem}
-            Um den Druck im Gleitsystem zu bestimmen wurde das angewandte Gewicht ($g = 2,716 Kg$) der Presse sowie die Druckfläche ($A=3618962,9 \mu m^2$)der Probe bestimmt.
+            Um den Druck im Gleitsystem zu bestimmen wurde das angewandte Gewicht ($m = 2,716\pm0,01 Kg$) der Presse sowie die Druckfläche ($A=3618962,9 \mu m^2$)der Probe bestimmt.
             Mit
             \begin{equation}
-                F = m \cdot a = 26,64 N
+                F = m \cdot a = 26,64\pm0,10 N
             \end{equation}
-            folgt die Kraft und anschließend über
+            folgt die Kraft (Fehler: 0,01Kg$\cdot$9,81 m/s$^2 \approx$ 0,10) und anschließend über
             \begin{equation}
-                \sigma = F / A = 736,23e4 \frac{N}{m}
+                \sigma = F \cos{(\pi / 4)}/ A = 520,66e4 \pm 27,63e4 \frac{N}{m}
             \end{equation}
-            Die Schubspannung.
+            die Schubspannung. Der Fehler ergibt sich unter der Annahme, dass das Mikroskop eine lineare ungenauigkeit von 1$\mu$m (und somit einen Flächenfehler von (1$\mu$m)$^2$) aufweist, mittels Fehlerfortpflanzung aus $\Delta \sigma^2 = (\frac{\Delta F}{A})^2 + (\frac{F \Delta A}{A^2})^2$.
